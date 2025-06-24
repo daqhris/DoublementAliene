@@ -17,7 +17,7 @@ Projet initié à **Bruxelles** par un artiste ayant participé au programme de 
 
 - **17 Mars 2025**: Première interprétation théâtrale de l'œuvre par des comédien.ne.s, sous forme de deux spectacles expérimentaux en Français, sur scène dans le [Musée bruxellois de l'industrie et du travail](https://fr.wikipedia.org/wiki/Mus%C3%A9e_bruxellois_de_l'industrie_et_du_travail) (**[La Fonderie](https://www.lafonderie.be/)**).
 
-- **16 Décembre 2024 - 27 Janvier 2025**: Construction d'un dépôt public, sous la forme numérique [git](https://git-scm.com/book/fr/v2) et _open source_ sur GitHub, rassemblant tous les différents documents qui sont en lien avec le texte original en Anglais: [github.com/daqhris/**twofold-alienated**](https://github.com/daqhris/twofold-alienated).
+- **Déc'24 - Jan'25**: Construction d'un dépôt de code public, sous la forme numérique [git](https://git-scm.com/book/fr/v2) et _open source_ sur GitHub, rassemblant tous les différents documents qui sont en lien avec le texte original en Anglais: [github.com/daqhris/**twofold-alienated**](https://github.com/daqhris/twofold-alienated).
 
 - **25 Novembre 2024**: Annonce par le CIFAS d'artistes pluridisciplinaires sélectionnés pour l'édition 2025 des Constellations, dont figure [Chris A. Iradukunda (daqhris)](https://daqhris.com/). 
 
