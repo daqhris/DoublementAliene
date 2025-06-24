@@ -21,7 +21,7 @@ export default function HomePage() {
           </p>
           <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
             <p className="text-yellow-800 dark:text-yellow-200 font-medium">
-              <strong>NB:</strong> Travaux de construction d'une interface web en cours (codage informatique)
+              <strong>NB:</strong> Travaux de construction d&apos;une interface web en cours (codage informatique)
             </p>
           </div>
         </div>
