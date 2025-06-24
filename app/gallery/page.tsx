@@ -8,37 +8,27 @@ export const metadata: Metadata = {
 
 export default function GalleryPage() {
   return (
-    <div className="theater-container py-16 md:py-24">
-      <section className="mb-16">
-        <h1 className="theater-heading mb-6">Galerie Visuelle</h1>
-        <p className="theater-text mb-8 max-w-3xl mx-auto">
-          Explorez les moments visuels de &ldquo;Doublement Aliéné&rdquo; à travers photos, documents et créations artistiques.
-        </p>
-      </section>
+    <div className="theater-container py-12">
+      <h1 className="text-3xl font-semibold mb-4 text-theater-text">Galerie Visuelle</h1>
+      <p className="text-lg text-theater-muted mb-8 max-w-2xl">
+        Explorez les moments visuels de &ldquo;Doublement Aliéné&rdquo; à travers photos, documents et créations artistiques.
+      </p>
       
-      <section className="mb-16">
-        <div className="theater-card">
-          <h2 className="text-2xl font-bold mb-6 text-theater-primary dark:text-theater-secondary">
-            Photos de Performance
-          </h2>
-          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
-            <p className="text-yellow-800 dark:text-yellow-200">
-              <strong>En construction:</strong> La galerie photo sera bientôt disponible avec les images de la performance du 17 Mars 2025 à La Fonderie.
-            </p>
-          </div>
+      <section className="mb-8">
+        <h2 className="text-xl font-medium mb-4 text-theater-text">Photos de Performance</h2>
+        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-4 py-2">
+          <p className="text-theater-muted">
+            <strong>En construction:</strong> La galerie photo sera bientôt disponible avec les images de la performance du 17 Mars 2025 à La Fonderie.
+          </p>
         </div>
       </section>
 
-      <section className="mb-16">
-        <div className="theater-card">
-          <h2 className="text-2xl font-bold mb-6 text-theater-primary dark:text-theater-secondary">
-            Documents et Créations
-          </h2>
-          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
-            <p className="text-yellow-800 dark:text-yellow-200">
-              <strong>En développement:</strong> Section dédiée aux documents PDF, créations artistiques et matériaux de recherche.
-            </p>
-          </div>
+      <section className="mb-8">
+        <h2 className="text-xl font-medium mb-4 text-theater-text">Documents et Créations</h2>
+        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-4 py-2">
+          <p className="text-theater-muted">
+            <strong>En développement:</strong> Section dédiée aux documents PDF, créations artistiques et matériaux de recherche.
+          </p>
         </div>
       </section>
     </div>

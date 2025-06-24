@@ -1,53 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    /* Solarized-inspired theater palette */
-    --theater-primary: #002b36;     /* Solarized base03 - dark blue-gray */
-    --theater-secondary: #fdf6e3;   /* Solarized base3 - warm white */
-    --theater-accent: #d33682;      /* Solarized magenta - theater accent */
-    --theater-muted: #586e75;       /* Solarized base01 - muted text */
-    --theater-highlight: #b58900;   /* Solarized yellow - highlights */
-    --theater-success: #859900;     /* Solarized green - success states */
-    --theater-error: #dc322f;       /* Solarized red - error states */
-    --theater-code-bg: #f8f8f8;     /* Light code background */
-  }
+:root {
+  /* Minima Solarized Color Palette */
+  --solarized-base03: #002b36;    /* darkest background */
+  --solarized-base02: #073642;    /* dark background */
+  --solarized-base01: #586e75;    /* muted text (current: rgb(78, 98, 106)) */
+  --solarized-base00: #657b83;    /* body text */
+  --solarized-base0: #839496;     /* primary text */
+  --solarized-base1: #93a1a1;     /* comments */
+  --solarized-base2: #eee8d5;     /* light background */
+  --solarized-base3: #fdf6e3;     /* lightest background (current: rgb(253, 246, 227)) */
   
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-feature-settings: "rlig" 1, "calt" 1;
-  }
+  /* Theater-themed solarized variants */
+  --theater-primary: var(--solarized-base01);     /* rgb(78, 98, 106) */
+  --theater-secondary: var(--solarized-base3);    /* rgb(253, 246, 227) */
+  --theater-accent: var(--solarized-base01);      /* simplified accent */
+  --theater-muted: var(--solarized-base1);        /* muted text */
+  --theater-background: var(--solarized-base3);   /* main background */
+  --theater-text: var(--solarized-base01);        /* main text */
 }
 
-@layer components {
-  .theater-container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-  
-  .theater-heading {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-theater-primary dark:text-theater-secondary;
-  }
-  
-  .theater-text {
-    @apply text-lg leading-relaxed text-gray-700 dark:text-gray-300;
-  }
-  
-  .theater-card {
-    @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl;
-  }
-  
-  .theater-button {
-    @apply inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-theater-accent hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-theater-accent transition-all duration-200;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--theater-text);
+  background-color: var(--theater-background);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.theater-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.theater-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--theater-text);
+  margin-bottom: 1rem;
+  text-wrap: balance;
+}
+
+.theater-text {
+  color: var(--theater-text);
+  line-height: 1.6;
+}
+
+.theater-card {
+  background: var(--theater-background);
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.theater-button {
+  display: inline-block;
+  color: var(--theater-text);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.theater-button:hover {
+  text-decoration: none;
+}
+
+.theater-accent {
+  color: var(--theater-text);
 }
