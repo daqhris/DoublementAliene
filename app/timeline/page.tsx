@@ -39,32 +39,50 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, d
 export default function TimelinePage() {
   return (
     <div className="theater-container py-12">
-      <h1 className="text-3xl font-semibold mb-4 text-theater-text">Chronologie du Projet</h1>
-      <p className="text-lg text-theater-muted mb-8 max-w-2xl">
-        Suivez l&apos;évolution du projet &ldquo;Doublement Aliéné&rdquo; depuis sa conception jusqu&apos;à sa réalisation.
-      </p>
-      
-      <section className="mb-8">
-        <TimelineItem
-          date="Janvier 2025"
-          title="Lancement du ResearchLab"
-          description="Début des recherches sur l'aliénation contemporaine et exploration des méthodologies IA pour le théâtre."
-          details="Création du laboratoire de recherche artistique avec focus sur l'intégration d'intelligence artificielle dans le processus créatif théâtral."
-        />
-        
-        <TimelineItem
-          date="17 Mars 2025"
-          title="Première Représentation Théâtrale"
-          description="Performance expérimentale à La Fonderie - Musée Bruxellois de l'Industrie et du Travail."
-          details="Deux spectacles expérimentaux en Français, interprétés par des comédien.ne.s dans un cadre muséal industriel, explorant les thèmes d'aliénation contemporaine."
-        />
-        
-        <TimelineItem
-          date="Développement Continu"
-          title="Plateforme Collaborative"
-          description="Développement de l'interface web collaborative et intégration des technologies décentralisées."
-          details="Construction d'une plateforme open-source permettant la co-propriété transparente des contenus et le partage équitable des revenus entre participants."
-        />
+      <section className="theater-section">
+        <div className="theater-section-header">
+          <h1 className="theater-heading-lg">
+            Chronologie du Projet
+          </h1>
+          <p className="theater-subtitle">
+            Suivez l&apos;évolution du projet &ldquo;Doublement Aliéné&rdquo; depuis sa conception jusqu&apos;à sa réalisation.
+          </p>
+        </div>
+
+        <div className="space-y-6">
+          <div className="theater-card-modern">
+            <h3 className="theater-heading-md mb-2">Janvier 2025</h3>
+            <h4 className="theater-nav-title mb-3">Lancement du ResearchLab</h4>
+            <p className="text-theater-text mb-4 leading-relaxed">
+              Début des recherches sur l&apos;aliénation contemporaine et exploration des méthodologies IA pour le théâtre.
+            </p>
+            <p className="theater-nav-description">
+              Création du laboratoire de recherche artistique avec focus sur l&apos;intégration d&apos;intelligence artificielle dans le processus créatif théâtral.
+            </p>
+          </div>
+
+          <div className="theater-card-modern">
+            <h3 className="theater-heading-md mb-2">17 Mars 2025</h3>
+            <h4 className="theater-nav-title mb-3">Première Représentation Théâtrale</h4>
+            <p className="text-theater-text mb-4 leading-relaxed">
+              Performance expérimentale à La Fonderie - Musée Bruxellois de l&apos;Industrie et du Travail.
+            </p>
+            <p className="theater-nav-description">
+              Deux spectacles expérimentaux en Français, interprétés par des comédien.ne.s dans un cadre muséal industriel, explorant les thèmes d&apos;aliénation contemporaine.
+            </p>
+          </div>
+
+          <div className="theater-card-modern">
+            <h4 className="theater-nav-title mb-3">Développement Continu</h4>
+            <h4 className="theater-heading-md mb-3">Plateforme Collaborative</h4>
+            <p className="text-theater-text mb-4 leading-relaxed">
+              Développement de l&apos;interface web collaborative et intégration des technologies décentralisées.
+            </p>
+            <p className="theater-nav-description">
+              Construction d&apos;une plateforme open-source permettant la co-propriété transparente des contenus et le partage équitable des revenus entre participants.
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   );
