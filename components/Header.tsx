@@ -25,7 +25,6 @@ const NavLink: React.FC<NavLinkProps> = ({ href, children, isActive }) => (
 export const menuLinks = [
   { label: "Accueil", href: "/" },
   { label: "Performance", href: "/performance" },
-  { label: "Galerie", href: "/gallery" },
   { label: "Recherche", href: "/research" },
   { label: "Chronologie", href: "/timeline" },
   { label: "À Propos", href: "/about" },
