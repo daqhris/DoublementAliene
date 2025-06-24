@@ -4,9 +4,15 @@
 
 @layer base {
   :root {
-    --theater-primary: #1a1a1a;
-    --theater-secondary: #f5f5f5;
-    --theater-accent: #d4af37;
+    /* Solarized-inspired theater palette */
+    --theater-primary: #002b36;     /* Solarized base03 - dark blue-gray */
+    --theater-secondary: #fdf6e3;   /* Solarized base3 - warm white */
+    --theater-accent: #d33682;      /* Solarized magenta - theater accent */
+    --theater-muted: #586e75;       /* Solarized base01 - muted text */
+    --theater-highlight: #b58900;   /* Solarized yellow - highlights */
+    --theater-success: #859900;     /* Solarized green - success states */
+    --theater-error: #dc322f;       /* Solarized red - error states */
+    --theater-code-bg: #f8f8f8;     /* Light code background */
   }
   
   html {
