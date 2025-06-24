@@ -4,110 +4,89 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Doublement Aliéné - Accueil',
-  description: 'Prototype de performance théâtrale dans un espace public - Page d\'accueil',
+  description: 'Plateforme théâtrale collaborative - Prototype de performance dans un espace public',
 }
 
 export default function HomePage() {
   return (
-    <main className="flex-1">
-      {/* Hero Section */}
-      <section className="theater-container py-16 md:py-24">
-        <div className="text-center">
-          <h1 className="theater-heading mb-6 text-balance">
-            Pièce de Théâtre: «Doublement Aliéné»
-          </h1>
-          <p className="theater-text mb-8 max-w-3xl mx-auto text-balance">
-            Prototype de performance théâtrale dans un espace public
-          </p>
-          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
-            <p className="text-yellow-800 dark:text-yellow-200 font-medium">
-              <strong>NB:</strong> Travaux de construction d&apos;une interface web en cours (codage informatique)
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Project Description */}
-      <section className="theater-container py-16">
-        <div className="max-w-4xl mx-auto">
-          <div className="theater-card">
-            <p className="theater-text mb-6">
-              Projet initié à <strong>Bruxelles</strong> par un artiste ayant participé au programme de co-apprentissage{' '}
-              <Link 
-                href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
-                className="text-theater-accent hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Constellations
-              </Link>{' '}
-              du Centre International de Formation en Arts du Spectacle ({' '}
-              <Link 
-                href="https://cifas.be/fr/pages/a-propos.html"
-                className="text-theater-accent hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CIFAS
-              </Link>
-              ) de <strong>Janvier à Avril</strong> en <strong>2025</strong>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Timeline Section */}
-      <section className="theater-container py-16">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-theater-primary dark:text-theater-secondary">
-            Historique et chronologie:
-          </h2>
-          
-          <div className="space-y-6">
-            <TimelineItem
-              date="24 Juin 2025"
-              description="Publication de fichiers documentant la préparation du prototype performé le 17 Mars (situés dans le dossier Constellations2025)."
-            />
-            
-            <TimelineItem
-              date="22 Juin 2025"
-              description="Naissance du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche artistique."
-            />
-            
-            <TimelineItem
-              date="16 Avril 2025"
-              description="Clôture festive des rencontres mensuelles d'artistes dans le cadre des Constellations 2025 à Molenbeek, Bruxelles."
-            />
-            
-            <TimelineItem
-              date="4 Avril 2025"
-              description="Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une platforme numérique publique."
-            />
-            
-            <TimelineItem
-              date="17 Mars 2025"
-              description="Première interprétation théâtrale de l'œuvre par des comédien.ne.s, sous forme de deux spectacles expérimentaux en Français, sur scène dans le Musée bruxellois de l'industrie et du travail (La Fonderie)."
-            />
-          </div>
-        </div>
-      </section>
-    </main>
-  )
-}
-
-function TimelineItem({ date, description }: { date: string; description: string }) {
-  return (
-    <div className="theater-card">
-      <div className="flex flex-col md:flex-row md:items-start gap-4">
-        <div className="flex-shrink-0">
-          <span className="inline-block px-3 py-1 text-sm font-semibold text-theater-accent bg-theater-accent/10 rounded-full">
-            {date}
-          </span>
-        </div>
-        <p className="theater-text flex-1">
-          {description}
+    <div className="theater-container py-16 md:py-24">
+      <section className="text-center mb-16">
+        <h1 className="theater-heading mb-6 text-balance">
+          Pièce de Théâtre: «Doublement Aliéné»
+        </h1>
+        <p className="theater-text mb-8 max-w-3xl mx-auto text-balance">
+          Plateforme théâtrale collaborative explorant l&apos;aliénation contemporaine à travers la performance expérimentale et les technologies décentralisées.
         </p>
-      </div>
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
+          <p className="text-yellow-800 dark:text-yellow-200 font-medium">
+            <strong>Interface Web:</strong> Plateforme collaborative en développement actif
+          </p>
+        </div>
+      </section>
+
+      <section className="mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Link href="/performance" className="theater-card hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🎭</div>
+              <h3 className="text-xl font-semibold mb-2 text-theater-primary dark:text-theater-secondary">
+                Performance
+              </h3>
+              <p className="theater-text">
+                Découvrez les représentations et enregistrements de la pièce
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/gallery" className="theater-card hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="text-4xl mb-4">📸</div>
+              <h3 className="text-xl font-semibold mb-2 text-theater-primary dark:text-theater-secondary">
+                Galerie
+              </h3>
+              <p className="theater-text">
+                Explorez les contenus visuels et créations artistiques
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/research" className="theater-card hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔬</div>
+              <h3 className="text-xl font-semibold mb-2 text-theater-primary dark:text-theater-secondary">
+                Recherche
+              </h3>
+              <p className="theater-text">
+                Laboratoire de recherche artistique et méthodologies IA
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/timeline" className="theater-card hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="text-4xl mb-4">📅</div>
+              <h3 className="text-xl font-semibold mb-2 text-theater-primary dark:text-theater-secondary">
+                Chronologie
+              </h3>
+              <p className="theater-text">
+                Suivez l&apos;évolution du projet depuis sa conception
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/about" className="theater-card hover:shadow-lg transition-shadow">
+            <div className="text-center">
+              <div className="text-4xl mb-4">ℹ️</div>
+              <h3 className="text-xl font-semibold mb-2 text-theater-primary dark:text-theater-secondary">
+                À Propos
+              </h3>
+              <p className="theater-text">
+                Informations sur le projet, CIFAS et philosophie collaborative
+              </p>
+            </div>
+          </Link>
+        </div>
+      </section>
     </div>
   )
 }
