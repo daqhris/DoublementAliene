@@ -99,12 +99,21 @@ export const GitTimestamps: React.FC = () => {
       <div>
         <strong>Dernière mise à jour:</strong>{' '}
         <a 
-          href="https://github.com/daqhris/DoublementAliene"
+          href="https://github.com/daqhris/DoublementAliene/commits/main"
           target="_blank"
           rel="noopener noreferrer"
           className="text-theater-text hover:underline"
         >
           {relativeTime}
+        </a>
+        {' '}par{' '}
+        <a 
+          href="https://github.com/daqhris/DoublementAliene/graphs/contributors"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-theater-text hover:underline"
+        >
+          {lastCommit.author}
         </a>
       </div>
     </div>
