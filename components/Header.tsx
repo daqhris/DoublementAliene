@@ -25,7 +25,6 @@ const NavLink: React.FC<NavLinkProps> = ({ href, children, isActive }) => (
 export const menuLinks = [
   { label: "Accueil", href: "/" },
   { label: "Performance", href: "/performance" },
-  { label: "Galerie", href: "/gallery" },
   { label: "Recherche", href: "/research" },
   { label: "Chronologie", href: "/timeline" },
   { label: "À Propos", href: "/about" },
@@ -37,14 +36,14 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-theater-background border-b border-theater-muted/20 py-4">
       <div className="theater-container">
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-2 sm:space-y-3">
           <div>
             <Link href="/" className="text-xl font-semibold text-theater-text hover:underline">
               Doublement Aliéné
             </Link>
           </div>
           
-          <nav className="flex flex-wrap gap-12">
+          <nav className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 lg:gap-8">
             {menuLinks.map((link) => (
               <NavLink
                 key={link.href}
