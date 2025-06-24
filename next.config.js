@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/DoublementAliene' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/DoublementAliene/' : '',
 }
 
 module.exports = nextConfig
