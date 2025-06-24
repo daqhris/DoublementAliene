@@ -17,6 +17,16 @@ module.exports = {
       fontFamily: {
         serif: ['Georgia', 'serif'],
         sans: ['Inter', 'sans-serif'],
+      },
+      spacing: {
+        '16': '4rem',
+        '20': '5rem',
+        '24': '6rem',
+      },
+      gap: {
+        '16': '4rem',
+        '20': '5rem', 
+        '24': '6rem',
       }
     },
   },

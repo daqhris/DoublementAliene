@@ -76,3 +76,16 @@ body {
 .theater-accent {
   color: var(--theater-text);
 }
+
+/* Custom gap utilities to fix Tailwind CSS compilation issue */
+.gap-20 {
+  gap: 5rem; /* 80px - agentive.org inspired generous spacing */
+}
+
+.gap-16 {
+  gap: 4rem; /* 64px - alternative spacing option */
+}
+
+.gap-24 {
+  gap: 6rem; /* 96px - extra generous spacing option */
+}
