@@ -95,14 +95,14 @@ export const GitTimestamps: React.FC = () => {
   const relativeTime = formatRelativeTime(commitDate);
 
   return (
-    <div className="text-center space-y-2">
-      <div className="text-sm text-theater-muted">
+    <div className="text-center text-sm text-theater-muted space-y-1">
+      <div>
         <strong>Dernière mise à jour:</strong> {relativeTime}
       </div>
-      <div className="text-xs text-theater-muted/80">
-        Commit <code className="bg-theater-code-bg px-1 py-0.5 rounded text-theater-primary">{lastCommit.sha}</code> par {lastCommit.author}
+      <div className="text-xs">
+        Commit <code className="bg-theater-muted/10 px-1 py-0.5 rounded font-mono">{lastCommit.sha}</code> par {lastCommit.author}
       </div>
-      <div className="text-xs text-theater-muted/60 max-w-md mx-auto truncate">
+      <div className="text-xs max-w-md mx-auto truncate">
         {lastCommit.message}
       </div>
     </div>

@@ -28,12 +28,12 @@ export default function RootLayout({
     <html lang="fr" className="scroll-smooth">
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="min-h-screen bg-theater-secondary dark:bg-theater-primary flex flex-col">
+          <div className="min-h-screen bg-theater-background flex flex-col">
             <Header />
             <main className="flex-1">
               {children}
             </main>
-            <footer className="theater-container py-8 mt-auto border-t border-theater-muted/20">
+            <footer className="theater-container py-6 mt-12 border-t border-theater-muted/20">
               <GitTimestamps />
             </footer>
           </div>
