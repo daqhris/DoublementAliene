@@ -7,7 +7,9 @@ Créé à **Bruxelles** par un artiste ayant participant au programme de co-appr
 
 ### *Historique et chronologie:*
 
-- **22 Juin 2025**: Naissance du sous-projet [ResearchLab](https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab) qui regroupe des réponses variées des IA à des questions de recherches artistiques.
+- **22 Juin 2025**: Naissance du sous-projet [ResearchLab](https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab) qui regroupe des réponses variées des IA à des questions de recherche artistique.
+  
+- **16 Avril 2025**: Clôture officielle des rencontres mensuelles dans le cadre des Constellations 2025 à Molenbeek, Bruxelles.
 
 - **[4 Avril 2025](https://github.com/daqhris/DoublementAliene/commit/5537cc01e1ab7c87ae21e2cd0e8709fe88615b8b)**: Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une platforme numérique publique [github.com/daqhris/DoublementAliene](https://github.com/daqhris/DoublementAliene).
 
