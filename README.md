@@ -1,12 +1,15 @@
 # Pièce de Théâtre: «Doublement Aliéné»
 ## Prototype de performance théâtrale dans un espace public 
 
-*Travaux en cours avec du logiciel libre.*   
-*Début des travaux numériques: __[4 Avril 2025](https://github.com/daqhris/DoublementAliene/commit/5537cc01e1ab7c87ae21e2cd0e8709fe88615b8b)__* 
+*__NB__: Travaux de construction d'une application site web en cours (codage informatique)*   
 
-Créé à **Bruxelles** par un artiste participant au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
+Créé à **Bruxelles** par un artiste ayant participant au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
 
-*Historique et chronologie:*
+### *Historique et chronologie:*
+
+- **22 Juin 2025**: Naissance du sous-projet [ResearchLab](https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab) qui regroupe des réponses variées des IA à des questions de recherches artistiques.
+
+- **[4 Avril 2025](https://github.com/daqhris/DoublementAliene/commit/5537cc01e1ab7c87ae21e2cd0e8709fe88615b8b)**: Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une platforme numérique publique [github.com/daqhris/DoublementAliene](https://github.com/daqhris/DoublementAliene).
 
 - **17 Mars 2025**: Première interprétation théâtrale de l'œuvre par des comédien.ne.s, sous forme de deux spectacles expérimentaux en Français, sur scène dans le [Musée bruxellois de l'industrie et du travail](https://fr.wikipedia.org/wiki/Mus%C3%A9e_bruxellois_de_l'industrie_et_du_travail) (**[La Fonderie](https://www.lafonderie.be/)**).
 
