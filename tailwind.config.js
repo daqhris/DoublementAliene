@@ -19,14 +19,14 @@ module.exports = {
         sans: ['Inter', 'sans-serif'],
       },
       spacing: {
+        '12': '3rem',
         '16': '4rem',
         '20': '5rem',
-        '24': '6rem',
       },
       gap: {
-        '16': '4rem',
-        '20': '5rem', 
-        '24': '6rem',
+        '12': '3rem',
+        '16': '4rem', 
+        '20': '5rem',
       }
     },
   },

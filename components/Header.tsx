@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
             </Link>
           </div>
           
-          <nav className="flex flex-wrap gap-20">
+          <nav className="flex flex-wrap gap-12">
             {menuLinks.map((link) => (
               <NavLink
                 key={link.href}
