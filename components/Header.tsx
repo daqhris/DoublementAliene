@@ -14,8 +14,8 @@ const NavLink: React.FC<NavLinkProps> = ({ href, children, isActive }) => (
   <Link 
     href={href}
     className={`
-      text-theater-text hover:underline transition-all duration-200
-      ${isActive ? 'underline font-medium' : 'font-normal'}
+      theater-link text-sm font-medium transition-all duration-200
+      ${isActive ? 'border-bottom-color: var(--theater-text)' : ''}
     `}
   >
     {children}
@@ -34,11 +34,11 @@ export const Header: React.FC = () => {
   const pathname = usePathname();
 
   return (
-    <header className="bg-theater-background border-b border-theater-muted/20 py-4">
+    <header className="bg-theater-background border-b-2 border-theater-muted/20 py-6">
       <div className="theater-container">
-        <div className="flex flex-col space-y-2 sm:space-y-3">
+        <div className="flex flex-col space-y-3 sm:space-y-4">
           <div>
-            <Link href="/" className="text-xl font-semibold text-theater-text hover:underline">
+            <Link href="/" className="text-2xl font-bold text-theater-text hover:text-solarized-base01 transition-colors duration-200">
               Doublement Aliéné
             </Link>
           </div>

@@ -101,3 +101,115 @@ body {
 .gap-16 {
   gap: 4rem; /* 64px - extra spacing*/
 }
+
+/* Enhanced Typography Hierarchy */
+.theater-heading-xl {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--theater-text);
+  margin-bottom: 1.5rem;
+  text-wrap: balance;
+}
+
+.theater-heading-lg {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--theater-text);
+  margin-bottom: 1.25rem;
+  text-wrap: balance;
+}
+
+.theater-heading-md {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--theater-text);
+  margin-bottom: 1rem;
+}
+
+.theater-subtitle {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--theater-muted);
+  margin-bottom: 1.5rem;
+}
+
+/* Enhanced Card Components */
+.theater-card-modern {
+  background: var(--theater-background);
+  border: 1px solid var(--solarized-base2);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.theater-card-modern:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Enhanced Section Styling */
+.theater-section {
+  margin-bottom: 4rem;
+}
+
+.theater-section-header {
+  border-bottom: 2px solid var(--solarized-base2);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Enhanced Link Styling */
+.theater-link {
+  color: var(--theater-text);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid var(--solarized-base2);
+  transition: all 0.2s ease;
+  padding-bottom: 2px;
+}
+
+.theater-link:hover {
+  border-bottom-color: var(--theater-text);
+  color: var(--solarized-base01);
+}
+
+/* Enhanced Navigation List */
+.theater-nav-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.theater-nav-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--theater-background);
+  border: 1px solid var(--solarized-base2);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.theater-nav-item:hover {
+  border-color: var(--theater-text);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theater-nav-title {
+  font-weight: 600;
+  color: var(--theater-text);
+  margin-bottom: 0.25rem;
+}
+
+.theater-nav-description {
+  color: var(--theater-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
