@@ -35,7 +35,7 @@ export default function PerformancePage() {
           </div>
 
           <div className="space-y-6">
-            <div className="border-l-4 border-solarized-base2 pl-4">
+            <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">
                 <Link href="/gallery" className="theater-link">
                   Galerie Photos
@@ -46,7 +46,7 @@ export default function PerformancePage() {
               </p>
             </div>
 
-            <div className="border-l-4 border-solarized-base2 pl-4">
+            <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">Enregistrements</h4>
               <p className="theater-nav-description mb-2">
                 Accès aux enregistrements vidéo de la performance.

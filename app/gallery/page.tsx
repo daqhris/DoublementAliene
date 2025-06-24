@@ -16,7 +16,7 @@ export default function GalleryPage() {
       
       <section className="mb-8">
         <h2 className="text-xl font-medium mb-4 text-theater-text">Photos de Performance</h2>
-        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-4 py-2">
+        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-6 py-2">
           <p className="text-theater-muted">
             <strong>En construction:</strong> La galerie photo sera bientôt disponible avec les images de la performance du 17 Mars 2025 à La Fonderie.
           </p>
@@ -25,7 +25,7 @@ export default function GalleryPage() {
 
       <section className="mb-8">
         <h2 className="text-xl font-medium mb-4 text-theater-text">Documents et Créations</h2>
-        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-4 py-2">
+        <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-6 py-2">
           <p className="text-theater-muted">
             <strong>En développement:</strong> Section dédiée aux documents PDF, créations artistiques et matériaux de recherche.
           </p>
