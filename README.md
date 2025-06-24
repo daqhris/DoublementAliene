@@ -3,13 +3,15 @@
 
 *__NB__: Travaux de construction d'une application site web en cours (codage informatique)*   
 
-Créé à **Bruxelles** par un artiste ayant participant au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
+Projet initié à **Bruxelles** par un artiste ayant participant au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
 
 ### *Historique et chronologie:*
 
+- **24 Juin 2025**: Publication de fichiers documentant la préparation du prototype performé le 17 Mars (situés dans le dossier [Constellations2025](https://github.com/daqhris/DoublementAliene/tree/main/Constellations2025)).
+
 - **22 Juin 2025**: Naissance du sous-projet [ResearchLab](https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab) qui regroupe des réponses variées des IA à des questions de recherche artistique.
   
-- **16 Avril 2025**: Clôture officielle des rencontres mensuelles dans le cadre des Constellations 2025 à Molenbeek, Bruxelles.
+- **16 Avril 2025**: Clôture festive des rencontres mensuelles d'artistes dans le cadre des Constellations 2025 à Molenbeek, Bruxelles.
 
 - **[4 Avril 2025](https://github.com/daqhris/DoublementAliene/commit/5537cc01e1ab7c87ae21e2cd0e8709fe88615b8b)**: Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une platforme numérique publique [github.com/daqhris/DoublementAliene](https://github.com/daqhris/DoublementAliene).
 
