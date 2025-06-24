@@ -216,9 +216,9 @@ body {
 
 /* Active Navigation Link Styling */
 .theater-link-active {
-  color: var(--theater-background);
-  background-color: var(--theater-text);
-  border-bottom-color: var(--theater-text);
+  color: var(--solarized-base3);
+  background-color: var(--solarized-base03);
+  border-bottom-color: var(--solarized-base03);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
