@@ -95,15 +95,26 @@ export const GitTimestamps: React.FC = () => {
   const relativeTime = formatRelativeTime(commitDate);
 
   return (
-    <div className="text-center text-sm text-theater-muted space-y-1">
+    <div className="text-center text-sm text-theater-muted">
       <div>
-        <strong>Dernière mise à jour:</strong> {relativeTime}
-      </div>
-      <div className="text-xs">
-        Commit <code className="bg-theater-muted/10 px-1 py-0.5 rounded font-mono">{lastCommit.sha}</code> par {lastCommit.author}
-      </div>
-      <div className="text-xs max-w-md mx-auto truncate">
-        {lastCommit.message}
+        <strong>Dernière mise à jour:</strong>{' '}
+        <a 
+          href="https://github.com/daqhris/DoublementAliene/commits/main"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-theater-text hover:underline"
+        >
+          {relativeTime}
+        </a>
+        {' '}par{' '}
+        <a 
+          href="https://github.com/daqhris/DoublementAliene/graphs/contributors"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-theater-text hover:underline"
+        >
+          {lastCommit.author}
+        </a>
       </div>
     </div>
   );
