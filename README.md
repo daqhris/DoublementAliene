@@ -1,9 +1,9 @@
 # Pièce de Théâtre: «Doublement Aliéné»
 ## Prototype de performance théâtrale dans un espace public 
 
-*__NB__: Travaux de construction d'une application site web en cours (codage informatique)*   
+*__NB__: Travaux de construction d'une interface web en cours (codage informatique)*   
 
-Projet initié à **Bruxelles** par un artiste ayant participant au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
+Projet initié à **Bruxelles** par un artiste ayant participé au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
 
 ### *Historique et chronologie:*
 
