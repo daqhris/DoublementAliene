@@ -37,25 +37,23 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-theater-background border-b border-theater-muted/20 py-4">
       <div className="theater-container">
-        <div className="flex flex-col space-y-4">
-          <div>
-            <Link href="/" className="text-xl font-semibold text-theater-text hover:underline">
-              Doublement Aliéné
-            </Link>
-          </div>
-          
-          <nav className="flex flex-wrap gap-12">
-            {menuLinks.map((link) => (
-              <NavLink
-                key={link.href}
-                href={link.href}
-                isActive={pathname === link.href}
-              >
-                {link.label}
-              </NavLink>
-            ))}
-          </nav>
-        </div>
+        <nav className="flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8">
+          <Link 
+            href="/" 
+            className="text-lg font-semibold text-theater-text hover:underline mr-4 sm:mr-6"
+          >
+            Doublement Aliéné
+          </Link>
+          {menuLinks.slice(1).map((link) => (
+            <NavLink
+              key={link.href}
+              href={link.href}
+              isActive={pathname === link.href}
+            >
+              {link.label}
+            </NavLink>
+          ))}
+        </nav>
       </div>
     </header>
   );
