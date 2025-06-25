@@ -19,6 +19,22 @@ interface Question {
 }
 
 const ResearchQA: React.FC = () => {
+  const formatTimestamp = (timestamp: string): string => {
+    const date = new Date(timestamp);
+    const months = [
+      'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
+      'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
+    ];
+    
+    const day = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    const hours = date.getHours();
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    
+    return `${day} ${month} ${year} à ${hours}h${minutes}`;
+  };
+
   const questions: Question[] = [
     {
       id: 1,
@@ -182,12 +198,12 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
             <h3 className="theater-heading-md mb-4" id={`question-${question.id}`}>
               Question {question.id}
             </h3>
-            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5 mb-6" role="blockquote" aria-labelledby={`question-${question.id}`}>
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/20 mb-6" role="blockquote" aria-labelledby={`question-${question.id}`}>
               <p className="text-theater-text leading-relaxed mb-2">
                 &ldquo;{question.text}&rdquo;
               </p>
               <p className="text-sm text-theater-muted">
-                Posée le {question.timestamp}
+                Posée le {formatTimestamp(question.timestamp)}
               </p>
             </div>
             
