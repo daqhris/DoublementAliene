@@ -1,7 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
-import NotificationBanner from '../components/NotificationBanner'
+import NotificationBanner from './components/NotificationBanner'
 
 export const metadata: Metadata = {
   title: 'Doublement Aliéné - Accueil',
