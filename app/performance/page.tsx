@@ -24,7 +24,7 @@ export default function PerformancePage() {
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Prototype d'Interprétation
+            Prototype d&apos;Interprétation
           </h2>
           <div className="mb-4">
             <p className="text-theater-muted mb-2 font-medium">17 Mars 2025</p>
@@ -54,7 +54,7 @@ export default function PerformancePage() {
                 Visionnez les enregistrements vidéo de la performance.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Accès restreint:</strong> Réservé aux co-auteurices propriétaires de l'œuvre
+                <strong>Accès restreint:</strong> Réservé aux co-auteurices propriétaires de l&apos;œuvre
               </p>
             </div>
           </div>
