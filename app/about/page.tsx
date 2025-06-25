@@ -105,7 +105,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              dépôt GitHub
+              dépôt de code source sur GitHub
             </Link>{' '}.
           </p>
         </div>
