@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'À Propos - Doublement Aliéné',
-  description: 'Informations sur le projet, co-auteurs, CIFAS et philosophie collaborative',
+  description: 'Informations sur le projet, co-auteurs, soutiens et philosophie collaborative',
 };
 
 export default function AboutPage() {
@@ -15,16 +15,16 @@ export default function AboutPage() {
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">
-            À Propos du Projet
+            À Propos
           </h1>
           <p className="theater-subtitle">
-            &ldquo;Doublement Aliéné&rdquo; est une exploration théâtrale collaborative de l&apos;aliénation contemporaine, développée dans une approche open-source et décentralisée.
+            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plateforme numérique ayant en commun une approche open-source, participative et décentralisée.
           </p>
         </div>
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Programme CIFAS Constellations 2025
+            1er Protoype: Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
             Projet initié à Bruxelles par un artiste ayant participé au programme de co-apprentissage{' '}
@@ -58,36 +58,36 @@ export default function AboutPage() {
         <div className="space-y-6">
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Philosophie Artistique
+              Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une approche expérimentale du théâtre contemporain explorant les thèmes d&apos;aliénation à travers la performance collaborative.
+              Une adaptation théâtrale d&apos;une histoire fictionnelle explorant l&apos;aliénation contemporaine juxtaposée à l&apos;avènement d&apos;une forme étrange de vie intélligente.
             </p>
           </div>
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Approche Open-Source
+              Open-Source de A à Z
             </h3>
             <p className="theater-nav-description">
-              Développement transparent et collaboratif avec documentation publique et partage des ressources créatives.
+              Développement transparent, collaboratif et ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives.
             </p>
           </div>
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Co-propriété et Blockchain
+              Co-propriété de Biens Immatériels
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet explore l&apos;intégration de technologies blockchain pour la co-propriété transparente des contenus tokenisés et le partage équitable des revenus entre participants.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des films tokenisés et le partage équitable des revenus du bien intangible entre participants.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h4 className="theater-nav-title mb-2">Mission Décentralisée</h4>
+              <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits et revenus artistiques.
+                Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>En développement:</strong> Intégration blockchain et système de co-propriété tokenisée
+                <strong>En développement:</strong> Mise en place d&apos;un système de co-propriété tokenisée et décentralisée grâce à la blockchain Ethereum.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function AboutPage() {
       <section className="theater-section">
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Contact et Collaboration
+            Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
             Pour toute question, collaboration ou participation au projet, n&apos;hésitez pas à consulter le{' '}
@@ -108,8 +108,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               dépôt GitHub
-            </Link>{' '}
-            ou à prendre contact via les canaux officiels.
+            </Link>{' '}.
           </p>
         </div>
       </section>
