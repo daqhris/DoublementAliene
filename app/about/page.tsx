@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaborer d&apos;un système de co-propriété tokenisée et décentralisée grâce à l'infrastructure financière de la blockchain Ethereum.
+                <strong>Liste des Tâches:</strong> Élaborer d&apos;un système de co-propriété tokenisée et décentralisée grâce à l&apos;infrastructure financière présente sur la blockchain Ethereum.
               </p>
             </div>
           </div>
