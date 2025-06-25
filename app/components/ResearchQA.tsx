@@ -198,8 +198,19 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
                   <h5 className="theater-nav-title text-theater-text mb-3">
                     {response.model}
                   </h5>
-                  <div className="text-theater-text leading-relaxed mb-4 prose prose-sm max-w-none prose-headings:text-theater-text prose-p:text-theater-text prose-strong:text-theater-text prose-strong:font-semibold">
-                    <ReactMarkdown>
+                  <div className="text-theater-text leading-relaxed mb-4">
+                    <ReactMarkdown 
+                      components={{
+                        strong: ({children}) => <strong className="font-semibold text-theater-text">{children}</strong>,
+                        h1: ({children}) => <h1 className="theater-heading-lg mb-4">{children}</h1>,
+                        h2: ({children}) => <h2 className="theater-heading-md mb-3">{children}</h2>,
+                        h3: ({children}) => <h3 className="font-semibold text-lg mb-2 text-theater-text">{children}</h3>,
+                        p: ({children}) => <p className="text-theater-text mb-3">{children}</p>,
+                        ul: ({children}) => <ul className="text-theater-text mb-3 pl-6">{children}</ul>,
+                        ol: ({children}) => <ol className="text-theater-text mb-3 pl-6">{children}</ol>,
+                        li: ({children}) => <li className="mb-1">{children}</li>
+                      }}
+                    >
                       {response.content}
                     </ReactMarkdown>
                   </div>
