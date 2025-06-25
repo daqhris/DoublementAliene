@@ -59,7 +59,12 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
+        run: |
+          touch ./out/.nojekyll
+          echo "Created .nojekyll file:"
+          ls -la ./out/.nojekyll
+          echo "Contents of ./out directory:"
+          ls -la ./out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
