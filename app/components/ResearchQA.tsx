@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 interface AIResponse {
   model: string;
@@ -197,8 +198,10 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
                   <h5 className="theater-nav-title text-theater-text mb-3">
                     {response.model}
                   </h5>
-                  <div className="text-theater-text leading-relaxed whitespace-pre-line mb-4">
-                    {response.content}
+                  <div className="text-theater-text leading-relaxed mb-4 prose prose-sm max-w-none prose-headings:text-theater-text prose-p:text-theater-text prose-strong:text-theater-text prose-strong:font-semibold">
+                    <ReactMarkdown>
+                      {response.content}
+                    </ReactMarkdown>
                   </div>
                   <div className="text-sm text-theater-muted">
                     {response.filename ? (
