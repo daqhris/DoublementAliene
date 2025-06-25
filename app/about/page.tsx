@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plateforme numérique ayant en commun une approche open-source, participative et décentralisée.
+            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plateforme numérique qui ont en commun une approche open-source, participative et décentralisée.
           </p>
         </div>
 
@@ -42,9 +42,7 @@ export default function AboutPage() {
               className="theater-link"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              CIFAS
-            </Link>
+            >CIFAS</Link>
             ) de Janvier à Avril en 2025.
           </p>
         </div>
@@ -70,7 +68,7 @@ export default function AboutPage() {
               Open-Source de A à Z
             </h3>
             <p className="theater-nav-description">
-              Développement transparent, collaboratif et ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives.
+              Développement transparent, collaboratif et ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives en tenant compte de délais non-contraignants.
             </p>
           </div>
 
@@ -87,7 +85,7 @@ export default function AboutPage() {
                 Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>En développement:</strong> Mise en place d&apos;un système de co-propriété tokenisée et décentralisée grâce à la blockchain Ethereum.
+                <strong>Liste des Tâches:</strong> Élaborer d&apos;un système de co-propriété tokenisée et décentralisée grâce à l'infrastructure financière de la blockchain Ethereum.
               </p>
             </div>
           </div>
@@ -100,7 +98,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Pour toute question, collaboration ou participation au projet, n&apos;hésitez pas à consulter le{' '}
+            Pour toute question, souhait de collaboration ou participation volontaire au projet, n&apos;hésitez pas à consulter le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
