@@ -50,9 +50,9 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      <section className="theater-section">
+      <section className="theater-section" aria-labelledby="qa-section-title">
         <div className="theater-section-header">
-          <h2 className="theater-heading-md">
+          <h2 id="qa-section-title" className="theater-heading-md">
             Entretiens Q&amp;A avec l&apos;Intelligence Artificielle
           </h2>
           <p className="theater-subtitle">

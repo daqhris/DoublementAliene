@@ -176,13 +176,13 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
 
   return (
     <div className="space-y-6">
-      {questions.map((question) => (
+      {questions.map((question: Question) => (
         <div key={question.id} className="theater-section">
           <div className="theater-card-modern">
-            <h3 className="theater-heading-md mb-4">
+            <h3 className="theater-heading-md mb-4" id={`question-${question.id}`}>
               Question {question.id}
             </h3>
-            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5 mb-6">
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5 mb-6" role="blockquote" aria-labelledby={`question-${question.id}`}>
               <p className="text-theater-text leading-relaxed mb-2">
                 &ldquo;{question.text}&rdquo;
               </p>
@@ -191,14 +191,17 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
               </p>
             </div>
             
-            <h4 className="theater-nav-title mb-4">Réponses des IA</h4>
-            <div className="space-y-4">
-              {question.responses.map((response, index) => (
-                <div key={index} className="theater-card-modern">
-                  <h5 className="theater-nav-title text-theater-text mb-3">
+            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>Réponses des IA</h4>
+            <div className="space-y-4" role="region" aria-labelledby={`responses-${question.id}`}>
+              {question.responses.map((response: AIResponse, index: number) => (
+                <details key={index} className="theater-card-modern" open={index === 0}>
+                  <summary className="theater-nav-title mb-3 cursor-pointer transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background theater-model-marker" tabIndex={0}>
                     {response.model}
-                  </h5>
-                  <div className="text-theater-text leading-relaxed mb-4">
+                    <span className="float-right text-sm" aria-hidden="true">
+                      ▼
+                    </span>
+                  </summary>
+                  <div className="text-theater-text leading-relaxed mb-4" role="article" aria-label={`Réponse de ${response.model}`}>
                     <ReactMarkdown 
                       components={{
                         strong: ({children}) => <strong className="font-semibold text-theater-text">{children}</strong>,
@@ -206,45 +209,49 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
                         h2: ({children}) => <h2 className="theater-heading-md mb-3">{children}</h2>,
                         h3: ({children}) => <h3 className="font-semibold text-lg mb-2 text-theater-text">{children}</h3>,
                         p: ({children}) => <p className="text-theater-text mb-3">{children}</p>,
-                        ul: ({children}) => <ul className="text-theater-text mb-3 pl-6">{children}</ul>,
-                        ol: ({children}) => <ol className="text-theater-text mb-3 pl-6">{children}</ol>,
+                        ul: ({children}) => <ul className="text-theater-text mb-3 pl-6 list-disc">{children}</ul>,
+                        ol: ({children}) => <ol className="text-theater-text mb-3 pl-6 list-decimal">{children}</ol>,
                         li: ({children}) => <li className="mb-1">{children}</li>
                       }}
                     >
                       {response.content}
                     </ReactMarkdown>
                   </div>
-                  <div className="text-sm text-theater-muted">
-                    {response.filename ? (
-                      <span>
-                        Fichier source: <a
-                          href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${response.filename}`}
-                          className="text-theater-text underline"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {response.filename}
-                        </a>
-                      </span>
-                    ) : response.filenames ? (
-                      <span>
-                        Fichiers sources: {response.filenames.map((filename, idx) => (
-                          <span key={filename}>
-                            <a
-                              href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${filename}`}
-                              className="text-theater-text underline"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {filename}
-                            </a>
-                            {idx < response.filenames!.length - 1 ? ', ' : ''}
-                          </span>
-                        ))}
-                      </span>
-                    ) : null}
-                  </div>
-                </div>
+                  {(response.filename || response.filenames) && (
+                    <div className="text-sm text-theater-muted" role="contentinfo">
+                      {response.filename ? (
+                        <span>
+                          Fichier source: <a
+                            href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${response.filename}`}
+                            className="text-theater-text underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`Ouvrir le fichier source ${response.filename} dans un nouvel onglet`}
+                          >
+                            {response.filename}
+                          </a>
+                        </span>
+                      ) : response.filenames ? (
+                        <span>
+                          Fichiers sources: {response.filenames.map((filename: string, idx: number) => (
+                            <span key={filename}>
+                              <a
+                                href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${filename}`}
+                                className="text-theater-text underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`Ouvrir le fichier source ${filename} dans un nouvel onglet`}
+                              >
+                                {filename}
+                              </a>
+                              {idx < response.filenames!.length - 1 ? ', ' : ''}
+                            </span>
+                          ))}
+                        </span>
+                      ) : null}
+                    </div>
+                  )}
+                </details>
               ))}
             </div>
           </div>

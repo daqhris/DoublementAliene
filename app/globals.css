@@ -219,6 +219,21 @@ body {
   border-radius: 0.25rem;
 }
 
+/* AI Model Visual Markers */
+.theater-model-marker {
+  color: var(--solarized-base3);
+  background-color: var(--solarized-base03);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.theater-model-marker:hover {
+  background-color: var(--solarized-base02);
+}
+
 /* Layout Utilities */
 .flex {
   display: flex;
