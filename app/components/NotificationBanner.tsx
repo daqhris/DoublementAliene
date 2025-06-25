@@ -22,7 +22,7 @@ const NotificationBanner: React.FC = () => {
     <div className="theater-notification-banner">
       <div className="theater-notification-content">
         <p className="theater-text">
-          <strong>Interface Web:</strong> Plateforme collaborative en développement actif
+          <strong>Attention:</strong> Cette interface web est en cours de construction et promet des améliorations continues 
         </p>
         <button 
           onClick={handleDismiss}
