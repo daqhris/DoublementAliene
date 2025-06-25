@@ -198,7 +198,7 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
             <h3 className="theater-heading-md mb-4" id={`question-${question.id}`}>
               Question {question.id}
             </h3>
-            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/50 mb-6" role="blockquote" aria-labelledby={`question-${question.id}`}>
+            <div className="theater-question-card" role="blockquote" aria-labelledby={`question-${question.id}`}>
               <p className="text-theater-text leading-relaxed mb-2">
                 &ldquo;{question.text}&rdquo;
               </p>
