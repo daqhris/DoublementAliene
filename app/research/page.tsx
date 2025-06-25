@@ -36,7 +36,7 @@ export default function ResearchPage() {
               Méthodologies
             </h3>
             <p className="theater-nav-description mb-4">
-              Utilisation d&apos;outils de discussion avec les IA pour un raisonnement créatif intégrant leurs idées, l&apos;analyse des concepts liés à l'emergence de vie numérique et de l&apos;aliénation du travail humain dans le théâtre contemporain.
+              Utilisation d&apos;outils de discussion avec les IA pour un raisonnement créatif intégrant leurs idées, l&apos;analyse des concepts liés à l&apos;émergence de vie numérique et de l&apos;aliénation du travail humain dans le théâtre contemporain.
             </p>
             <Link 
               href="https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab"
