@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import NotificationBanner from '../components/NotificationBanner';
+import ResearchQA from '../components/ResearchQA';
 
 export const metadata: Metadata = {
   title: 'Recherche - Doublement Aliéné',
@@ -47,6 +48,18 @@ export default function ResearchPage() {
             </Link>
           </div>
         </div>
+      </section>
+
+      <section className="theater-section">
+        <div className="theater-section-header">
+          <h2 className="theater-heading-md">
+            Entretiens Q&amp;A avec l&apos;Intelligence Artificielle
+          </h2>
+          <p className="theater-subtitle">
+            Exploration des concepts d&apos;aliénation à travers des conversations avec différents modèles d&apos;IA
+          </p>
+        </div>
+        <ResearchQA />
       </section>
     </div>
   );
