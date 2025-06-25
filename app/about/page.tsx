@@ -24,7 +24,7 @@ export default function AboutPage() {
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            1er Protoype: Constellations 2025
+            Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
             Projet initié à Bruxelles par un artiste ayant participé au programme de co-apprentissage{' '}
@@ -59,25 +59,25 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;une histoire fictionnelle explorant l&apos;aliénation contemporaine juxtaposée à l&apos;avènement d&apos;une forme étrange de vie intélligente.
+              Une adaptation théâtrale d&apos;un récit fictionnel explorant l&apos;aliénation contemporaine juxtaposée à l&apos;avènement d&apos;une forme étrange de vie intélligente.
             </p>
           </div>
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Open-Source de A à Z
+              Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Développement transparent, collaboratif et ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives en tenant compte de délais non-contraignants.
+              Développement transparent ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives en tenant compte de délais non-contraignants.
             </p>
           </div>
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Co-propriété de Biens Immatériels
+              Co-propriété de Bien Immatériel
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des films tokenisés et le partage équitable des revenus du bien intangible entre participants.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des enregistrements audiovisuels tokenisés et le partage équitable des revenus du bien intangible entre participants.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaborer d&apos;un système de co-propriété tokenisée et décentralisée grâce à l&apos;infrastructure financière présente sur la blockchain Ethereum.
+                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée grâce à l&apos;infrastructure financière présente sur la blockchain Ethereum.
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Pour toute question, souhait de collaboration ou participation volontaire au projet, n&apos;hésitez pas à consulter le{' '}
+            Pour toute question ou désir de collaboration ou participation volontaire au projet, n&apos;hésitez pas à consulter le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
