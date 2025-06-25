@@ -454,3 +454,99 @@ body {
 .theater-notification-dismiss:hover {
   color: var(--theater-text);
 }
+
+/* Enhanced Timeline Styling */
+.timeline-container {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--solarized-base2), var(--theater-muted));
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+
+.timeline-marker {
+  position: relative;
+  z-index: 2;
+  margin-right: 2rem;
+  flex-shrink: 0;
+}
+
+.timeline-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--theater-background);
+  border: 3px solid var(--solarized-base2);
+  transition: all 0.3s ease;
+}
+
+.timeline-dot-highlight {
+  background-color: var(--theater-text);
+  border-color: var(--theater-text);
+  box-shadow: 0 0 0 4px rgba(88, 110, 117, 0.2);
+}
+
+.timeline-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.timeline-date {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--theater-text);
+  background-color: var(--solarized-base2);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border: 1px solid var(--theater-muted);
+}
+
+.timeline-card-highlight {
+  border-color: var(--theater-text);
+  box-shadow: 0 4px 16px rgba(88, 110, 117, 0.15);
+  background: linear-gradient(135deg, var(--theater-background) 0%, var(--solarized-base2) 100%);
+}
+
+.timeline-card-highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(88, 110, 117, 0.2);
+}
+
+/* Timeline Responsive Design */
+@media (max-width: 768px) {
+  .timeline-container::before {
+    left: 0.5rem;
+  }
+  
+  .timeline-marker {
+    margin-right: 1rem;
+  }
+  
+  .timeline-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-width: 2px;
+  }
+  
+  .timeline-date {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+}

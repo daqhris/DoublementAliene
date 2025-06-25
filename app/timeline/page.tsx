@@ -1,10 +1,11 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'Chronologie - Doublement Aliéné',
-  description: 'Chronologie du développement du projet théâtral',
+  description: 'Chronologie complète du développement du projet théâtral depuis ses origines',
 };
 
 interface TimelineItemProps {
@@ -12,32 +13,175 @@ interface TimelineItemProps {
   title: string;
   description: string;
   details?: string;
+  link?: {
+    url: string;
+    text: string;
+    external?: boolean;
+  };
+  isHighlight?: boolean;
 }
 
-const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, details }) => (
-  <div className="mb-8">
-    <div className="mb-2">
-      <span className="text-sm font-medium text-theater-muted bg-theater-muted/10 px-2 py-1 rounded">
-        {date}
-      </span>
+const TimelineItem: React.FC<TimelineItemProps> = ({ 
+  date, 
+  title, 
+  description, 
+  details, 
+  link, 
+  isHighlight = false 
+}) => (
+  <div className="timeline-item">
+    <div className="timeline-marker">
+      <div className={`timeline-dot ${isHighlight ? 'timeline-dot-highlight' : ''}`}></div>
     </div>
-    <h3 className="text-lg font-medium mb-2 text-theater-text">
-      {title}
-    </h3>
-    <p className="text-theater-muted mb-3">
-      {description}
-    </p>
-    {details && (
-      <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-6 py-2">
-        <p className="text-sm text-theater-muted">
-          {details}
-        </p>
+    <div className="timeline-content">
+      <div className="timeline-date">
+        {date}
       </div>
-    )}
+      <div className={`theater-card-modern ${isHighlight ? 'timeline-card-highlight' : ''}`}>
+        <h3 className="theater-nav-title mb-3">
+          {title}
+        </h3>
+        <p className="text-theater-text mb-4 leading-relaxed">
+          {description}
+        </p>
+        {details && (
+          <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5 mb-4">
+            <p className="theater-nav-description">
+              {details}
+            </p>
+          </div>
+        )}
+        {link && (
+          <div className="mt-4">
+            {link.external ? (
+              <Link 
+                href={link.url}
+                className="theater-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {link.text} →
+              </Link>
+            ) : (
+              <Link href={link.url} className="theater-link">
+                {link.text} →
+              </Link>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
   </div>
 );
 
 export default function TimelinePage() {
+  const timelineData: TimelineItemProps[] = [
+    {
+      date: "10 Octobre 2024",
+      title: "Genèse de l'Œuvre",
+      description: "Première parution en ligne et publication sur blockchain de l'œuvre originale écrite en Anglais, \"Twofold Alienated\".",
+      details: "Publication sur la plateforme Manifold par l'artiste daqhris, marquant le début officiel du projet artistique.",
+      link: {
+        url: "https://app.manifold.xyz/txt/twofold-alienated",
+        text: "Consulter l'œuvre originale",
+        external: true
+      }
+    },
+    {
+      date: "25 Novembre 2024",
+      title: "Sélection CIFAS Constellations",
+      description: "Annonce par le CIFAS d'artistes pluridisciplinaires sélectionnés pour l'édition 2025 des Constellations.",
+      details: "Chris A. Iradukunda (daqhris) figure parmi les artistes sélectionnés pour le programme de co-apprentissage.",
+      link: {
+        url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
+        text: "Programme Constellations 2025",
+        external: true
+      }
+    },
+    {
+      date: "Décembre 2024 - Janvier 2025",
+      title: "Construction du Dépôt Open Source",
+      description: "Construction d'un dépôt de code public sous forme numérique git et open source sur GitHub.",
+      details: "Rassemblement de tous les documents liés au texte original en Anglais dans un environnement collaboratif et transparent.",
+      link: {
+        url: "https://github.com/daqhris/twofold-alienated",
+        text: "Dépôt twofold-alienated",
+        external: true
+      }
+    },
+    {
+      date: "Janvier - Avril 2025",
+      title: "Programme CIFAS Constellations",
+      description: "Participation au programme de co-apprentissage Constellations du Centre International de Formation en Arts du Spectacle.",
+      details: "Rencontres mensuelles d'artistes pluridisciplinaires à Bruxelles, développement collaboratif et exploration des méthodologies artistiques contemporaines.",
+      link: {
+        url: "/about",
+        text: "En savoir plus sur le programme"
+      },
+      isHighlight: true
+    },
+    {
+      date: "17 Mars 2025",
+      title: "Première Représentation Théâtrale",
+      description: "Première interprétation théâtrale de l'œuvre par des comédien.ne.s sous forme de deux spectacles expérimentaux en Français.",
+      details: "Performance dans le Musée bruxellois de l'industrie et du travail (La Fonderie), explorant les thèmes d'aliénation contemporaine dans un cadre muséal industriel.",
+      link: {
+        url: "/performance",
+        text: "Découvrir la performance"
+      },
+      isHighlight: true
+    },
+    {
+      date: "4 Avril 2025",
+      title: "Lancement du Dépôt DoublementAliene",
+      description: "Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une plateforme numérique publique.",
+      details: "Création de l'infrastructure technique pour la plateforme collaborative et l'interface web du projet.",
+      link: {
+        url: "https://github.com/daqhris/DoublementAliene",
+        text: "Consulter le dépôt GitHub",
+        external: true
+      }
+    },
+    {
+      date: "16 Avril 2025",
+      title: "Clôture des Constellations 2025",
+      description: "Clôture festive des rencontres mensuelles d'artistes dans le cadre des Constellations 2025 à Molenbeek, Bruxelles.",
+      details: "Fin officielle du programme de co-apprentissage, consolidation des acquis et préparation de la suite du projet."
+    },
+    {
+      date: "22 Juin 2025",
+      title: "Naissance du ResearchLab",
+      description: "Lancement du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche artistique.",
+      details: "Exploration des méthodologies de recherche artistique et intégration d'intelligences artificielles dans le processus créatif théâtral.",
+      link: {
+        url: "/research",
+        text: "Explorer le laboratoire de recherche"
+      },
+      isHighlight: true
+    },
+    {
+      date: "24 Juin 2025",
+      title: "Documentation de la Performance",
+      description: "Publication de fichiers documentant la préparation du prototype performé le 17 Mars.",
+      details: "Mise à disposition publique des documents de travail, notes de répétition et matériaux de préparation de la performance théâtrale.",
+      link: {
+        url: "https://github.com/daqhris/DoublementAliene/tree/main/Constellations2025",
+        text: "Consulter la documentation",
+        external: true
+      }
+    },
+    {
+      date: "Développement Continu",
+      title: "Plateforme Collaborative Décentralisée",
+      description: "Développement en cours de l'interface web collaborative et intégration des technologies décentralisées.",
+      details: "Construction d'une plateforme open-source permettant la co-propriété transparente des contenus tokenisés et le partage équitable des revenus entre participants. Exploration de l'intégration blockchain pour la gestion transparente des droits artistiques.",
+      link: {
+        url: "/about",
+        text: "Philosophie du projet"
+      }
+    }
+  ];
+
   return (
     <div className="theater-container py-12">
       <NotificationBanner />
@@ -47,43 +191,22 @@ export default function TimelinePage() {
             Chronologie du Projet
           </h1>
           <p className="theater-subtitle">
-            Suivez l&apos;évolution du projet &ldquo;Doublement Aliéné&rdquo; depuis sa conception jusqu&apos;à sa réalisation.
+            Suivez l&apos;évolution complète du projet &ldquo;Doublement Aliéné&rdquo; depuis sa conception originale jusqu&apos;à sa réalisation théâtrale et son développement technologique.
           </p>
         </div>
 
-        <div className="space-y-6">
-          <div className="theater-card-modern">
-            <h3 className="theater-heading-md mb-2">Janvier 2025</h3>
-            <h4 className="theater-nav-title mb-3">Lancement du ResearchLab</h4>
-            <p className="text-theater-text mb-4 leading-relaxed">
-              Début des recherches sur l&apos;aliénation contemporaine et exploration des méthodologies IA pour le théâtre.
-            </p>
-            <p className="theater-nav-description">
-              Création du laboratoire de recherche artistique avec focus sur l&apos;intégration d&apos;intelligence artificielle dans le processus créatif théâtral.
-            </p>
-          </div>
-
-          <div className="theater-card-modern">
-            <h3 className="theater-heading-md mb-2">17 Mars 2025</h3>
-            <h4 className="theater-nav-title mb-3">Première Représentation Théâtrale</h4>
-            <p className="text-theater-text mb-4 leading-relaxed">
-              Performance expérimentale à La Fonderie - Musée Bruxellois de l&apos;Industrie et du Travail.
-            </p>
-            <p className="theater-nav-description">
-              Deux spectacles expérimentaux en Français, interprétés par des comédien.ne.s dans un cadre muséal industriel, explorant les thèmes d&apos;aliénation contemporaine.
-            </p>
-          </div>
-
-          <div className="theater-card-modern">
-            <h4 className="theater-nav-title mb-3">Développement Continu</h4>
-            <h4 className="theater-heading-md mb-3">Plateforme Collaborative</h4>
-            <p className="text-theater-text mb-4 leading-relaxed">
-              Développement de l&apos;interface web collaborative et intégration des technologies décentralisées.
-            </p>
-            <p className="theater-nav-description">
-              Construction d&apos;une plateforme open-source permettant la co-propriété transparente des contenus et le partage équitable des revenus entre participants.
-            </p>
-          </div>
+        <div className="timeline-container">
+          {timelineData.map((item, index) => (
+            <TimelineItem
+              key={index}
+              date={item.date}
+              title={item.title}
+              description={item.description}
+              details={item.details}
+              link={item.link}
+              isHighlight={item.isHighlight}
+            />
+          ))}
         </div>
       </section>
     </div>
