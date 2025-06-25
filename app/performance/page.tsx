@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'Performance - Doublement Aliéné',
-  description: 'Documentation de la performance théâtrale "Doublement Aliéné"',
+  description: 'Documentation des performances théâtrales de "Doublement Aliéné"',
 };
 
 export default function PerformancePage() {
@@ -18,13 +18,13 @@ export default function PerformancePage() {
             Performance Théâtrale
           </h1>
           <p className="theater-subtitle">
-            Découvrez les représentations de &ldquo;Doublement Aliéné&rdquo;, une exploration théâtrale de l&apos;aliénation contemporaine.
+            Découvrez les enregistrements audiovisuels des représentations et d&apos;autres archives de &ldquo;Doublement Aliéné&rdquo;.
           </p>
         </div>
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Première Représentation
+            Prototype d'Interprétation
           </h2>
           <div className="mb-4">
             <p className="text-theater-muted mb-2 font-medium">17 Mars 2025</p>
@@ -40,21 +40,21 @@ export default function PerformancePage() {
             <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">
                 <Link href="/gallery" className="theater-link">
-                  Galerie Photos
+                  Album Photos
                 </Link>
               </h4>
               <p className="theater-nav-description">
-                Découvrez les moments forts de la performance à travers notre galerie photo.
+                Savourez les moments forts de la performance à travers notre galerie photo.
               </p>
             </div>
 
             <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">Enregistrements</h4>
               <p className="theater-nav-description mb-2">
-                Accès aux enregistrements vidéo de la performance.
+                Visionnez les enregistrements vidéo de la performance.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Accès restreint:</strong> Réservé aux co-auteurs et participants autorisés
+                <strong>Accès restreint:</strong> Réservé aux co-auteurices propriétaires de l'œuvre
               </p>
             </div>
           </div>
