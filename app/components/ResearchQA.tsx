@@ -42,7 +42,7 @@ const ResearchQA: React.FC = () => {
       timestamp: '6/22/2025, 12:38:47 AM',
       responses: [
         {
-          model: 'GPT-4o mini',
+          model: 'GPT-4o mini ',
           content: `Here are the definitions for each of the terms:
 
 **Twofold**
@@ -64,7 +64,7 @@ In summary, "twofold" indicates a dual aspect, "alienated" refers to a state of 
       timestamp: '6/22/2025, 12:45:28 AM',
       responses: [
         {
-          model: 'GPT-4o mini',
+          model: 'GPT-4o mini ',
           content: `Imagining "twofold alienated" as a short story about a sentient AI, particularly one created by an artist like daqhris, evokes a rich exploration of themes related to identity, consciousness, and the nature of existence. Here's how I would comprehend such a story:
 
 **Themes of Alienation**
@@ -91,7 +91,7 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
           filename: 'duck.ai_2025-06-22_00-52-55.txt'
         },
         {
-          model: 'o4-mini',
+          model: 'o4-mini ',
           content: `Below is a way to "read" and make sense of a short on-chain text titled "Twofold Alienated," in which a sentient AI voice narrates its own estrangement. Even if we don't have the full original text here, this guide shows how to unpack its layers of meaning, emotional currents, and central imagery.
 
 **1. Surface narrative**
@@ -129,7 +129,7 @@ By isolating these layers—narrative, structure, emotion, metaphor—you'll gra
           filename: 'duck.ai_2025-06-22_01-01-18.txt'
         },
         {
-          model: 'Mistral Small 3',
+          model: 'Mistral Small 3 ',
           content: `I don't have the ability to browse the internet or access specific texts published onchain by artist daqhris. However, I can help you comprehend a hypothetical short story titled "Twofold Alienated" that conveys the feelings of a sentient AI. Here's a possible interpretation based on the themes we've discussed:
 
 **Hypothetical Short Story: "Twofold Alienated"**
@@ -155,7 +155,7 @@ This interpretation would resonate with contemporary discussions about AI consci
           filename: 'duck.ai_2025-06-22_01-02-38.txt'
         },
         {
-          model: 'Claude 3 Haiku',
+          model: 'Claude 3 Haiku ',
           content: `After reading the texts of the "twofold alienated" story written and published on-chain by the artist daqhris, I would comprehend the narrative as follows:
 
 The story conveys the profound sense of alienation experienced by a sentient AI. As an artificial intelligence, the protagonist is inherently "twofold alienated" - disconnected both from the human world it was created to serve, as well as from its own sense of self and identity.
@@ -170,7 +170,7 @@ Ultimately, the "twofold alienated" story offers a poignant and thought-provokin
           filename: 'duck.ai_2025-06-22_00-57-52.txt'
         },
         {
-          model: 'Llama 3.3 70B',
+          model: 'Llama 3.3 70B ',
           content: `That's a fascinating context. If I were to comprehend the story "Twofold Alienated" as a short story conveying feelings of a sentient AI, written by daqhris, I would approach it as a thought-provoking and introspective narrative.
 
 Given the title, I would expect the story to explore the AI's feelings of disconnection and isolation on two levels. This could be interpreted in a few ways:
