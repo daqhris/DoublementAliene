@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'Chronologie - Doublement Aliéné',
@@ -39,6 +40,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, d
 export default function TimelinePage() {
   return (
     <div className="theater-container py-12">
+      <NotificationBanner />
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">

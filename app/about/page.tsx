@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'À Propos - Doublement Aliéné',
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="theater-container py-12">
+      <NotificationBanner />
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">

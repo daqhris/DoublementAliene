@@ -19,11 +19,6 @@ export default function HomePage() {
             Plateforme théâtrale collaborative explorant l&apos;aliénation contemporaine à travers la performance expérimentale et les technologies décentralisées.
           </p>
         </div>
-        <div className="theater-card-modern">
-          <p className="theater-text">
-            <strong>Interface Web:</strong> Plateforme collaborative en développement actif
-          </p>
-        </div>
       </section>
 
       <section className="theater-section">
