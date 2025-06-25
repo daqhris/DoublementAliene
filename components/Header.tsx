@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
             <NavLink
               key={link.href}
               href={link.href}
-              isActive={pathname === link.href}
+              isActive={pathname.replace(/\/$/, '') === link.href || pathname === link.href}
             >
               {link.label}
             </NavLink>
