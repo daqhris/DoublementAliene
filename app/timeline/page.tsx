@@ -27,7 +27,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, d
       {description}
     </p>
     {details && (
-      <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-4 py-2">
+      <div className="bg-theater-muted/10 border-l-4 border-theater-muted/30 pl-6 py-2">
         <p className="text-sm text-theater-muted">
           {details}
         </p>

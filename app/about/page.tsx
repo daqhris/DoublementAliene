@@ -79,7 +79,7 @@ export default function AboutPage() {
             <p className="text-theater-text mb-4 leading-relaxed">
               Le projet explore l&apos;intégration de technologies blockchain pour la co-propriété transparente des contenus tokenisés et le partage équitable des revenus entre participants.
             </p>
-            <div className="border-l-4 border-solarized-base2 pl-4 py-3 bg-theater-muted/5">
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Mission Décentralisée</h4>
               <p className="theater-nav-description mb-2">
                 Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits et revenus artistiques.

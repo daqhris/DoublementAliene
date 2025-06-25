@@ -28,7 +28,7 @@ export default function ResearchPage() {
             Le laboratoire de recherche explore les thèmes d&apos;aliénation contemporaine à travers l&apos;analyse de performance et l&apos;intégration d&apos;intelligence artificielle dans le processus créatif théâtral.
           </p>
 
-          <div className="border-l-4 border-solarized-base2 pl-4">
+          <div className="border-l-4 border-solarized-base2 pl-6">
             <h3 className="theater-nav-title mb-3">
               Méthodologies IA
             </h3>
