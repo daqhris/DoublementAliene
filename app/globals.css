@@ -396,3 +396,36 @@ body {
     gap: 2rem; 
   }
 }
+
+/* Notification Banner Styling */
+.theater-notification-banner {
+  background-color: var(--solarized-base2);
+  border: 1px solid var(--theater-muted);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.theater-notification-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.theater-notification-dismiss {
+  background: none;
+  border: none;
+  color: var(--theater-muted);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.theater-notification-dismiss:hover {
+  color: var(--theater-text);
+}
