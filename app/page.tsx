@@ -5,7 +5,7 @@ import NotificationBanner from './components/NotificationBanner'
 
 export const metadata: Metadata = {
   title: 'Doublement Aliéné - Accueil',
-  description: 'Plateforme théâtrale collaborative - Prototype de performance dans un espace public',
+  description: 'Plateforme collaborative dédiée à un spectacle théâtral dans un espace public',
 }
 
 export default function HomePage() {
@@ -15,10 +15,10 @@ export default function HomePage() {
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">
-            Pièce de Théâtre: «Doublement Aliéné»
+            Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Plateforme théâtrale collaborative explorant l&apos;aliénation contemporaine à travers la performance expérimentale et les technologies décentralisées.
+            Plateforme numérique érigée pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale éxecutée par des personnes physiques.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                Découvrez les représentations et enregistrements de la pièce
+                Découvrez les protoypes, représentations et enregistrements de la pièce de théâtre
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
                 <Link href="/research" className="theater-link">Recherche</Link>
               </div>
               <div className="theater-nav-description">
-                Laboratoire de recherche artistique et méthodologies IA
+                Laboratoire de recherche artistique et méthodologie incluant les IA
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <Link href="/timeline" className="theater-link">Chronologie</Link>
               </div>
               <div className="theater-nav-description">
-                Suivez l&apos;évolution du projet depuis sa conception
+                Suivez les étapes de l&apos;évolution du projet depuis sa conception
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur le projet, CIFAS et philosophie collaborative
+                Informations sur ce projet en art du spectacle et la philosophie collaborative de l'artiste
               </div>
             </div>
           </div>
