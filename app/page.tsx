@@ -12,7 +12,7 @@ export default function HomePage() {
     <div className="theater-container py-12">
       <section className="theater-section">
         <div className="theater-section-header">
-          <h1 className="theater-heading-xl">
+          <h1 className="theater-heading-lg">
             Pièce de Théâtre: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
