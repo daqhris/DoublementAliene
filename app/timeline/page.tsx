@@ -83,7 +83,7 @@ export default function TimelinePage() {
       details: "Publication sur la plateforme Manifold par l'artiste daqhris, marquant le début officiel du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
-        text: "Lisez l'œuvre originale de ce récit fictionnel écrit en Anglais",
+        text: "Lisez le récit original écrit en Anglais",
         external: true
       }
     },
@@ -101,7 +101,7 @@ export default function TimelinePage() {
     {
       date: "Décembre 2024 - Janvier 2025",
       title: "Création du Dépôt de Code: TwofoldAlienated",
-      description: "Construction d'un dépôt de code public sous forme numérique git et open source sur GitHub.",
+      description: "Construction d'un dépôt de code public sous la forme numérique git et open source sur GitHub.",
       details: "Rassemblement de tous les documents liés au texte original en Anglais dans un environnement collaboratif et transparent.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
