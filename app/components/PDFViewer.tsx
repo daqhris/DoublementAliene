@@ -41,8 +41,8 @@ const PDFViewer: React.FC<PDFViewerProps> = ({ src, title, description }) => {
                   <h4 className="theater-nav-title mb-4">Document PDF : {title}</h4>
                   <p className="theater-nav-description mb-4">
                     Ce document PDF contient des informations importantes pour la performance théâtrale.
-                    Si le document ne s'affiche pas correctement, votre navigateur peut ne pas supporter 
-                    l'affichage PDF intégré.
+                    Si le document ne s&apos;affiche pas correctement, votre navigateur peut ne pas supporter 
+                    l&apos;affichage PDF intégré.
                   </p>
                   <div className="bg-theater-muted p-4 rounded-lg">
                     <p className="text-sm text-theater-text">

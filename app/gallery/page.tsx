@@ -279,14 +279,12 @@ export default function GalleryPage() {
             src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
             description="Mode d'emploi détaillé pour la mise en scène, incluant la répartition des rôles et le dispositif technique."
-            downloadName="MiseEnScene-DoublementAliene.pdf"
           />
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral Complet"
             description="Texte intégral de la pièce avec les 10 doubles réactions d'un être étrange, transcrites en alphabet d'origine romane."
-            downloadName="Theatre-DoublementAliene.pdf"
           />
         </div>
       </section>
