@@ -17,12 +17,12 @@ export default function GalleryPage() {
       description: 'Premières étapes de construction du support en bois pour vélo fixe',
       images: [
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-01.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-01.jpg',
           alt: 'Construction du support bois - étape 1',
           caption: 'Début des travaux de construction'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-02.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-02.jpg',
           alt: 'Construction du support bois - étape 2',
           caption: 'Assemblage des premières pièces'
         }
@@ -34,22 +34,22 @@ export default function GalleryPage() {
       description: 'Assemblage des éléments principaux de la structure',
       images: [
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-01.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-01.jpg',
           alt: 'Assemblage principal - étape 1',
           caption: 'Assemblage de la structure principale'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-02.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-02.jpg',
           alt: 'Assemblage principal - étape 2',
           caption: 'Fixation des éléments de support'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-03.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-03.jpg',
           alt: 'Assemblage principal - étape 3',
           caption: 'Vérification de la stabilité'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-04.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-04.jpg',
           alt: 'Assemblage principal - étape 4',
           caption: 'Finalisation de l\'assemblage'
         }
@@ -61,37 +61,37 @@ export default function GalleryPage() {
       description: 'Finitions de la construction et premiers tests de stabilité',
       images: [
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110808.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110808.jpg',
           alt: 'Tests de stabilité - vue 1',
           caption: 'Test de la structure assemblée'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110827.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110827.jpg',
           alt: 'Tests de stabilité - vue 2',
           caption: 'Vérification des fixations'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110840.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110840.jpg',
           alt: 'Tests de stabilité - vue 3',
           caption: 'Test de résistance'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110853.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110853.jpg',
           alt: 'Tests de stabilité - vue 4',
           caption: 'Contrôle qualité'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110905.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110905.jpg',
           alt: 'Tests de stabilité - vue 5',
           caption: 'Validation finale'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110916.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110916.jpg',
           alt: 'Tests de stabilité - vue 6',
           caption: 'Structure prête pour utilisation'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110928.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110928.jpg',
           alt: 'Tests de stabilité - vue 7',
           caption: 'Derniers ajustements'
         }
@@ -103,32 +103,32 @@ export default function GalleryPage() {
       description: 'Préparation finale avant la performance théâtrale',
       images: [
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082337.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082337.jpg',
           alt: 'Préparation performance - vue 1',
           caption: 'Installation sur le lieu de performance'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082350.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082350.jpg',
           alt: 'Préparation performance - vue 2',
           caption: 'Positionnement final'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082356.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082356.jpg',
           alt: 'Préparation performance - vue 3',
           caption: 'Vérification avant performance'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
           alt: 'Préparation performance - vue 4',
           caption: 'Setup complet'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082452.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082452.jpg',
           alt: 'Préparation performance - vue 5',
           caption: 'Prêt pour la représentation'
         },
         {
-          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082509.jpg',
+          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082509.jpg',
           alt: 'Préparation performance - vue 6',
           caption: 'Installation terminée'
         }
@@ -138,27 +138,27 @@ export default function GalleryPage() {
 
   const stageSetupImages = [
     {
-      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082521.jpg',
+      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082521.jpg',
       alt: 'Lieu de performance - vue générale',
       caption: 'Vue d\'ensemble du lieu de performance à La Fonderie'
     },
     {
-      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082527.jpg',
+      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082527.jpg',
       alt: 'Lieu de performance - détail scène',
       caption: 'Détail de l\'espace scénique'
     },
     {
-      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082533.jpg',
+      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082533.jpg',
       alt: 'Lieu de performance - angle différent',
       caption: 'Perspective alternative de la scène'
     },
     {
-      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082539.jpg',
+      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082539.jpg',
       alt: 'Lieu de performance - setup complet',
       caption: 'Installation complète avant performance'
     },
     {
-      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082545.jpg',
+      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082545.jpg',
       alt: 'Lieu de performance - vue finale',
       caption: 'Vue finale de l\'espace de performance'
     }
@@ -166,12 +166,12 @@ export default function GalleryPage() {
 
   const feedbackImages = [
     {
-      src: 'Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100851.jpg',
+      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100851.jpg',
       alt: 'Session de feedback - discussion',
       caption: 'Session de réflexion post-performance'
     },
     {
-      src: 'Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100857.jpg',
+      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100857.jpg',
       alt: 'Session de feedback - échanges',
       caption: 'Échanges conceptuels après les représentations'
     }
@@ -223,7 +223,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
+                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"
@@ -240,7 +240,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
+                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"

@@ -80,13 +80,13 @@ export default function PerformancePage() {
 
         <div className="space-y-8">
           <PDFViewer
-            src="Constellations2025/MiseEnScène_DoublementAliéné.pdf"
+            src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
             description="Mode d'emploi détaillé incluant la répartition des rôles (Assistant.e Intelligent.e et Athlètes Intelligent.e.s), le dispositif technique (vélo stationnaire, micro, crayons), et les instructions de performance."
           />
 
           <PDFViewer
-            src="Constellations2025/Théâtre_DoublementAliéné.pdf"
+            src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral : 10 Doubles Réactions"
             description="Texte intégral de la pièce présentant les réactions vocales et visuelles d'un être étrange lors de l'annonce d'un prix noble de paternité, transcrites depuis Bruxelles le 10 octobre 2024."
           />
