@@ -22,3 +22,17 @@ Projet initié à **Bruxelles** par un artiste ayant participé au programme de 
 - **25 Novembre 2024**: Annonce par le CIFAS d'artistes pluridisciplinaires sélectionnés pour l'édition 2025 des Constellations, dont figure [Chris A. Iradukunda (daqhris)](https://daqhris.com/). 
 
 - **10 Octobre 2024**: Première parution en ligne et publication sur blockchain de l'œuvre originale écrite en Anglais, **[Twofold Alienated](https://app.manifold.xyz/txt/twofold-alienated)**, par [daqhris](https://github.com/daqhris).  
+
+## Licences et Droits d'Auteur
+
+**Code** Licence Open Source: [Licence Publique de l'Union Européenne 1.2](https://raw.githubusercontent.com/daqhris/DoublementAliene/main/LICENSE).    
+**Contenu Créatif** Droits Légaux: [Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr).  
+**Propriétaire & Développeur**: [Chris-Armel](https://daqhris.com) [(@daqhris)](https://github.com/daqhris).
+
+### Matériel Créatif Couvert par CC BY-NC-ND 4.0
+- Photographies de construction et performance (dossier `Constellations2025/Construction-SupportBois-VéloFixe/`)
+- Documents PDF théâtraux et artistiques (dossier `Constellations2025/`)
+- Images de concept et réflexion (dossier `Constellations2025/Feedback-ConceptReflexion/`)
+- Matériel audiovisuel et scénique (tous dossiers sous `Constellations2025/`)
+
+Cette approche de double licence garantit que le code reste libre et open source sous EUPL v1.2, tandis que le contenu créatif est protégé par Creative Commons avec attribution requise, usage non commercial et interdiction de modifications.    
