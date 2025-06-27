@@ -15,6 +15,9 @@
     "Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>"
   ],
   "license": "EUPL-1.2",
+  "engines": {
+    "node": "20"
+  },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/postcss": "^4.1.10",
