@@ -39,7 +39,7 @@ export default function PerformancePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">
-                <Link href="/gallery" className="theater-link">
+                <Link href="/performance/gallery" className="theater-link">
                   Galerie Créative
                 </Link>
               </h4>
@@ -50,7 +50,7 @@ export default function PerformancePage() {
 
             <div className="border-l-4 border-solarized-base2 pl-6">
               <h4 className="theater-nav-title mb-2">
-                <Link href="/gallery#construction" className="theater-link">
+                <Link href="/performance/gallery#construction" className="theater-link">
                   Processus de Construction
                 </Link>
               </h4>

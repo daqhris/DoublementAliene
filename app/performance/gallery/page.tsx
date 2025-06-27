@@ -1,8 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
-import TimelineGallery from '../components/TimelineGallery';
-import ImageGallery from '../components/ImageGallery';
-import PDFViewer from '../components/PDFViewer';
+import TimelineGallery from '../../components/TimelineGallery';
+import ImageGallery from '../../components/ImageGallery';
+import PDFViewer from '../../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Galerie - Doublement Aliéné',
