@@ -93,6 +93,30 @@ export default function AboutPage() {
       </section>
 
       <section className="theater-section">
+        <h2 className="theater-heading-md">
+          Auteurs & Collaborateurs
+        </h2>
+        
+        <div className="theater-card-modern">
+          <div className="space-y-4">
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
+              <h3 className="theater-nav-title mb-2">Chris-Armel Iradukunda (daqhris)</h3>
+              <p className="theater-nav-description">
+                Conception artistique, direction créative, développement théâtral et coordination du projet dans le cadre du programme Constellations 2025 du CIFAS.
+              </p>
+            </div>
+            
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
+              <h3 className="theater-nav-title mb-2">Devin AI</h3>
+              <p className="theater-nav-description">
+                Architecture technique, développement collaboratif de la plateforme web, implémentation des fonctionnalités et assistance dans la documentation du projet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="theater-section">
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
             Contact

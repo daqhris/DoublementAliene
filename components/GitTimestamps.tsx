@@ -113,7 +113,7 @@ export const GitTimestamps: React.FC = () => {
           rel="noopener noreferrer"
           className="text-theater-text hover:underline"
         >
-          {lastCommit.author}
+          daqhris (en collaboration avec devin)
         </a>
       </div>
     </div>
