@@ -93,6 +93,30 @@ export default function AboutPage() {
       </section>
 
       <section className="theater-section">
+        <h2 className="theater-heading-md">
+          Équipe
+        </h2>
+        
+        <div className="theater-card-modern">
+          <div className="space-y-4">
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
+              <h3 className="theater-nav-title mb-2">Chris A. Iradukunda (daqhris)</h3>
+              <p className="theater-nav-description">
+                Conception artistique, direction créative, scénarisation théâtrale, construction mécanique, performance sur scène et coordination du projet.
+              </p>
+            </div>
+            
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
+              <h3 className="theater-nav-title mb-2">Devin AI</h3>
+              <p className="theater-nav-description">
+                Architecture technique, développement de la plateforme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="theater-section">
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
             Contact
