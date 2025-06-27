@@ -230,13 +230,6 @@ export default function GalleryPage() {
               >
                 Voir les dessins (PDF)
               </a>
-              <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
-                download="Dessins-DoublementAliene-Partie1.pdf"
-                className="theater-button-secondary"
-              >
-                Télécharger
-              </a>
             </div>
           </div>
 
@@ -253,13 +246,6 @@ export default function GalleryPage() {
                 className="theater-button-primary"
               >
                 Voir les dessins (PDF)
-              </a>
-              <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
-                download="Dessins-DoublementAliene-Partie2.pdf"
-                className="theater-button-secondary"
-              >
-                Télécharger
               </a>
             </div>
           </div>
