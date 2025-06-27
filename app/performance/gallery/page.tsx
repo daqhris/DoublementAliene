@@ -215,65 +215,21 @@ export default function GalleryPage() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="theater-card-modern p-6">
-            <h3 className="theater-nav-title mb-4">Collection de Dessins - Partie 1</h3>
-            <p className="theater-nav-description mb-4">
-              Première série de dessins créés pendant la performance.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="theater-button-primary"
-              >
-                Voir les dessins (PDF)
-              </a>
-            </div>
-          </div>
-
-          <div className="theater-card-modern p-6">
-            <h3 className="theater-nav-title mb-4">Collection de Dessins - Partie 2</h3>
-            <p className="theater-nav-description mb-4">
-              Seconde série de créations artistiques de la performance.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/2èmeGroupe-Dessins.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="theater-button-primary"
-              >
-                Voir les dessins (PDF)
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="theater-section">
-        <div className="theater-section-header mb-8">
-          <h2 className="theater-heading-md mb-4">Documents de Performance</h2>
-          <p className="theater-subtitle">
-            Documents essentiels pour la mise en scène et la compréhension de la pièce théâtrale.
-          </p>
-        </div>
-
         <div className="space-y-8">
           <PDFViewer
-            src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
-            title="Guide de Mise en Scène"
-            description="Mode d'emploi détaillé pour la mise en scène, incluant la répartition des rôles et le dispositif technique."
+            src="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
+            title="Collection de Dessins - Partie 1"
+            description="Première série de dessins créés pendant la performance théâtrale, capturant les réflexions visuelles des Athlètes Intelligent.e.s."
           />
 
           <PDFViewer
-            src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
-            title="Script Théâtral Complet"
-            description="Texte intégral de la pièce avec les 10 doubles réactions d'un être étrange, transcrites en alphabet d'origine romane."
+            src="/Constellations2025/Dessins-PapiersNumérisés/2èmeGroupe-Dessins.pdf"
+            title="Collection de Dessins - Partie 2"
+            description="Seconde série de créations artistiques réalisées pendant la performance, accompagnant les enregistrements audiovisuels."
           />
         </div>
       </section>
+
     </div>
   );
 }
