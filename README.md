@@ -159,7 +159,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 **Code** Licence Open Source: [Licence Publique de l'Union Européenne 1.2](https://raw.githubusercontent.com/daqhris/DoublementAliene/main/LICENSE).    
 **Contenu Créatif** Droits Légaux: [Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr).  
-**Propriétaire & Développeur**: [Chris-Armel](https://daqhris.com) [(@daqhris)](https://github.com/daqhris).
+**Propriétaire & Développeur**: [Chris-Armel Iradukunda](https://daqhris.com) [(@daqhris)](https://github.com/daqhris).
 
 ### Matériel Créatif Couvert par CC BY-NC-ND 4.0
 - Photographies de construction et performance (dossier `Constellations2025/Construction-SupportBois-VéloFixe/`)
@@ -172,19 +172,6 @@ Cette approche de double licence garantit que le code reste libre et open source
 
 ## 🔗 Liens Utiles
 
-- **Dépôt GitHub** : [https://github.com/daqhris/DoublementAliene](https://github.com/daqhris/DoublementAliene)
-- **Site Web Live** : [https://daqhris.github.io/DoublementAliene](https://daqhris.github.io/DoublementAliene)
-- **CIFAS Constellations** : [Programme Constellations 2025](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)
+- **CIFAS Constellations** : [Prototype de Spectacle](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)
 - **Œuvre Originale** : [Twofold Alienated](https://app.manifold.xyz/txt/twofold-alienated)
-- **Licence Creative Commons** : [CC BY-NC-ND 4.0](./CC-LICENSE.md)
-
-## 📞 Contact
-
-Pour toute question ou collaboration :
-- **Auteur** : Chris-Armel Iradukunda (daqhris)
-- **Site Web** : [https://daqhris.com](https://daqhris.com)
-- **GitHub** : [@daqhris](https://github.com/daqhris)
-
----
-
-*Développé avec ❤️ à Bruxelles dans le cadre du programme Constellations 2025 du CIFAS*              
+- **Licence Creative Commons** : [CC BY-NC-ND 4.0](./CC-LICENSE.md)      
