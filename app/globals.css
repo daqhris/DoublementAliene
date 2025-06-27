@@ -782,3 +782,78 @@ body {
 .theater-close-button:hover {
   background: rgba(0, 0, 0, 0.9);
 }
+
+/* Performance Card Visual Markers */
+.theater-card-gallery {
+  background: var(--theater-background);
+  border: 2px solid var(--solarized-base2);
+  border-left: 6px solid var(--solarized-base01);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.theater-card-gallery:hover {
+  border-left-color: var(--theater-text);
+  box-shadow: 0 4px 16px rgba(88, 110, 117, 0.15);
+  transform: translateY(-2px);
+}
+
+.theater-card-documentation {
+  background: var(--solarized-base2);
+  border: 2px solid var(--solarized-base1);
+  border-left: 6px solid var(--solarized-base00);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.theater-card-documentation:hover {
+  border-left-color: var(--solarized-base03);
+  box-shadow: 0 4px 16px rgba(88, 110, 117, 0.15);
+  transform: translateY(-2px);
+}
+
+.theater-card-restricted {
+  background: var(--theater-background);
+  border: 2px dashed var(--solarized-base1);
+  border-left: 6px solid var(--solarized-base1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.theater-card-restricted:hover {
+  opacity: 1;
+  border-style: solid;
+}
+
+/* Card type indicators */
+.theater-card-type-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.theater-badge-gallery {
+  background: var(--solarized-base01);
+  color: var(--solarized-base3);
+}
+
+.theater-badge-documentation {
+  background: var(--solarized-base00);
+  color: var(--solarized-base3);
+}
+
+.theater-badge-restricted {
+  background: var(--solarized-base1);
+  color: var(--solarized-base03);
+}

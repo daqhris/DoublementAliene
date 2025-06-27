@@ -36,35 +36,46 @@ export default function PerformancePage() {
             tout en lisant et dessinant, assistés par un.e &ldquo;Assistant.e Intelligent.e&rdquo;.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="theater-card-gallery">
+              <span className="theater-card-type-badge theater-badge-gallery">Archives Visuelles</span>
+              <h4 className="theater-nav-title mb-3">
                 <Link href="/performance/gallery" className="theater-link">
-                  Galerie Créative
+                  Galerie Créative Complète
                 </Link>
               </h4>
-              <p className="theater-nav-description">
-                Explorez la chronologie complète : construction, performance, et créations artistiques.
+              <p className="theater-nav-description mb-4">
+                Explorez l'ensemble des archives visuelles : chronologie de construction, 
+                lieu de performance, sessions de feedback, et créations artistiques numérisées.
               </p>
+              <div className="text-sm text-theater-muted">
+                <strong>Contenu :</strong> Construction (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
+              </div>
             </div>
 
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">
-                <Link href="/performance/gallery#construction" className="theater-link">
-                  Processus de Construction
-                </Link>
-              </h4>
-              <p className="theater-nav-description">
-                Suivez la construction artisanale du support en bois pour vélo fixe (9-17 Mars 2025).
+            <div className="theater-card-documentation">
+              <span className="theater-card-type-badge theater-badge-documentation">Documentation</span>
+              <h4 className="theater-nav-title mb-3">Documents de Performance</h4>
+              <p className="theater-nav-description mb-4">
+                Accédez aux documents essentiels : guide de mise en scène et script théâtral complet 
+                avec les 10 doubles réactions transcrites.
               </p>
+              <div className="text-sm text-theater-muted">
+                <strong>Disponible :</strong> Guide de Mise en Scène • Script Théâtral • Instructions Techniques
+              </div>
             </div>
 
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">Enregistrements Vidéo</h4>
-              <p className="theater-nav-description">
-                <strong>Accès restreint:</strong> Les enregistrements audiovisuels sont disponibles 
-                pour les co-auteurs et collaborateurs du projet.
+            <div className="theater-card-restricted md:col-span-2">
+              <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
+              <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
+              <p className="theater-nav-description mb-4">
+                <strong>Accès limité aux collaborateurs :</strong> Les enregistrements vidéo et audio 
+                de la performance sont disponibles pour les co-auteurs et collaborateurs du projet 
+                sur demande spécifique.
               </p>
+              <div className="text-sm text-theater-muted">
+                <strong>Contact :</strong> Demande d&apos;accès via les canaux de collaboration du projet
+              </div>
             </div>
           </div>
         </div>
