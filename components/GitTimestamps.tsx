@@ -116,7 +116,7 @@ export const GitTimestamps: React.FC = () => {
           >
             daqhris
           </a>
-          {' '}en collaboration avec{' '}
+          {' '}& {' '}
           <a 
             href="https://devin.ai"
             target="_blank"
