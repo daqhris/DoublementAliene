@@ -178,13 +178,23 @@ Cette approche de double licence garantit que le code reste libre et open source
 - **Œuvre Originale** : [Twofold Alienated](https://app.manifold.xyz/txt/twofold-alienated)
 - **Licence Creative Commons** : [CC BY-NC-ND 4.0](./CC-LICENSE.md)
 
+## 🤝 Développement Collaboratif
+
+Ce projet est le fruit d'une collaboration innovante entre intelligence humaine et artificielle :
+
+- **Conception Artistique & Direction** : [Chris-Armel Iradukunda (daqhris)](https://daqhris.com) - Artiste, concepteur du projet théâtral et développeur principal
+- **Développement Technique & Documentation** : [Devin AI](https://github.com/devin-ai-integration) - Assistant IA pour l'architecture technique, l'implémentation et la documentation
+
+Cette approche collaborative reflète l'esprit même du projet "Doublement Aliéné", explorant les interactions entre créativité humaine et intelligence artificielle dans le contexte artistique contemporain.
+
 ## 📞 Contact
 
 Pour toute question ou collaboration :
-- **Auteur** : Chris-Armel Iradukunda (daqhris)
+- **Auteur Principal** : Chris-Armel Iradukunda (daqhris)
 - **Site Web** : [https://daqhris.com](https://daqhris.com)
 - **GitHub** : [@daqhris](https://github.com/daqhris)
 
 ---
 
-*Développé avec ❤️ à Bruxelles dans le cadre du programme Constellations 2025 du CIFAS*              
+*Développé avec ❤️ à Bruxelles dans le cadre du programme Constellations 2025 du CIFAS*  
+*Collaboration Humain-IA : Chris-Armel & Devin*                    
