@@ -53,19 +53,7 @@ export default function PerformancePage() {
               </div>
             </div>
 
-            <div className="theater-card-documentation">
-              <span className="theater-card-type-badge theater-badge-documentation">Documentation</span>
-              <h4 className="theater-nav-title mb-3">Documents de Performance</h4>
-              <p className="theater-nav-description mb-4">
-                Accédez aux documents essentiels : guide de mise en scène et script théâtral complet 
-                avec les 10 doubles réactions transcrites.
-              </p>
-              <div className="text-sm text-theater-muted">
-                <strong>Disponible :</strong> Guide de Mise en Scène • Script Théâtral • Instructions Techniques
-              </div>
-            </div>
-
-            <div className="theater-card-restricted md:col-span-2">
+            <div className="theater-card-restricted">
               <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
               <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
               <p className="theater-nav-description mb-4">
