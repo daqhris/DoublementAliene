@@ -138,42 +138,42 @@ export default function GalleryPage() {
 
   const stageSetupImages = [
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082521.jpg',
-      alt: 'Lieu de performance - vue générale',
-      caption: 'Vue d\'ensemble du lieu de performance à La Fonderie'
+      src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_VestiaireAthlètes.jpg',
+      alt: 'Lieu de performance - vestiaire athlètes',
+      caption: 'Espace vestiaire des athlètes à La Fonderie'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082527.jpg',
-      alt: 'Lieu de performance - détail scène',
-      caption: 'Détail de l\'espace scénique'
+      src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_EntréeScène.jpg',
+      alt: 'Lieu de performance - entrée scène',
+      caption: 'Entrée de l\'espace scénique'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082533.jpg',
-      alt: 'Lieu de performance - angle différent',
-      caption: 'Perspective alternative de la scène'
+      src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_ScèneVéloFixe.jpg',
+      alt: 'Lieu de performance - scène avec vélo fixe',
+      caption: 'Scène principale avec installation du vélo fixe'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082539.jpg',
-      alt: 'Lieu de performance - setup complet',
-      caption: 'Installation complète avant performance'
+      src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_SortieScène.jpg',
+      alt: 'Lieu de performance - sortie scène',
+      caption: 'Sortie de l\'espace de performance'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082545.jpg',
-      alt: 'Lieu de performance - vue finale',
-      caption: 'Vue finale de l\'espace de performance'
+      src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_ProjectionAudience.jpg',
+      alt: 'Lieu de performance - projection audience',
+      caption: 'Espace de projection pour l\'audience'
     }
   ];
 
   const feedbackImages = [
     {
-      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100851.jpg',
-      alt: 'Session de feedback - discussion',
-      caption: 'Session de réflexion post-performance'
+      src: '/Constellations2025/Feedback-ConceptReflexion/Notes_Détails_Reflections.jpg',
+      alt: 'Session de feedback - notes et réflexions',
+      caption: 'Notes détaillées et réflexions post-performance'
     },
     {
-      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100857.jpg',
-      alt: 'Session de feedback - échanges',
-      caption: 'Échanges conceptuels après les représentations'
+      src: '/Constellations2025/Feedback-ConceptReflexion/Post-Its_Cercles_Concepts.jpg',
+      alt: 'Session de feedback - post-its conceptuels',
+      caption: 'Post-its et cercles conceptuels des échanges'
     }
   ];
 
@@ -223,7 +223,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
+                href="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"
@@ -240,7 +240,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
+                href="/Constellations2025/Dessins-PapiersNumérisés/2èmeGroupe-Dessins.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"
