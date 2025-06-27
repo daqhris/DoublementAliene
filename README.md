@@ -4,6 +4,7 @@
 Une application web Next.js dédiée à la documentation et à l'exploration d'un projet de théâtre dans l'espace public, intégrant des méthodologies de recherche artistique avec l'intelligence artificielle.
 
 ## 🎭 Aperçu du Projet
+*En cours de construction par un binôme*   
 
 **Doublement Aliéné** est une plateforme numérique open-source qui documente et présente un prototype de performance théâtrale développé dans le cadre du programme Constellations 2025 du CIFAS (Centre International de Formation en Arts du Spectacle) à Bruxelles.
 
@@ -182,17 +183,3 @@ Ce projet est le fruit d'une collaboration innovante entre intelligence humaine 
 
 - **Conception Artistique & Direction** : [Chris-Armel Iradukunda (daqhris)](https://daqhris.com) - Artiste, concepteur du projet théâtral et développeur principal
 - **Développement Technique & Documentation** : [Devin AI](https://github.com/devin-ai-integration) - Assistant IA pour l'architecture technique, l'implémentation et la documentation
-
-Cette approche collaborative reflète l'esprit même du projet "Doublement Aliéné", explorant les interactions entre créativité humaine et intelligence artificielle dans le contexte artistique contemporain.
-
-## 📞 Contact
-
-Pour toute question ou collaboration :
-- **Auteur Principal** : Chris-Armel Iradukunda (daqhris)
-- **Site Web** : [https://daqhris.com](https://daqhris.com)
-- **GitHub** : [@daqhris](https://github.com/daqhris)
-
----
-
-*Développé avec ❤️ à Bruxelles dans le cadre du programme Constellations 2025 du CIFAS*  
-*Collaboration Humain-IA : Chris-Armel & Devin*      
