@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "repository": "https://github.com/daqhris/DoublementAliene.git",
-  "author": "Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>",
-  "license": "MIT",
+  "author": "Chris-Armel Iradukunda (daqhris) <info@daqhris.com>",
+  "contributors": [
+    "Chris-Armel Iradukunda (daqhris) <info@daqhris.com>",
+    "Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>"
+  ],
+  "license": "EUPL-1.2",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/postcss": "^4.1.10",
