@@ -107,14 +107,25 @@ export const GitTimestamps: React.FC = () => {
           {relativeTime}
         </a>
         {' '}par{' '}
-        <a 
-          href="https://github.com/daqhris/DoublementAliene/graphs/contributors"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-theater-text hover:underline"
-        >
-          daqhris (en collaboration avec devin)
-        </a>
+        <span>
+          <a 
+            href="https://github.com/daqhris/DoublementAliene/graphs/contributors"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-theater-text hover:underline"
+          >
+            daqhris
+          </a>
+          {' '}en collaboration avec{' '}
+          <a 
+            href="https://devin.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-theater-text hover:underline"
+          >
+            devin
+          </a>
+        </span>
       </div>
     </div>
   );
