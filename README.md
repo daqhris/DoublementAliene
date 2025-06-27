@@ -1,38 +1,185 @@
-# Pièce de Théâtre: «Doublement Aliéné»
-## Prototype de performance théâtrale dans un espace public 
+# Doublement Aliéné
+## Plateforme Théâtrale Collaborative
 
-*__NB__: Travaux de construction d'une interface web en cours (codage informatique)*   
+Une application web Next.js dédiée à la documentation et à l'exploration d'un projet de théâtre dans l'espace public, intégrant des méthodologies de recherche artistique avec l'intelligence artificielle.
 
-Projet initié à **Bruxelles** par un artiste ayant participé au programme de co-apprentissage **[Constellations](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)** du Centre International de Formation en Arts du Spectacle (**[CIFAS](https://cifas.be/fr/pages/a-propos.html)**) de **Janvier à Avril** en **2025**. 
+## 🎭 Aperçu du Projet
+*En cours de construction par un binôme*   
 
-### *Historique et chronologie:*
+**Doublement Aliéné** est une plateforme numérique open-source qui documente et présente un prototype de performance théâtrale développé dans le cadre du programme Constellations 2025 du CIFAS (Centre International de Formation en Arts du Spectacle) à Bruxelles.
 
-- **24 Juin 2025**: Publication de fichiers documentant la préparation du prototype performé le 17 Mars (situés dans le dossier [Constellations2025](https://github.com/daqhris/DoublementAliene/tree/main/Constellations2025)).
+### Caractéristiques Principales
 
-- **22 Juin 2025**: Naissance du sous-projet [ResearchLab](https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab) qui regroupe des réponses variées des IA à des questions de recherche artistique.
-  
-- **16 Avril 2025**: Clôture festive des rencontres mensuelles d'artistes dans le cadre des Constellations 2025 à Molenbeek, Bruxelles.
+- **Interface Web Collaborative** : Plateforme Next.js avec design théâtral personnalisé
+- **Laboratoire de Recherche IA** : Conversations documentées avec différents modèles d'IA
+- **Documentation Performance** : Archives visuelles et textuelles de la performance théâtrale
+- **Galerie Créative** : Collection de matériaux artistiques et de documentation scénique
+- **Chronologie Interactive** : Suivi de l'évolution du projet depuis sa conception
 
-- **[4 Avril 2025](https://github.com/daqhris/DoublementAliene/commit/5537cc01e1ab7c87ae21e2cd0e8709fe88615b8b)**: Début des travaux visant à construire ce dépôt de code avec du logiciel libre sur une platforme numérique publique [github.com/daqhris/DoublementAliene](https://github.com/daqhris/DoublementAliene).
+## 🚀 Démarrage Rapide
 
-- **17 Mars 2025**: Première interprétation théâtrale de l'œuvre par des comédien.ne.s, sous forme de deux spectacles expérimentaux en Français, sur scène dans le [Musée bruxellois de l'industrie et du travail](https://fr.wikipedia.org/wiki/Mus%C3%A9e_bruxellois_de_l'industrie_et_du_travail) (**[La Fonderie](https://www.lafonderie.be/)**).
+### Prérequis
 
-- **Déc'24 - Jan'25**: Construction d'un dépôt de code public, sous la forme numérique [git](https://git-scm.com/book/fr/v2) et _open source_ sur GitHub, rassemblant tous les différents documents qui sont en lien avec le texte original en Anglais: [github.com/daqhris/**twofold-alienated**](https://github.com/daqhris/twofold-alienated).
+- Node.js 20.x ou supérieur
+- Yarn ou npm
+- Git
 
-- **25 Novembre 2024**: Annonce par le CIFAS d'artistes pluridisciplinaires sélectionnés pour l'édition 2025 des Constellations, dont figure [Chris A. Iradukunda (daqhris)](https://daqhris.com/). 
+### Installation
 
-- **10 Octobre 2024**: Première parution en ligne et publication sur blockchain de l'œuvre originale écrite en Anglais, **[Twofold Alienated](https://app.manifold.xyz/txt/twofold-alienated)**, par [daqhris](https://github.com/daqhris).  
+```bash
+# Cloner le dépôt
+git clone https://github.com/daqhris/DoublementAliene.git
+cd DoublementAliene
 
-## Licences et Droits d'Auteur
+# Installer les dépendances
+yarn install
+# ou
+npm install
+
+# Lancer le serveur de développement
+yarn dev
+# ou
+npm run dev
+```
+
+L'application sera accessible à l'adresse `http://localhost:3000`.
+
+### Scripts Disponibles
+
+```bash
+yarn dev          # Serveur de développement
+yarn build        # Construction pour la production
+yarn start        # Serveur de production
+yarn lint         # Vérification du code
+```
+
+## 📁 Structure du Projet
+
+```
+DoublementAliene/
+├── app/                          # Pages et composants Next.js (App Router)
+│   ├── components/               # Composants réutilisables
+│   │   ├── NotificationBanner.tsx
+│   │   └── ResearchQA.tsx
+│   ├── about/                    # Page À Propos
+│   ├── gallery/                  # Galerie visuelle
+│   ├── performance/              # Documentation performance
+│   ├── research/                 # Laboratoire de recherche
+│   ├── timeline/                 # Chronologie du projet
+│   ├── globals.css               # Styles globaux (thème Solarized)
+│   ├── layout.tsx                # Layout principal
+│   └── page.tsx                  # Page d'accueil
+├── components/                   # Composants partagés
+│   ├── Header.tsx                # Navigation principale
+│   ├── ThemeProvider.tsx         # Gestion des thèmes
+│   └── GitTimestamps.tsx         # Informations Git en temps réel
+├── Constellations2025/           # Matériaux créatifs (CC BY-NC-ND 4.0)
+│   ├── Construction-SupportBois-VéloFixe/  # Photos de construction
+│   ├── Scène-LieuPerformance/    # Documentation du lieu
+│   ├── Feedback-ConceptReflexion/ # Images conceptuelles
+│   ├── Dessins-PapiersNumérisés/ # Créations artistiques
+│   └── *.pdf                     # Documents théâtraux
+├── ResearchLab/                  # Conversations avec IA (CC BY-NC-ND 4.0)
+│   └── *.txt                     # Transcriptions Q&A avec différents modèles
+└── .github/workflows/            # CI/CD GitHub Actions
+```
+
+## 🎨 Technologies Utilisées
+
+### Frontend
+- **Next.js 15.3.4** - Framework React avec App Router
+- **TypeScript 5.8.3** - Typage statique
+- **React 19.1.0** - Interface utilisateur
+- **React Markdown 10.1.0** - Rendu des contenus Markdown
+
+### Styling
+- **CSS Personnalisé** - Système de design théâtral avec palette Solarized
+- **Heroicons** - Icônes SVG
+- **PostCSS** - Traitement CSS
+
+### Déploiement
+- **GitHub Pages** - Hébergement statique
+- **GitHub Actions** - CI/CD automatisé
+- **Vercel** - Prévisualisations de développement
+
+## 🔧 Configuration
+
+### Variables d'Environnement
+
+Aucune variable d'environnement n'est requise pour le développement local. L'application est configurée pour fonctionner en mode statique.
+
+### Configuration Next.js
+
+Le projet utilise une configuration Next.js optimisée pour l'export statique :
+
+```javascript
+// next.config.js
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
+}
+```
+
+## 🎭 Fonctionnalités
+
+### Laboratoire de Recherche IA
+- Interface Q&A interactive avec réponses de multiples modèles d'IA
+- Documentation des méthodologies de recherche artistique
+- Exploration des thèmes d'aliénation et d'intelligence artificielle
+
+### Documentation Performance
+- Archives de la performance du 17 Mars 2025 à La Fonderie (Bruxelles)
+- Galerie photographique et documentation scénique
+- Matériaux de préparation et de réflexion conceptuelle
+
+### Interface Collaborative
+- Design théâtral avec palette de couleurs Solarized
+- Navigation responsive et accessible
+- Informations Git en temps réel dans le footer
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! Pour contribuer :
+
+1. Forkez le projet
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/nouvelle-fonctionnalite`)
+3. Committez vos changements (`git commit -m 'Ajout nouvelle fonctionnalité'`)
+4. Poussez vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
+5. Ouvrez une Pull Request
+
+### Guidelines de Développement
+- Respectez la structure existante du projet
+- Utilisez TypeScript pour tous les nouveaux composants
+- Suivez les conventions de nommage établies
+- Testez localement avant de soumettre  
+
+## 📄 Licences et Droits d'Auteur
 
 **Code** Licence Open Source: [Licence Publique de l'Union Européenne 1.2](https://raw.githubusercontent.com/daqhris/DoublementAliene/main/LICENSE).    
 **Contenu Créatif** Droits Légaux: [Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr).  
-**Propriétaire & Développeur**: [Chris-Armel](https://daqhris.com) [(@daqhris)](https://github.com/daqhris).
+**Propriétaire & Développeur**: [Chris-Armel Iradukunda](https://daqhris.com) [(@daqhris)](https://github.com/daqhris).
 
 ### Matériel Créatif Couvert par CC BY-NC-ND 4.0
 - Photographies de construction et performance (dossier `Constellations2025/Construction-SupportBois-VéloFixe/`)
 - Documents PDF théâtraux et artistiques (dossier `Constellations2025/`)
 - Images de concept et réflexion (dossier `Constellations2025/Feedback-ConceptReflexion/`)
 - Matériel audiovisuel et scénique (tous dossiers sous `Constellations2025/`)
+- Conversations et recherches IA (dossier `ResearchLab/`)
 
-Cette approche de double licence garantit que le code reste libre et open source sous EUPL v1.2, tandis que le contenu créatif est protégé par Creative Commons avec attribution requise, usage non commercial et interdiction de modifications.    
+Cette approche de double licence garantit que le code reste libre et open source sous EUPL v1.2, tandis que le contenu créatif est protégé par Creative Commons avec attribution requise, usage non commercial et interdiction de modifications.
+
+## 🔗 Liens Utiles
+
+- **CIFAS Constellations** : [Prototype de Spectacle](https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html)
+- **Œuvre Originale** : [Twofold Alienated](https://app.manifold.xyz/txt/twofold-alienated)
+- **Licence Creative Commons** : [CC BY-NC-ND 4.0](./CC-LICENSE.md)
+
+## 🤝 Développement Collaboratif
+
+Ce projet est le fruit d'une collaboration innovante entre intelligence humaine et artificielle :
+
+- **Conception Artistique & Direction** : [Chris-Armel Iradukunda (daqhris)](https://daqhris.com) - Artiste, concepteur du projet théâtral et développeur principal
+- **Développement Technique & Documentation** : [Devin AI](https://github.com/devin-ai-integration) - Assistant IA pour l'architecture technique, l'implémentation et la documentation
