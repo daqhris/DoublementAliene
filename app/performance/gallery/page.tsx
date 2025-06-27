@@ -113,22 +113,22 @@ export default function GalleryPage() {
           caption: 'Positionnement final'
         },
         {
-          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082356.jpg',
+          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082356.jpg',
           alt: 'Préparation performance - vue 3',
           caption: 'Vérification avant performance'
         },
         {
-          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
+          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
           alt: 'Préparation performance - vue 4',
           caption: 'Setup complet'
         },
         {
-          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082452.jpg',
+          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082452.jpg',
           alt: 'Préparation performance - vue 5',
           caption: 'Prêt pour la représentation'
         },
         {
-          src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082509.jpg',
+          src: 'Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082509.jpg',
           alt: 'Préparation performance - vue 6',
           caption: 'Installation terminée'
         }
@@ -138,27 +138,27 @@ export default function GalleryPage() {
 
   const stageSetupImages = [
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082521.jpg',
+      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082521.jpg',
       alt: 'Lieu de performance - vue générale',
       caption: 'Vue d\'ensemble du lieu de performance à La Fonderie'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082527.jpg',
+      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082527.jpg',
       alt: 'Lieu de performance - détail scène',
       caption: 'Détail de l\'espace scénique'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082533.jpg',
+      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082533.jpg',
       alt: 'Lieu de performance - angle différent',
       caption: 'Perspective alternative de la scène'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082539.jpg',
+      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082539.jpg',
       alt: 'Lieu de performance - setup complet',
       caption: 'Installation complète avant performance'
     },
     {
-      src: '/Constellations2025/Scène-LieuPerformance/IMG_20250317_082545.jpg',
+      src: 'Constellations2025/Scène-LieuPerformance/IMG_20250317_082545.jpg',
       alt: 'Lieu de performance - vue finale',
       caption: 'Vue finale de l\'espace de performance'
     }
@@ -166,12 +166,12 @@ export default function GalleryPage() {
 
   const feedbackImages = [
     {
-      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100851.jpg',
+      src: 'Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100851.jpg',
       alt: 'Session de feedback - discussion',
       caption: 'Session de réflexion post-performance'
     },
     {
-      src: '/Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100857.jpg',
+      src: 'Constellations2025/Feedback-ConceptReflexion/IMG_20250317_100857.jpg',
       alt: 'Session de feedback - échanges',
       caption: 'Échanges conceptuels après les représentations'
     }
@@ -223,7 +223,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
+                href="Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"
@@ -240,7 +240,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
+                href="Constellations2025/Dessins-PapiersNumérisés/Dessins-PapiersNumérisés_2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="theater-button-primary"
