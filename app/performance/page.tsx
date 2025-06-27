@@ -45,7 +45,7 @@ export default function PerformancePage() {
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
-                Explorez l'ensemble des archives visuelles : chronologie de construction, 
+                Explorez l&apos;ensemble des archives visuelles : chronologie de construction, 
                 lieu de performance, sessions de feedback, et créations artistiques numérisées.
               </p>
               <div className="text-sm text-theater-muted">
@@ -93,13 +93,13 @@ export default function PerformancePage() {
           <PDFViewer
             src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
-            description="Mode d'emploi détaillé incluant la répartition des rôles (Assistant.e Intelligent.e et Athlètes Intelligent.e.s), le dispositif technique (vélo stationnaire, micro, crayons), et les instructions de performance."
+            description="Mode d&apos;emploi détaillé incluant la répartition des rôles (Assistant.e Intelligent.e et Athlètes Intelligent.e.s), le dispositif technique (vélo stationnaire, micro, crayons), et les instructions de performance."
           />
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral : 10 Doubles Réactions"
-            description="Texte intégral de la pièce présentant les réactions vocales et visuelles d'un être étrange lors de l'annonce d'un prix noble de paternité, transcrites depuis Bruxelles le 10 octobre 2024."
+            description="Texte intégral de la pièce présentant les réactions vocales et visuelles d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble de paternité, transcrites depuis Bruxelles le 10 octobre 2024."
           />
         </div>
       </section>
