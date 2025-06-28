@@ -54,12 +54,14 @@ const TimelineGallery: React.FC<TimelineGalleryProps> = ({ items, title, descrip
                       className="cursor-pointer transition-all duration-300 hover:shadow-lg rounded-lg overflow-hidden"
                       onClick={() => setSelectedImage({ itemIndex, imageIndex })}
                     >
-                      <img
-                        src={image.src}
-                        alt={image.alt}
-                        className="w-full h-48 object-cover"
-                        loading="lazy"
-                      />
+                      <div className="aspect-timeline">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
                       {image.caption && (
                         <div className="p-3 bg-theater-background">
                           <p className="text-sm text-theater-muted">{image.caption}</p>

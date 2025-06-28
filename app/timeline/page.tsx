@@ -165,7 +165,7 @@ export default function TimelinePage() {
       description: "Publication de fichiers documentant la préparation du prototype performé le 17 Mars.",
       details: "Mise à disposition publique des documents de travail, notes de mise en scène et matériaux de préparation de la performance théâtrale.",
       link: {
-        url: "https://github.com/daqhris/DoublementAliene/tree/main/Constellations2025",
+        url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
         text: "Consulter la documentation utile pour le prototype",
         external: true
       }

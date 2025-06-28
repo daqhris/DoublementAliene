@@ -44,12 +44,20 @@ const PDFViewer: React.FC<PDFViewerProps> = ({ src, title, description }) => {
                     Si le document ne s&apos;affiche pas correctement, votre navigateur peut ne pas supporter 
                     l&apos;affichage PDF intégré.
                   </p>
-                  <div className="bg-theater-muted p-4 rounded-lg">
+                  <div className="bg-theater-muted p-4 rounded-lg mb-4">
                     <p className="text-sm text-theater-text">
                       <strong>Contenu du document :</strong><br/>
                       {description || "Documentation de performance théâtrale"}
                     </p>
                   </div>
+                  <a
+                    href={src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="theater-button-primary"
+                  >
+                    Télécharger le PDF
+                  </a>
                 </div>
               </div>
             </object>

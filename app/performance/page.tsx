@@ -36,35 +36,34 @@ export default function PerformancePage() {
             tout en lisant et dessinant, assistés par un.e &ldquo;Assistant.e Intelligent.e&rdquo;.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="theater-card-gallery">
+              <span className="theater-card-type-badge theater-badge-gallery">Archives Visuelles</span>
+              <h4 className="theater-nav-title mb-3">
                 <Link href="/performance/gallery" className="theater-link">
-                  Galerie Créative
+                  Galerie Créative Complète
                 </Link>
               </h4>
-              <p className="theater-nav-description">
-                Explorez la chronologie complète : construction, performance, et créations artistiques.
+              <p className="theater-nav-description mb-4">
+                Explorez l&apos;ensemble des archives visuelles : chronologie de construction, 
+                lieu de performance, sessions de feedback, et créations artistiques numérisées.
               </p>
+              <div className="text-sm text-theater-muted">
+                <strong>Contenu :</strong> Construction (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
+              </div>
             </div>
 
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">
-                <Link href="/performance/gallery#construction" className="theater-link">
-                  Processus de Construction
-                </Link>
-              </h4>
-              <p className="theater-nav-description">
-                Suivez la construction artisanale du support en bois pour vélo fixe (9-17 Mars 2025).
+            <div className="theater-card-restricted">
+              <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
+              <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
+              <p className="theater-nav-description mb-4">
+                <strong>Accès limité aux collaborateurs :</strong> Les enregistrements vidéo et audio 
+                de la performance sont disponibles pour les co-auteurs et collaborateurs du projet 
+                sur demande spécifique.
               </p>
-            </div>
-
-            <div className="border-l-4 border-solarized-base2 pl-6">
-              <h4 className="theater-nav-title mb-2">Enregistrements Vidéo</h4>
-              <p className="theater-nav-description">
-                <strong>Accès restreint:</strong> Les enregistrements audiovisuels sont disponibles 
-                pour les co-auteurs et collaborateurs du projet.
-              </p>
+              <div className="text-sm text-theater-muted">
+                <strong>Contact :</strong> Demande d&apos;accès via les canaux de collaboration du projet
+              </div>
             </div>
           </div>
         </div>
@@ -82,13 +81,13 @@ export default function PerformancePage() {
           <PDFViewer
             src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
-            description="Mode d'emploi détaillé incluant la répartition des rôles (Assistant.e Intelligent.e et Athlètes Intelligent.e.s), le dispositif technique (vélo stationnaire, micro, crayons), et les instructions de performance."
+            description="Mode d&apos;emploi détaillé incluant la répartition des rôles (Assistant.e Intelligent.e et Athlètes Intelligent.e.s), le dispositif technique (vélo stationnaire, micro, crayons), et les instructions de performance."
           />
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral : 10 Doubles Réactions"
-            description="Texte intégral de la pièce présentant les réactions vocales et visuelles d'un être étrange lors de l'annonce d'un prix noble de paternité, transcrites depuis Bruxelles le 10 octobre 2024."
+            description="Texte intégral de la pièce présentant les réactions vocales et visuelles d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble de paternité, transcrites depuis Bruxelles le 10 octobre 2024."
           />
         </div>
       </section>

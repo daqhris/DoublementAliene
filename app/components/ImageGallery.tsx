@@ -31,11 +31,11 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, title, description 
             className="theater-card cursor-pointer transition-all duration-300 hover:shadow-lg"
             onClick={() => setSelectedImage(index)}
           >
-            <div className="aspect-w-4 aspect-h-3 mb-4">
+            <div className="aspect-gallery mb-4">
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
                 loading="lazy"
               />
             </div>
