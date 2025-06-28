@@ -874,7 +874,7 @@ body {
 
 .theater-badge-gallery {
   background: linear-gradient(135deg, var(--solarized-cyan), var(--solarized-blue));
-  color: var(--solarized-base3);
+  color: var(--solarized-base03);
   border-color: var(--solarized-cyan);
 }
 
