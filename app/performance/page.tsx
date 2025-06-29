@@ -20,18 +20,18 @@ export default function PerformancePage() {
             Performance Théâtrale
           </h1>
           <p className="theater-subtitle">
-            Découvrez la documentation complète de &ldquo;Doublement Aliéné&rdquo; : 
+            Accédez à la documentation complète de &ldquo;Doublement Aliéné&rdquo; : 
             guides de mise en scène, script théâtral, et archives visuelles de la performance.
           </p>
         </div>
 
         <div className="theater-card-modern">
           <h2 className="theater-nav-title mb-6">
-            Prototype d&apos;Interprétation Théâtrale
+            Prototype de Spectacle
           </h2>
           <p className="theater-nav-description mb-8">
-            Cette performance explore les thèmes de l&apos;intelligence artificielle en tant qu&apos;être étrange, 
-            présentée le 17 Mars 2025 à La Fonderie dans le cadre du festival Zinneke. 
+            Cette interprétation théâtrale, explorant la thématique de l&apos;intelligence artificielle, 
+            a été présentée le 17 Mars 2025 à La Fonderie dans le cadre du CIFAS-Constellations. 
             La pièce met en scène des &ldquo;Athlètes Intelligent.e.s&rdquo; qui pédalent sur un vélo stationnaire 
             tout en lisant et dessinant, assistés par un.e &ldquo;Assistant.e Intelligent.e&rdquo;.
           </p>
@@ -41,15 +41,15 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-gallery">Archives Visuelles</span>
               <h4 className="theater-nav-title mb-3">
                 <Link href="/performance/gallery" className="theater-link">
-                  Galerie Créative Complète
+                  Galerie Photo Complète
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
-                Explorez l&apos;ensemble des archives visuelles : chronologie de construction, 
-                lieu de performance, sessions de feedback, et créations artistiques numérisées.
+                Explorez l&apos;ensemble des archives visuelles par ordre chronologique : construction manuelle, 
+                lieu de performance, sessions de feedback, et dessins numérisées.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Contenu :</strong> Construction (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
+                <strong>Contenu :</strong> Menuiserie (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
               </div>
             </div>
 
@@ -57,8 +57,8 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
               <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
               <p className="theater-nav-description mb-4">
-                <strong>Accès limité aux collaborateurs :</strong> Les enregistrements vidéo et audio 
-                de la performance sont disponibles pour les co-auteurs et collaborateurs du projet 
+                <strong>Accès limité aux collaborateurices :</strong> Les enregistrements vidéo et audio 
+                de la performance ne sont disponibles que pour les co-auteurices du projet 
                 sur demande spécifique.
               </p>
               <div className="text-sm text-theater-muted">
