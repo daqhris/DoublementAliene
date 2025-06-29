@@ -27,10 +27,10 @@ export default function PerformancePage() {
 
         <div className="theater-card-modern">
           <h2 className="theater-nav-title mb-6">
-            Prototype d&apos;Interprétation Théâtrale
+            Prototype de Spectacle
           </h2>
           <p className="theater-nav-description mb-8">
-            Cette performance, explorant les thèmes de l&apos;intelligence artificielle en tant qu&apos;être étrange, 
+            Cette interprétation théâtrale, explorant la thématique de l&apos;intelligence artificielle, 
             a été présentée le 17 Mars 2025 à La Fonderie dans le cadre du CIFAS-Constellations. 
             La pièce met en scène des &ldquo;Athlètes Intelligent.e.s&rdquo; qui pédalent sur un vélo stationnaire 
             tout en lisant et dessinant, assistés par un.e &ldquo;Assistant.e Intelligent.e&rdquo;.
@@ -58,7 +58,7 @@ export default function PerformancePage() {
               <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
               <p className="theater-nav-description mb-4">
                 <strong>Accès limité aux collaborateurices :</strong> Les enregistrements vidéo et audio 
-                de la performance sont disponibles pour les co-auteurices du projet 
+                de la performance ne sont disponibles que pour les co-auteurices du projet 
                 sur demande spécifique.
               </p>
               <div className="text-sm text-theater-muted">
