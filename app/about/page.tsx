@@ -27,7 +27,7 @@ export default function AboutPage() {
             Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Ce projet a été initié par un artiste francophone, de nationalité Burundaise, et vivant à Bruxelles. Il a participé au programme de co-apprentissage{' '}
+            Ce projet a été initié par un artiste francophone de nationalité Burundaise qui vit à Bruxelles. Il a participé au programme de co-apprentissage{' '}
             <Link 
               href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
               className="theater-link"
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel explorant l&apos;aliénation juxtaposée à l&apos;avènement d&apos;une forme vie étrangement intélligente.
+              Une adaptation théâtrale d&apos;un récit fictionnel racontant l&apos;avènement d&apos;une forme vie étrangement intélligente juxtaposée à l&apos;aliénation sociale.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Construction transparente et documentation publique ne dépendant que de logiciels libres. Partage des ressources créatives en tenant compte de délais non-contraignants.
+              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives en tenant compte de délais non-contraignants.
             </p>
           </div>
 
@@ -122,14 +122,14 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Si vous avez la moindre envie de participer au projet, n&apos;hésitez pas à vous orienter vers le{' '}
+            Si vous avez la moindre envie de vous engager au profit du projet, n&apos;hésitez pas à vous orienter vers le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              dépôt de code source sur GitHub
+              dépôt du code source sur GitHub
             </Link>{' '}.
           </p>
         </div>
