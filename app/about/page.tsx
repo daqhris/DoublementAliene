@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plate-forme numérique qui ont en commun une approche open-source, participative et décentralisée.
+            «Doublement Aliéné» est un projet de théâtre dans un espace public associé à une plate-forme numérique qui ont en commun une pensée open-source, collaborative et agentive.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
             Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Projet initié à Bruxelles par un artiste ayant participé au programme de co-apprentissage{' '}
+            Ce projet a été initié par un artiste francophone, de nationalité Burundaise, et vivant à Bruxelles. Il a participé au programme de co-apprentissage{' '}
             <Link 
               href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
               className="theater-link"
