@@ -5,7 +5,7 @@ import NotificationBanner from './components/NotificationBanner'
 
 export const metadata: Metadata = {
   title: 'Doublement Aliéné - Accueil',
-  description: 'Plateforme collaborative dédiée à un spectacle théâtral dans un espace public',
+  description: 'Plate-forme numérique et open-source dédiée à un spectacle théâtral dans un espace public',
 }
 
 export default function HomePage() {
@@ -18,7 +18,7 @@ export default function HomePage() {
             Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Plateforme numérique érigée par un binôme pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale jouée par des personnes physiques.
+            Plate-forme numérique érigée par un binôme pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale jouée par des personnes physiques.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <Link href="/timeline" className="theater-link">Chronologie</Link>
               </div>
               <div className="theater-nav-description">
-                Suivez les étapes cruciales de l&apos;évolution du projet depuis sa conception à maintenant
+                Suivez les étapes cruciales dans l&apos;évolution du projet depuis sa conception à maintenant
               </div>
             </div>
           </div>
