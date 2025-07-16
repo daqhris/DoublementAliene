@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'À Propos - Doublement Aliéné',
-  description: 'Informations sur le projet, co-auteurs, soutiens et philosophie collaborative',
+  description: 'Informations concises sur le projet, co-auteurices, soutiens providentiels et philosophie collaborative',
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plateforme numérique qui ont en commun une approche open-source, participative et décentralisée.
+            «Doublement Aliéné» est un projet de théâtre joué dans un espace public, associé à une plate-forme numérique et guidé par une pensée open-source, collaborative et agentive.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
             Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Projet initié à Bruxelles par un artiste ayant participé au programme de co-apprentissage{' '}
+            Ce projet a été initié par un artiste francophone de nationalité Burundaise qui vit à Bruxelles. Il a participé au programme de co-apprentissage{' '}
             <Link 
               href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
               className="theater-link"
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel explorant l&apos;aliénation contemporaine juxtaposée à l&apos;avènement d&apos;une forme étrange de vie intélligente.
+              Une adaptation théâtrale d&apos;un récit fictionnel racontant l&apos;avènement d&apos;une forme vie étrangement intélligente juxtaposée à l&apos;aliénation sociale.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Développement transparent ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives en tenant compte de délais non-contraignants.
+              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives en tenant compte de délais non-contraignants.
             </p>
           </div>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
               Co-propriété de Bien Immatériel
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des enregistrements audiovisuels tokenisés et le partage équitable des revenus du bien intangible entre participants.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété des enregistrements audiovisuels et le partage équitable des revenus du bien intangible entre co-auteurices.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
@@ -102,14 +102,14 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Chris A. Iradukunda (daqhris)</h3>
               <p className="theater-nav-description">
-                Conception artistique, direction créative, scénarisation théâtrale, construction mécanique, performance sur scène et coordination du projet.
+                Conception artistique, direction créative, scénarisation théâtrale, construction manuelle, réparation mécanique, performance sur scène et coordination du projet.
               </p>
             </div>
             
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
-                Architecture technique, développement de la plateforme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
+                Architecture technique, expertise informatique, développement de la plate-forme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
               </p>
             </div>
           </div>
@@ -122,14 +122,14 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Pour toute question ou désir de collaboration ou participation volontaire au projet, n&apos;hésitez pas à consulter le{' '}
+            Si vous avez la moindre envie de vous engager au profit du projet, n&apos;hésitez pas à vous orienter vers le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              dépôt de code source sur GitHub
+              dépôt du code source sur GitHub
             </Link>{' '}.
           </p>
         </div>

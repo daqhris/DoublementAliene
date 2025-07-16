@@ -180,17 +180,17 @@ export default function GalleryPage() {
   return (
     <div className="theater-container py-12">
       <div className="theater-section-header mb-12">
-        <h1 className="theater-heading-lg mb-4">Galerie Créative</h1>
+        <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
-          Explorez le processus créatif complet de &ldquo;Doublement Aliéné&rdquo; : 
-          de la construction artisanale du support en bois à la performance théâtrale, 
-          en passant par les réflexions conceptuelles et les créations artistiques.
+          Explorez le processus créatif de «Doublement Aliéné» : 
+          de la construction artisanale avec du bois à la première interprétation de prototypes, 
+          en finissant par les réflexions conceptuelles des artistes et leurs dessins numérisés.
         </p>
       </div>
 
       <TimelineGallery
-        title="Chronologie de Construction"
-        description="Suivez l'évolution chronologique de la construction du support en bois pour vélo fixe, élément central de la performance théâtrale."
+        title="Menuiserie Artisanale"
+        description="Suivez l'évolution chronologique de la construction du support en bois pour un vélo fixe, élément central de la performance théâtrale."
         items={constructionTimeline}
       />
 
@@ -208,9 +208,9 @@ export default function GalleryPage() {
 
       <section className="theater-section mb-12">
         <div className="theater-section-header mb-8">
-          <h2 className="theater-heading-md mb-4">Dessins et Créations Artistiques</h2>
+          <h2 className="theater-heading-md mb-4">Dessins Artistiques</h2>
           <p className="theater-subtitle">
-            Créations artistiques numérisées réalisées pendant les performances, 
+            Créations artistiques réalisées pendant (et numérisées après) les performances, 
             accompagnant les enregistrements audiovisuels.
           </p>
         </div>
