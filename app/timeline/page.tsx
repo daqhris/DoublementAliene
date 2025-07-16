@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'Chronologie - Doublement Aliéné',
-  description: 'Chronologie complète du développement du projet théâtral depuis ses origines',
+  description: 'Chronologie complète du développement du projet théâtral dès ses origines',
 };
 
 interface TimelineItemProps {
@@ -80,7 +80,7 @@ export default function TimelinePage() {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
       description: "Première parution en ligne et publication sur blockchain de l'œuvre originale écrite en Anglais, \"Twofold Alienated\".",
-      details: "Publication via Manifold faite par l'artiste daqhris et marquant le début officiel du projet artistique.",
+      details: "Publication faite par l'artiste daqhris via Manifold et marquant le début officiel du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit original en Anglais",
@@ -90,11 +90,11 @@ export default function TimelinePage() {
     {
       date: "25 Novembre 2024",
       title: "Sélection CIFAS Constellations",
-      description: "Annonce par le CIFAS d'artistes pluridisciplinaires sélectionnés pour l'édition 2025 des Constellations.",
-      details: "Chris A. Iradukunda (daqhris) figure parmi les artistes sélectionnés pour le programme de co-apprentissage.",
+      description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations.",
+      details: "Chris A. Iradukunda (daqhris) figurait parmi les artistes sélectionnés pour les sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
-        text: "Jeter un coup d'œil un aux Constellations 2025",
+        text: "Jeter un coup d'œil aux Constellations 2025",
         external: true
       }
     },
@@ -102,10 +102,10 @@ export default function TimelinePage() {
       date: "Décembre 2024 - Janvier 2025",
       title: "Dépôt de Code: TwofoldAlienated",
       description: "Création d'un dépôt de code public sous la forme numérique git et open-source sur GitHub.",
-      details: "Rassemblement de tous les documents liés au texte original en Anglais dans un environnement collaboratif et transparent.",
+      details: "Recueil de tous les documents liés au texte original en Anglais dans un environnement collaboratif et transparent.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
-        text: "Code source: twofold-alienated",
+        text: "Code source : twofold-alienated",
         external: true
       }
     },
@@ -127,7 +127,7 @@ export default function TimelinePage() {
       details: "Performance au sein du Musée bruxellois de l'industrie et du travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Découvrir les enregistrements du prototype de performance"
+        text: "Découvrir les souvenirs du prototype de performance"
       },
       isHighlight: true
     },
@@ -188,10 +188,10 @@ export default function TimelinePage() {
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">
-            Chronologie du Projet
+            Chronologie
           </h1>
           <p className="theater-subtitle">
-            Suivez l&apos;évolution complète du projet &ldquo;Doublement Aliéné&rdquo; depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale en passant par la co-création de sa plate-forme numérique.
+            Voici l&apos;évolution détaillée du projet &ldquo;Doublement Aliéné&rdquo;, depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique.
           </p>
         </div>
 
