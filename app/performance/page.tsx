@@ -20,7 +20,7 @@ export default function PerformancePage() {
             Performance Théâtrale
           </h1>
           <p className="theater-subtitle">
-            Accédez à la documentation complète de &ldquo;Doublement Aliéné&rdquo; : 
+            Accédez à la documentation complète de «Doublement Aliéné» : 
             guide de mise en scène, script théâtral, et archives visuelles de la performance.
           </p>
         </div>
@@ -31,8 +31,8 @@ export default function PerformancePage() {
           </h2>
           <p className="theater-nav-description mb-8">
             Cette interprétation théâtrale a été présentée le 17 Mars 2025 à La Fonderie dans le cadre du CIFAS-Constellations. 
-            La pièce met en scène des &ldquo;Athlètes Intelligent.e.s&rdquo; qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
-            assistés par un.e &ldquo;Assistant.e Intelligent.e&rdquo;.
+            La pièce met en scène des «Athlètes Intelligent.e.s» qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
+            assistés par un.e «Assistant.e Intelligent.e».
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -40,7 +40,7 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-gallery">Archives Visuelles</span>
               <h4 className="theater-nav-title mb-3">
                 <Link href="/performance/gallery" className="theater-link">
-                  Galerie Photo & PDF
+                  Galerie Photo + PDF
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
