@@ -6,7 +6,7 @@ import PDFViewer from '../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Performance - Doublement Aliéné',
-  description: 'Documentation complète de la performance théâtrale Doublement Aliéné avec guide de mise en scène',
+  description: 'Documentation complète de la performance théâtrale «Doublement Aliéné» avec guide de mise en scène',
 };
 
 export default function PerformancePage() {
