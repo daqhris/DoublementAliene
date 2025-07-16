@@ -52,7 +52,7 @@ export default function HomePage() {
                 <Link href="/timeline" className="theater-link">Chronologie</Link>
               </div>
               <div className="theater-nav-description">
-                Suivez les étapes cruciales dans l&apos;évolution du projet depuis sa conception à maintenant
+                Les étapes cruciales qui ont façonné l&apos;évolution du projet de sa conception à maintenant
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur ce projet en art du spectacle et la philosophie collaborative de l&apos;artiste
+                Informations sur ce projet en art du spectacle, les lignes directrices et la philosophie de l&apos;artiste
               </div>
             </div>
           </div>
