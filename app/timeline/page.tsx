@@ -116,7 +116,7 @@ export default function TimelinePage() {
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et exploration des méthodologies artistiques contemporaines.",
       link: {
         url: "/about",
-        text: "En savoir plus sur le programme de co-apprentissage"
+        text: "En savoir plus sur ce programme du CIFAS"
       },
       isHighlight: true
     },
@@ -127,7 +127,7 @@ export default function TimelinePage() {
       details: "Performance au sein du Musée bruxellois de l'industrie et du travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Découvrir les souvenirs des premiers prototypes du spectacle"
+        text: "Accéder aux souvenirs de ce spectacle prototypé"
       },
       isHighlight: true
     },
@@ -155,7 +155,7 @@ export default function TimelinePage() {
       details: "Exploration des méthodologies de recherche et inclusion des avis d'intelligences artificielles dans le processus créatif.",
       link: {
         url: "/research",
-        text: "Visiter le laboratoire de recherche numérique et les entretiens avec des IA"
+        text: "Visiter le laboratoire numérique de recherche artistique"
       },
       isHighlight: true
     },
