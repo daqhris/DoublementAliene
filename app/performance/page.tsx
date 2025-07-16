@@ -21,7 +21,7 @@ export default function PerformancePage() {
           </h1>
           <p className="theater-subtitle">
             Accédez à la documentation complète de «Doublement Aliéné» : 
-            guide de mise en scène, script théâtral, et archives visuelles de la performance.
+            guide de mise en scène, script théâtral, archives visuelles et des films de la performance.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-gallery">Archives Visuelles</span>
               <h4 className="theater-nav-title mb-3">
                 <Link href="/performance/gallery" className="theater-link">
-                  Galerie Photo + PDF
+                  Galerie Photos + Dessins
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
