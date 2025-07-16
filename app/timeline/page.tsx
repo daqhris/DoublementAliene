@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution détaillée du projet &ldquo;Doublement Aliéné&rdquo;, depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique.
+            Voici l&apos;évolution détaillée de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique.
           </p>
         </div>
 
