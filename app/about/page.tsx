@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'À Propos - Doublement Aliéné',
-  description: 'Informations sur le projet, co-auteurs, soutiens et philosophie collaborative',
+  description: 'Informations concises sur le projet, co-auteurices, soutiens providentiels et philosophie collaborative',
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet de théâtre dans un espace public associé à une plate-forme numérique qui ont en commun une pensée open-source, collaborative et agentive.
+            «Doublement Aliéné» est un projet de théâtre joué dans un espace public, associé à une plate-forme numérique et guidé par une pensée open-source, collaborative et agentive.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel explorant l&apos;aliénation contemporaine juxtaposée à l&apos;avènement d&apos;une forme étrange de vie intélligente.
+              Une adaptation théâtrale d&apos;un récit fictionnel explorant l&apos;aliénation juxtaposée à l&apos;avènement d&apos;une forme vie étrangement intélligente.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Développement transparent ne dépendant que de logiciels libres avec documentation publique et partage des ressources créatives en tenant compte de délais non-contraignants.
+              Construction transparente et documentation publique ne dépendant que de logiciels libres. Partage des ressources créatives en tenant compte de délais non-contraignants.
             </p>
           </div>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
               Co-propriété de Bien Immatériel
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des enregistrements audiovisuels et le partage équitable des revenus du bien intangible entre co-auteurices.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété des enregistrements audiovisuels et le partage équitable des revenus du bien intangible entre co-auteurices.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
@@ -122,7 +122,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Pour toute question ou désir de collaboration ou participation volontaire au projet, n&apos;hésitez pas à consulter le{' '}
+            Si vous avez la moindre envie de participer au projet, n&apos;hésitez pas à vous orienter vers le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
