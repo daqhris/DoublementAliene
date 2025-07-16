@@ -32,7 +32,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                Découvrez les protoypes, représentations, enregistrements ou souvenirs de la pièce de théâtre
+                La documentation en accès public des protoypes et autres souvenirs de la pièce de théâtre
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur ce projet en art du spectacle, les lignes directrices et la philosophie de l&apos;artiste
+                Informations sur ce projet en art du spectacle, ses lignes directrices et la philosophie de l&apos;artiste
               </div>
             </div>
           </div>
