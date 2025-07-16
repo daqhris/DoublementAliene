@@ -28,12 +28,12 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Ce laboratoire de recherche artistique explore les thèmes d&apos;aliénation et IA en tant qu&apos;être à travers des questions et réponses ainsi que l&apos;intégration d&apos;intelligences artificielles dans le processus créatif théâtral.
+            Ce laboratoire numérique de recherche artistique explore les thèmes liés à l&apos;aliénation et IA en tant qu&apos;êtres à travers des questions et réponses ainsi que l&apos;intégration d&apos;intelligences artificielles dans le processus créatif théâtral.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
             <h3 className="theater-nav-title mb-3">
-              Méthodologies
+              Méthodologie
             </h3>
             <p className="theater-nav-description mb-4">
               Utilisation d&apos;outils de discussion avec les IA pour un raisonnement créatif intégrant leurs idées, l&apos;analyse des concepts liés à l&apos;émergence de vie numérique et de l&apos;aliénation du travail humain dans le théâtre contemporain.
