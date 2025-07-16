@@ -28,7 +28,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire numérique de recherche creuse en profondeur le sujet de l&apos;aliénation par le travail et questionne les IA en tant qu&apos;êtres en visant l&apos;inclusion d&apos;intelligences artificielles dans le processus créatif.
+            Le laboratoire numérique de recherche creuse en profondeur le sujet de l&apos;aliénation par le travail et questionne les systèmes d&apos;intelligences artificielles en tant qu&apos;êtres en visant leur inclusion d&apos; dans le processus créatif.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
