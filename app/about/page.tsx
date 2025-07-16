@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plateforme numérique qui ont en commun une approche open-source, participative et décentralisée.
+            &ldquo;Doublement Aliéné&rdquo; est un projet de théâtre dans un espace public associé à une plate-forme numérique qui ont en commun une approche open-source, participative et décentralisée.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
               Co-propriété de Bien Immatériel
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des enregistrements audiovisuels tokenisés et le partage équitable des revenus du bien intangible entre participants.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété transparente des enregistrements audiovisuels et le partage équitable des revenus du bien intangible entre co-auteurices.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
@@ -102,14 +102,14 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Chris A. Iradukunda (daqhris)</h3>
               <p className="theater-nav-description">
-                Conception artistique, direction créative, scénarisation théâtrale, construction mécanique, performance sur scène et coordination du projet.
+                Conception artistique, direction créative, scénarisation théâtrale, construction manuelle, réparation mécanique, performance sur scène et coordination du projet.
               </p>
             </div>
             
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
-                Architecture technique, développement de la plateforme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
+                Architecture technique, expertise informatique, développement de la plate-forme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
               </p>
             </div>
           </div>
