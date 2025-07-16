@@ -46,12 +46,15 @@ const ResearchQA: React.FC = () => {
           content: `Here are the definitions for each of the terms:
 
 **Twofold**
+
 "Twofold" is an adjective that means something is double or has two parts. It can refer to a situation, concept, or outcome that has two distinct aspects or dimensions. For example, a twofold increase in sales means that sales have doubled.
 
 **Alienated**
+
 "Alienated" is an adjective that describes a state of being isolated or estranged from a group, community, or oneself. It often refers to feelings of disconnection or lack of belonging, where an individual feels removed from their surroundings or relationships. This term can also apply to a sense of detachment from one's own feelings or identity.
 
 **Twofold Alienated**
+
 "Twofold alienated" combines the meanings of the two previous terms. It suggests a situation where an individual experiences alienation on two distinct levels or dimensions. This could mean feeling alienated both from a social group and from oneself, or it could refer to being estranged in two different contexts, such as personal relationships and professional environments.
 
 In summary, "twofold" indicates a dual aspect, "alienated" refers to a state of disconnection, and "twofold alienated" describes a situation of alienation experienced on two levels.`
@@ -207,7 +210,7 @@ Overall, I would approach "Twofold Alienated" as a poignant and thought-provokin
               </p>
             </div>
             
-            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>Réponses des IA</h4>
+            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>Réponses d&apos;IA</h4>
             <div className="space-y-4" role="region" aria-labelledby={`responses-${question.id}`}>
               {question.responses.map((response: AIResponse, index: number) => (
                 <details key={index} className="theater-card-modern" open={index === 0}>
