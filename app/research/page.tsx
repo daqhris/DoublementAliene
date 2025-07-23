@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import NotificationBanner from '../components/NotificationBanner';
+import LanguageNotification from '../components/LanguageNotification';
 import ResearchQA from '../components/ResearchQA';
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ export default function ResearchPage() {
             Remise en question du concept d&apos;aliénation et préfiguration de la mise en scène du spectacle à travers des conversations avec différents modèles d&apos;Intelligence Artificielle ayant eu lieu chez Duck.ai.
           </p>
         </div>
+        <LanguageNotification />
         <ResearchQA />
       </section>
     </div>
