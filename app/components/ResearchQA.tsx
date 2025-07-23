@@ -210,7 +210,7 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
               </p>
             </div>
             
-            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>AI Responses</h4>
+            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>AI Response</h4>
             <div className="space-y-4" role="region" aria-labelledby={`responses-${question.id}`}>
               {question.responses.map((response: AIResponse, index: number) => (
                 <details key={index} className="theater-card-modern" open={index === 0}>
