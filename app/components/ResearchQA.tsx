@@ -22,8 +22,8 @@ const ResearchQA: React.FC = () => {
   const formatTimestamp = (timestamp: string): string => {
     const date = new Date(timestamp);
     const months = [
-      'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
-      'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'
     ];
     
     const day = date.getDate();
@@ -32,7 +32,7 @@ const ResearchQA: React.FC = () => {
     const hours = date.getHours();
     const minutes = date.getMinutes().toString().padStart(2, '0');
     
-    return `${day} ${month} ${year} à ${hours}h${minutes}`;
+    return `${day} ${month} ${year} at ${hours}h${minutes}`;
   };
 
   const questions: Question[] = [
@@ -206,11 +206,11 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
                 &ldquo;{question.text}&rdquo;
               </p>
               <p className="text-sm text-theater-muted">
-                Posée le {formatTimestamp(question.timestamp)}
+                Asked on {formatTimestamp(question.timestamp)}
               </p>
             </div>
             
-            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>Réponses d&apos;IA</h4>
+            <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>AI Responses</h4>
             <div className="space-y-4" role="region" aria-labelledby={`responses-${question.id}`}>
               {question.responses.map((response: AIResponse, index: number) => (
                 <details key={index} className="theater-card-modern" open={index === 0}>
@@ -220,7 +220,7 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
                       ▼
                     </span>
                   </summary>
-                  <div className="text-theater-text leading-relaxed mb-4" role="article" aria-label={`Réponse de ${response.model}`}>
+                  <div className="text-theater-text leading-relaxed mb-4" role="article" aria-label={`Response from ${response.model}`}>
                     <ReactMarkdown 
                       components={{
                         strong: ({children}) => <strong className="font-semibold text-theater-text">{children}</strong>,
@@ -240,26 +240,26 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
                     <div className="text-sm text-theater-muted" role="contentinfo">
                       {response.filename ? (
                         <span>
-                          Fichier source: <a
+                          Source file: <a
                             href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${response.filename}`}
                             className="text-theater-text underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background"
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label={`Ouvrir le fichier source ${response.filename} dans un nouvel onglet`}
+                            aria-label={`Open the source file ${response.filename} in another browser window`}
                           >
                             {response.filename}
                           </a>
                         </span>
                       ) : response.filenames ? (
                         <span>
-                          Fichiers sources: {response.filenames.map((filename: string, idx: number) => (
+                          Source files: {response.filenames.map((filename: string, idx: number) => (
                             <span key={filename}>
                               <a
                                 href={`https://github.com/daqhris/DoublementAliene/blob/main/ResearchLab/${filename}`}
                                 className="text-theater-text underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label={`Ouvrir le fichier source ${filename} dans un nouvel onglet`}
+                                aria-label={`Open the source file ${filename} in another browser tab`}
                               >
                                 {filename}
                               </a>
