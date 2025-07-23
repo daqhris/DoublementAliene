@@ -6,7 +6,7 @@ const LanguageNotification: React.FC = () => {
     <div className="theater-notification-banner">
       <div className="theater-notification-content">
         <p className="theater-text">
-          <strong>Note:</strong> Comme toute exploration vers l&apos;extrême du monde connu, la langue d&apos;usage ci-dessous est l&apos;Anglais.
+          <strong>Note:</strong> Comme les explorations révolues vers l&apos;extrême du monde connu, la langue d&apos;usage ci-dessous est l&apos;Anglais.
         </p>
       </div>
     </div>
