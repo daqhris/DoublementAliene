@@ -6,7 +6,7 @@ import PDFViewer from '../../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Galerie - Doublement Aliéné',
-  description: 'Galerie chronologique des matériaux créatifs de la performance théâtrale Doublement Aliéné',
+  description: 'Galerie chronologique des matériaux créatifs du spectacle «Doublement Aliéné»',
 };
 
 export default function GalleryPage() {
@@ -183,14 +183,14 @@ export default function GalleryPage() {
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
           Explorez le processus créatif de «Doublement Aliéné» : 
-          de la construction artisanale avec du bois à la première interprétation de prototypes, 
-          en finissant par les réflexions conceptuelles des artistes et leurs dessins numérisés.
+          de la construction d'un support-vélo en bois à l'interprétation du premier prototype en privé, 
+          en finissant par des réflexions conceptuelles et des dessins numérisés.
         </p>
       </div>
 
       <TimelineGallery
         title="Menuiserie Artisanale"
-        description="Suivez l'évolution chronologique de la construction du support en bois pour un vélo fixe, élément central de la performance théâtrale."
+        description="L'évolution chronologique est passée par la construction manuelle d'un support en bois pour un vélo stationnaire, élément central de la performance théâtrale."
         items={constructionTimeline}
       />
 
@@ -202,7 +202,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Session de Feedback et Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels suite aux représentations théâtrales."
+        description="Moments de réflexion et d'échanges conceptuels suite à deux représentations théâtrales."
         images={feedbackImages}
       />
 
