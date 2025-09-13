@@ -183,7 +183,7 @@ export default function GalleryPage() {
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
           Explorez le processus créatif de «Doublement Aliéné» : 
-          de la construction d'un support-vélo en bois à l'interprétation du premier prototype en privé, 
+          de la construction d&apos;un support-vélo en bois à l&apos;interprétation du premier prototype en privé, 
           en finissant par des réflexions conceptuelles et des dessins numérisés.
         </p>
       </div>
