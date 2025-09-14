@@ -151,7 +151,7 @@ export default function TimelinePage() {
     {
       date: "22 Juin 2025",
       title: "Naissance du ResearchLab",
-      description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche artistique.",
+      description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche.",
       details: "Exploration des méthodologies de recherche et inclusion des avis d'intelligences artificielles dans le processus créatif.",
       link: {
         url: "/research",
@@ -172,7 +172,7 @@ export default function TimelinePage() {
     },
     {
       date: "25 Juin 2025 à Maintenant",
-      title: "Plate-forme Web Collaborative",
+      title: "Plate-forme Web du Spectacle",
       description: "Développement en collaboration avec Devin AI d'une interface web spéciale.",
       details: "Construction d'une plate-forme numérique et open-source permettant la co-gestion des films tokenisés et le partage équitable des droits et revenus artistiques entre commédien.ne.s.",
       link: {
@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution détaillée de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique.
+            Voici l&apos;évolution détaillée de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique en ligne.
           </p>
         </div>
 
