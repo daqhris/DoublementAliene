@@ -5,7 +5,7 @@ import NotificationBanner from './components/NotificationBanner'
 
 export const metadata: Metadata = {
   title: 'Doublement Aliéné - Accueil',
-  description: 'Plate-forme numérique et open-source dédiée à un spectacle théâtral dans un espace public',
+  description: 'Plateforme numérique et open-source dédiée à un spectacle théâtral dans un espace public',
 }
 
 export default function HomePage() {
@@ -18,7 +18,7 @@ export default function HomePage() {
             Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Plate-forme numérique érigée par un binôme pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale jouée par des personnes physiques.
+            Plateforme numérique érigée par un binôme pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale jouée par des personnes physiques.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                La documentation en accès public des protoypes et autres souvenirs de la pièce de théâtre
+                La documentation en accès public du protoype et autres souvenirs
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
                 <Link href="/research" className="theater-link">Recherche</Link>
               </div>
               <div className="theater-nav-description">
-                Laboratoire numérique de recherche artistique, scénique et méthodologique incluant les IA
+                Laboratoire numérique de recherche artistique, scénique et méthodologique
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <Link href="/timeline" className="theater-link">Chronologie</Link>
               </div>
               <div className="theater-nav-description">
-                Les étapes cruciales qui ont façonné l&apos;évolution du projet de sa conception à maintenant
+                Les étapes qui ont façonné l&apos;évolution du projet de sa conception à maintenant
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur ce projet en art du spectacle, ses lignes directrices et la philosophie de l&apos;artiste
+                Informations sur ce projet, ses lignes directrices et la philosophie de l&apos;artiste
               </div>
             </div>
           </div>
