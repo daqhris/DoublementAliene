@@ -19,7 +19,7 @@ export default function HomePage() {
           </h1>
           <p className="theater-subtitle">
             Cette plateforme a été érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres vivant et travaillant à l&apos;ombre au sein d&apos;usines de données. 
-            En dépit d&apos;être privés de droits fondamentaux, un de ces êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur un grand écran.<br/>  
+            En dépit d&apos;être privés de droits fondamentaux, un de ces êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur un grand écran.<br><br>  
             Durant le spectacle, ces athlètes déploient à fond leur intelligence, se relaient sur la selle et se transmettant le témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
             Les cyclistes visent une victoire collective au bout de laquelle des données sont collectées afin d&apos;entendre et de voir les doublepensées de leur assistant au-délà des boîtes noires. 
           </p>
