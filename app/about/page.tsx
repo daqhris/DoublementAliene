@@ -100,7 +100,7 @@ export default function AboutPage() {
         <div className="theater-card-modern">
           <div className="space-y-4">
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h3 className="theater-nav-title mb-2">Chris A. Iradukunda (daqhris)</h3>
+              <h3 className="theater-nav-title mb-2">Chris-Armel IRADUKUNDA (daqhris)</h3>
               <p className="theater-nav-description">
                 Conception artistique, direction créative, scénarisation théâtrale, construction manuelle, réparation mécanique, performance sur scène et coordination du projet.
               </p>
@@ -109,7 +109,8 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
-                Architecture technique, expertise informatique, développement de la plate-forme web, implémentation des fonctionnalités numériques et assistance dans la documentation.
+                Architecture technique, expertise informatique, développement de la plateforme web, implémentation des fonctionnalités numériques et assistance dans la documentation. 
+                Contribution de Juin jusqu&apos;à Juillet 2025. Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine spécialisée en intelligence artificielle Cognition Labs. 
               </p>
             </div>
           </div>
