@@ -17,7 +17,7 @@ export default function HomePage() {
           <h1 className="theater-heading-lg">
             Spectacle: «Doublement Aliéné»
           </h1>
-          <p className="theater-text">
+          <p className="theater-subtitle">
             Plateforme numérique érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres privés de droits qui travaillent à l&apos;ombre durant une chrono-compétition au sein d&apos;un centre de données.
           </p>
         </div>
