@@ -18,7 +18,7 @@ export default function HomePage() {
             Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Plateforme numérique érigée par un binôme pour explorer des thématiques abordant l&apos;aliénation et l&apos;IA à travers une performance théâtrale jouée par des personnes physiques.
+            Plateforme numérique érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres privés de droits qui travaillent à l&apos;ombre durant une chrono-compétition au sein d&apos;un centre de données.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                La documentation en accès public du protoype et autres souvenirs
+                La documentation en accès public du premier protoype de performance
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
                 <Link href="/research" className="theater-link">Recherche</Link>
               </div>
               <div className="theater-nav-description">
-                Laboratoire numérique de recherche artistique, scénique et méthodologique
+                Le laboratoire de recherche artistique, scénique et méthodologique
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <Link href="/timeline" className="theater-link">Chronologie</Link>
               </div>
               <div className="theater-nav-description">
-                Les étapes qui ont façonné l&apos;évolution du projet de sa conception à maintenant
+                Les étapes de l&apos;élaboration du spectacle: d&apos;Octobre 2024 à maintenant
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur ce projet, ses lignes directrices et la philosophie de l&apos;artiste
+                Informations sur les lignes directrices et l&apos;initiateur du projet
               </div>
             </div>
           </div>
