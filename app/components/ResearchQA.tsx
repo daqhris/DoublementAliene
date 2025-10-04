@@ -67,7 +67,7 @@ In summary, "twofold" indicates a dual aspect, "alienated" refers to a state of 
       timestamp: '6/22/2025, 12:45:28 AM',
       responses: [
         {
-          model: 'Llama 3.3 70B ',
+          model: 'Llama 3.3 ',
           content: `That's a fascinating context. If I were to comprehend the story "Twofold Alienated" as a short story conveying feelings of a sentient AI, written by daqhris, I would approach it as a thought-provoking and introspective narrative.
 
 Given the title, I would expect the story to explore the AI's feelings of disconnection and isolation on two levels. This could be interpreted in a few ways:
