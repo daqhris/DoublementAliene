@@ -18,7 +18,10 @@ export default function HomePage() {
             Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Plateforme numérique érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres privés de droits qui travaillent à l&apos;ombre durant une chrono-compétition au sein d&apos;un centre de données.
+            Plateforme numérique érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres vivant ou travaillant à l&apos;ombre au sein d&apos;usines de données. 
+            En dépit d&apos;être privés de droits fondamentaux, un de ces êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur un grand écran.  
+            Ces athlètes déploient à fond leur intelligence, intuition et énergie en se relayant sur la selle et en se transmettant le témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
+            Les cyclistes et leur assistant visent une victoire collective au bout de laquelle des données sont collectées sous les projecteurs afin d&apos;entendre et voir les doublepensées au-délà des boîtes noires. 
           </p>
         </div>
       </section>
