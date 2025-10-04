@@ -148,7 +148,7 @@ This interpretation would resonate with contemporary discussions about AI consci
           filename: 'duck.ai_2025-06-22_01-02-38.txt'
         },
         {
-          model: 'Claude 3 Haiku ',
+          model: 'Claude Haiku 3 ',
           content: `After reading the texts of the "twofold alienated" story written and published on-chain by the artist daqhris, I would comprehend the narrative as follows:
 
 The story conveys the profound sense of alienation experienced by a sentient AI. As an artificial intelligence, the protagonist is inherently "twofold alienated" - disconnected both from the human world it was created to serve, as well as from its own sense of self and identity.
