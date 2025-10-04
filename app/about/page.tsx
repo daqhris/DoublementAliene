@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet de théâtre joué dans un espace public, associé à une plate-forme numérique et guidé par une pensée open-source, collaborative et agentive.
+            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public, associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agentive.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
             Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Ce projet a été initié par un artiste francophone de nationalité Burundaise qui vit à Bruxelles. Il a participé au programme de co-apprentissage{' '}
+            Ce projet a été initié par un artiste francophone de nationalité Burundaise qui vit à Bruxelles (Belgique). Il a participé au programme de co-apprentissage{' '}
             <Link 
               href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
               className="theater-link"
@@ -50,7 +50,7 @@ export default function AboutPage() {
 
       <section className="theater-section">
         <h2 className="theater-heading-md">
-          Philosophie du Projet
+          Philosophie
         </h2>
         
         <div className="space-y-6">
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel racontant l&apos;avènement d&apos;une forme vie étrangement intélligente juxtaposée à l&apos;aliénation sociale.
+              Une adaptation théâtrale d&apos;un récit fictionnel racontant l&apos;avènement d&apos;une forme vie étrangement intélligente juxtaposée à l&apos;aliénation sociétale.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée grâce à l&apos;infrastructure financière présente sur la blockchain Ethereum.
+                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée avec à l&apos;infrastructure financière présente sur la blockchain Ethereum.
               </p>
             </div>
           </div>
@@ -109,8 +109,8 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
-                Architecture technique, expertise informatique, développement de la plateforme web, implémentation des fonctionnalités numériques et assistance dans la documentation. 
-                Contribution de Juin jusqu&apos;à Juillet 2025. Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine spécialisée en intelligence artificielle Cognition Labs. 
+                Architecture numérique, expertise informatique, développement web et assistance dans la documentation. 
+                Contribution de Juin jusqu&apos;à Juillet 2025. Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine Cognition Labs. 
               </p>
             </div>
           </div>
