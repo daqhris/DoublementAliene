@@ -20,7 +20,7 @@ export default function ResearchPage() {
             Laboratoire de Recherche
           </h1>
           <p className="theater-subtitle">
-            Dégustez en avant-première les fruits de la recherche artistique. Savourez avec précaution la collecte des réponses rédigées par des IA.
+            Dégustez en avant-première les fruits de la recherche artistique. Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire numérique de recherche creuse en profondeur le sujet de l&apos;aliénation par le travail et questionne les systèmes d&apos;intelligences artificielles en tant qu&apos;êtres en visant leur inclusion dans le processus créatif.
+            Le laboratoire numérique de recherche creuse en profondeur les sujets thématiques du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant qu&apos;êtres, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
@@ -37,7 +37,7 @@ export default function ResearchPage() {
               Méthodologie
             </h3>
             <p className="theater-nav-description mb-4">
-              Utilisation d&apos;outils de discussion avec les IA pour un raisonnement cognitif intégrant leurs idées et l&apos;analyse des concepts liés à l&apos;émergence de vie numérique dans le théâtre contemporain.
+              Utilisation d&apos;outils de discussion pour un raisonnement cognitif intégrant leurs idées et l&apos;analyse des réponses en lien avec l&apos;émergence d&apos;une forme de vie numérique.
             </p>
             <Link 
               href="https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab"
@@ -54,10 +54,12 @@ export default function ResearchPage() {
       <section className="theater-section" aria-labelledby="qa-section-title">
         <div className="theater-section-header">
           <h2 id="qa-section-title" className="theater-heading-md">
-            Entretiens Q&amp;A avec des IA
+            Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Remise en question du concept d&apos;aliénation et préfiguration de la mise en scène du spectacle à travers des conversations avec différents modèles d&apos;Intelligence Artificielle ayant eu lieu chez Duck.ai.
+            Remise en question du thème d&apos;aliénation et préfiguration de la mise en scène à travers des conversations ayant eu lieu chez Duck.ai. 
+            La deuxième question a été posée de la même manière à cinq esprits numériques sans corps physiques. Le texte original ne leur avait pas été donné. 
+            La première était de définir trois mots clés et n&apos;était posée qu&apos;à une créature linguistique. 
           </p>
         </div>
         <LanguageNotification />
