@@ -6,7 +6,7 @@ import PDFViewer from '../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Performance - Doublement Aliéné',
-  description: 'Documentation publique de la performance théâtrale «Doublement Aliéné» avec guide de mise en scène',
+  description: 'Documentation publique du prototype de spectacle «Doublement Aliéné» avec guide de mise en scène',
 };
 
 export default function PerformancePage() {
@@ -20,19 +20,19 @@ export default function PerformancePage() {
             Performance Théâtrale
           </h1>
           <p className="theater-subtitle">
-            Accédez à la documentation de «Doublement Aliéné» mise à disposition du public dans un format numérique ouvert et réutilisable : 
-            guide de mise en scène, script théâtral, archives visuelles et des films de spectacles prototypés.
+            Accédez ici à la documentation de «Doublement Aliéné» mise à disposition du public : 
+            guide de mise en scène, script théâtral, photos et films.
           </p>
         </div>
 
         <div className="theater-card-modern">
           <h2 className="theater-nav-title mb-6">
-            Prototype de Spectacle
+            Prototype №1 
           </h2>
           <p className="theater-nav-description mb-8">
             Cette interprétation théâtrale a été présentée le 17 Mars 2025 à La Fonderie dans le cadre du CIFAS-Constellations. 
             La pièce met en scène des «Athlètes Intelligent.e.s» qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
-            assistés par un.e «Assistant.e Intelligent.e».
+            et sont assistés par un.e «Assistant.e Intelligent.e».
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -48,7 +48,7 @@ export default function PerformancePage() {
                 construction manuelle, lieu de performance, sessions de feedback, et dessins numérisées.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Contenu :</strong> Menuiserie (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
+                <strong>Catégories :</strong> Menuiserie (9-17 Mars) • Scène &amp; Performance • Feedback • Dessins
               </div>
             </div>
 
@@ -56,7 +56,7 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
               <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
               <p className="theater-nav-description mb-4">
-                <strong>Accès limité aux commédien.ne.s :</strong> Les films de la performance prototypée 
+                <strong>Accès limité :</strong> Les films de la performance prototypée 
                 ne sont disponibles que pour les co-auteurices du projet.
               </p>
               <div className="text-sm text-theater-muted">
@@ -69,9 +69,9 @@ export default function PerformancePage() {
 
       <section className="theater-section">
         <div className="theater-section-header mb-8">
-          <h2 className="theater-heading-md">Documentation de Performance</h2>
+          <h2 className="theater-heading-md">Documentation</h2>
           <p className="theater-subtitle">
-            Documents essentiels pour imaginer, comprendre et reproduire la performance théâtrale.
+            Documents utiles pour revivre, imaginer et comprendre le premier prototype du spectacle.
           </p>
         </div>
 
