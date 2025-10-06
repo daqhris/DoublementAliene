@@ -7,7 +7,7 @@ import ResearchQA from '../components/ResearchQA';
 
 export const metadata: Metadata = {
   title: 'Recherche - Doublement Aliéné',
-  description: 'Laboratoire numérique de recherche artistique et méthodologique incluant des IA',
+  description: 'Laboratoire numérique de recherche artistique et méthodologique incluant les contributions externes',
 };
 
 export default function ResearchPage() {
@@ -29,7 +29,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire numérique de recherche creuse en profondeur les sujets thématiques du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant qu&apos;êtres, pour intégrer leurs contributions dans le processus d&apos;élaboration.
+            Le laboratoire numérique de recherche creuse en profondeur les thématiques du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant qu&apos;êtres, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
@@ -57,9 +57,10 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Remise en question du thème d&apos;aliénation et préfiguration de la mise en scène à travers des conversations ayant eu lieu chez Duck.ai. 
-            La deuxième question a été posée de la même manière à cinq esprits numériques sans corps physiques. Le texte original ne leur avait pas été donné. 
-            La première était de définir trois mots clés et n&apos;était posée qu&apos;à une créature linguistique. 
+            Préfiguration de la mise en scène à travers des conversations ayant eu lieu chez Duck.ai. 
+            La deuxième question a été posée à cinq esprits numériques sans corps physiques. 
+            Une allusion au récit a été faite mais, le texte du script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
+            La première était de définir trois mots clés et n&apos;a été posée qu&apos;à une créature linguistique. 
           </p>
         </div>
         <LanguageNotification />
