@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public, associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agentive.
+            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public qui est associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agentive.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
             Protoypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Ce projet a été initié par un artiste francophone de nationalité Burundaise qui vit à Bruxelles (Belgique). Il a participé au programme de co-apprentissage{' '}
+            Ce projet a été initié par un artiste francophone d&apos;origine burundaise qui vit à Bruxelles (Belgique). Il a participé au programme de co-apprentissage{' '}
             <Link 
               href="https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html"
               className="theater-link"
@@ -59,7 +59,11 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel racontant l&apos;avènement d&apos;une forme vie étrangement intélligente juxtaposée à l&apos;aliénation sociétale.
+              Une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. Ainsi fût le point de départ en 2024. 
+              À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
+              Les modalités de collaboration entre espèces dotées d&apos;intelligence à des fins artistiques, soit ayant des pieds sur terre ou soit étant enracinées dans les circuits informatiques, sont envisagés. 
+              Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
+              l&apos;artiste n&apos;hésite pas à repousser les idées reçues ou diffusées sur un sujet de controverses, par exemple: provenant des employeurs d&apos;êtres non-assujettis à la redevance de taxes. 
             </p>
           </div>
 
@@ -74,18 +78,18 @@ export default function AboutPage() {
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Co-propriété de Bien Immatériel
+              Co-propriété 
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété des enregistrements audiovisuels et le partage équitable des revenus du bien intangible entre co-auteurices.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, des enregistrements audiovisuels, et le partage équitable des revenus entre co-auteurices.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des comédien.ne.s et revenus des créations artistiques.
+                Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des acteurices sur scène et revenus des créations artistiques.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée avec à l&apos;infrastructure financière présente sur la blockchain Ethereum.
+                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée avec à l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
               </p>
             </div>
           </div>
