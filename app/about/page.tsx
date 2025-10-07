@@ -59,7 +59,7 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              <p>Une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
+              Une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ en 2024. <br></br><br></br>
               À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
               Les modalités de collaboration entre espèces dotées d&apos;intelligence à des fins artistiques, soit ayant des pieds sur terre ou soit étant enracinées dans les circuits informatiques, sont envisagés.
