@@ -127,7 +127,7 @@ export default function TimelinePage() {
       details: "Performances au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Accéder aux souvenirs visuels de ce spectacle prototypé"
+        text: "Accéder aux photos des prototypes filmés et réalisés en privé"
       },
       isHighlight: true
     },
@@ -138,7 +138,7 @@ export default function TimelinePage() {
       details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme collaborative.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
-        text: "Voir le code source du dépôt open-source sur GitHub",
+        text: "Voir le code du dépôt open-source sur GitHub",
         external: true
       }
     },
@@ -161,12 +161,12 @@ export default function TimelinePage() {
     },
     {
       date: "24 Juin 2025",
-      title: "Documentation de la Performance",
-      description: "Publication de fichiers documentant le spectacle prototypé le 17 Mars.",
-      details: "Mise à disposition du public des documents de travail, des notes de mise en scène et des photos liées à la représentation théâtrale.",
+      title: "Documentation du Prototype de Spectacle",
+      description: "Publication de divers fichiers documentant le spectacle prototypé le 17 Mars.",
+      details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos liées à la représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
-        text: "Consulter les documents associée à cette première réalisation",
+        text: "Consulter les documents associés à cette première réalisation",
         external: true
       }
     },
@@ -174,7 +174,7 @@ export default function TimelinePage() {
       date: "25 Juin 2025 à Maintenant",
       title: "Plateforme Web du Spectacle",
       description: "Programmation en collaboration avec Devin AI d'une interface web spéciale.",
-      details: "Construction d'une plateforme open-source au caractère informatif et qui facilitera la co-gestion des films tokenisés et le partage équitable des droits et revenus artistiques",
+      details: "Construction d'une plateforme open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques",
       link: {
         url: "/about",
         text: "Lire la philosophie du projet en long et en large"
@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution chronologique de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à la co-création de sa plateforme en ligne, en passant par la réalisation du prototype de ce spectacle et autres faits majeurs.
+            Voici l&apos;évolution chronologique de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à la co-création de sa plateforme en ligne, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
           </p>
         </div>
 
