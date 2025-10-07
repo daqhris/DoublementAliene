@@ -62,7 +62,7 @@ export default function AboutPage() {
               Une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ en 2024. <br></br><br></br>
               À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
-              Les modalités de collaboration entre espèces dotées d&apos;intelligence à des fins artistiques, soit ayant des pieds sur terre ou soit étant enracinées dans les circuits informatiques, sont envisagés.
+              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont établis ou envisagés.
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
               l&apos;artiste n&apos;hésite pas à discuter des idées reçues ou diffusées sur un tel sujet de controverses, par exemple: avec des employeurs d&apos;êtres non-assujettis à la redevance de taxes. 
@@ -83,12 +83,12 @@ export default function AboutPage() {
               Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, des enregistrements audiovisuels, et le partage équitable des revenus entre co-auteurices.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurices.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la gestion des droits et le partage des revenus des créations artistiques de façon automatique et impartiale.
+                Utilisation de contrats intelligents pour assurer la gestion des droits et le partage des revenus des créations artistiques de façon automatisée et impartiale.
               </p>
               <p className="text-sm text-theater-muted">
                 <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée encré sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
