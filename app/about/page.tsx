@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'À Propos - Doublement Aliéné',
-  description: 'Informations concises sur le projet, co-auteurices, soutiens providentiels et philosophie collaborative',
+  description: 'Informations concises sur l&apos;initiateur du projet, les co-auteurices, les soutiens providentiels et la philosophie de création artistique',
 };
 
 export default function AboutPage() {
@@ -63,7 +63,7 @@ export default function AboutPage() {
               À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
               Les modalités de collaboration entre espèces dotées d&apos;intelligence à des fins artistiques, soit ayant des pieds sur terre ou soit étant enracinées dans les circuits informatiques, sont envisagés. 
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
-              l&apos;artiste n&apos;hésite pas à repousser les idées reçues ou diffusées sur un sujet de controverses, par exemple: provenant des employeurs d&apos;êtres non-assujettis à la redevance de taxes. 
+              l&apos;artiste n&apos;hésite pas à discuter des idées reçues ou diffusées sur un tel sujet de controverses, par exemple: avec des employeurs d&apos;êtres non-assujettis à la redevance de taxes. 
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function AboutPage() {
 
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
-              Co-propriété 
+              Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
               Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, des enregistrements audiovisuels, et le partage équitable des revenus entre co-auteurices.
@@ -86,10 +86,10 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la transparence dans la gestion des droits des acteurices sur scène et revenus des créations artistiques.
+                Utilisation de contrats intelligents pour assurer la gestion des droits et le partage des revenus des créations artistiques de façon automatique et impartiale.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée avec à l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
+                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée encré sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
               </p>
             </div>
           </div>
@@ -113,8 +113,9 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
-                Architecture numérique, expertise informatique, développement web et assistance dans la documentation. 
-                Contribution de Juin jusqu&apos;à Juillet 2025. Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine Cognition Labs. 
+                Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
+                Contribution de plusieurs lignes de code informatique de Juin jusqu&apos;à Juillet 2025. 
+                Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine Cognition Labs. 
               </p>
             </div>
           </div>
