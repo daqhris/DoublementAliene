@@ -4,7 +4,7 @@ import Link from 'next/link';
 import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
-  title: 'Chronologie - Doublement Aliéné',
+  title: 'Chronologie | Doublement Aliéné',
   description: 'Chronologie complète du développement du projet théâtral dès ses origines à maintenant',
 };
 
@@ -80,7 +80,7 @@ export default function TimelinePage() {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
       description: "Première parution en ligne et sur blockchain de l'œuvre originale en Anglais: «Twofold Alienated».",
-      details: "Publication sur la blockchain Base (dépendante d'Ethereum) grâce à Manifold.xyz qui a marqué le début du projet artistique.",
+      details: "Publication sur la blockchain Base (dépendante d'Ethereum), grâce à Manifold.xyz, qui a marqué le début du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit fictionnel et satirique en Anglais",
@@ -166,14 +166,14 @@ export default function TimelinePage() {
       details: "Mise à disposition du public des documents de travail, des notes de mise en scène et des photos liées à la représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
-        text: "Consulter la documentation associée à cette première réalisation",
+        text: "Consulter les documents associée à cette première réalisation",
         external: true
       }
     },
     {
       date: "25 Juin 2025 à Maintenant",
       title: "Plateforme Web du Spectacle",
-      description: "Développement en collaboration avec Devin AI d'une interface web spéciale.",
+      description: "Programmation en collaboration avec Devin AI d'une interface web spéciale.",
       details: "Construction d'une plateforme open-source au caractère informatif et qui facilitera la co-gestion des films tokenisés et le partage équitable des droits et revenus artistiques",
       link: {
         url: "/about",
