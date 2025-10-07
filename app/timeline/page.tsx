@@ -79,8 +79,8 @@ export default function TimelinePage() {
     {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
-      description: "Première parution en ligne et publication sur blockchain de l'œuvre originale écrite en Anglais, «Twofold Alienated».",
-      details: "Publication faite par l'artiste daqhris via Manifold et marquant le début officiel du projet artistique.",
+      description: "Première parution en ligne et sur blockchain de l'œuvre originale écrite en Anglais, «Twofold Alienated».",
+      details: "Publication faite par daqhris grâce à Manifold.xyz sur la blockchain Base (dépendante d'Ethereum) et marquant le début officiel du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit original en Anglais",
@@ -91,7 +91,7 @@ export default function TimelinePage() {
       date: "25 Novembre 2024",
       title: "Sélection par le CIFAS",
       description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations.",
-      details: "Chris A. Iradukunda (daqhris) figurait parmi les artistes sélectionnés pour les sessions de co-apprentissage.",
+      details: "Chris A. IRADUKUNDA (daqhris) figurait parmi les artistes sélectionnés pour les sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
         text: "Jeter un coup d'œil aux Constellations 2025",
@@ -100,9 +100,9 @@ export default function TimelinePage() {
     },
     {
       date: "Décembre 2024 - Janvier 2025",
-      title: "Dépôt de Code: TwofoldAlienated",
+      title: "Dépôt de Code: Twofoldd Alienated",
       description: "Création d'un dépôt de code public et open-source à l'aide du gestionnaire des versions de fichiers git sur GitHub.",
-      details: "Recueil de tous les documents associés au texte original en Anglais dans un environnement collaboratif et transparent.",
+      details: "Recueil de tous les documents textuels associés au récit original en Anglais dans un cadre collaboratif et transparent.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
         text: "Code source : twofold-alienated",
@@ -112,7 +112,7 @@ export default function TimelinePage() {
     {
       date: "Janvier - Avril 2025",
       title: "Participation aux CIFAS-Constellations",
-      description: "Déroulement du programme de co-apprentissage Constellations du Centre International de Formation en Arts du Spectacle.",
+      description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle.",
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et exploration des méthodologies artistiques contemporaines.",
       link: {
         url: "/about",
@@ -124,16 +124,16 @@ export default function TimelinePage() {
       date: "17 Mars 2025",
       title: "Prototype d'Interprétation Théâtrale",
       description: "Première réalisation théâtrale de l'œuvre par des comédien.ne.s sous forme de deux spectacles expérimentaux en Français.",
-      details: "Performance au sein du Musée bruxellois de l'industrie et du travail (La Fonderie) dans le cadre des activités du CIFAS.",
+      details: "Performance au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Accéder aux souvenirs de ce spectacle prototypé"
+        text: "Accéder aux souvenirs visuels de ce spectacle prototypé"
       },
       isHighlight: true
     },
     {
       date: "4 Avril 2025",
-      title: "Dépôt de Code: DoublementAliene",
+      title: "Dépôt de Code Source: DoublementAliene",
       description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre sur un espace numérique public.",
       details: "Création de l'infrastructure technique structurant les fondations de la plate-forme collaborative et l'interface web du projet.",
       link: {
@@ -150,7 +150,7 @@ export default function TimelinePage() {
     },
     {
       date: "22 Juin 2025",
-      title: "Naissance du ResearchLab",
+      title: "Naissance du Laboratoire de Recherche",
       description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche.",
       details: "Exploration des méthodologies de recherche et inclusion des avis d'intelligences artificielles dans le processus créatif.",
       link: {
@@ -163,7 +163,7 @@ export default function TimelinePage() {
       date: "24 Juin 2025",
       title: "Documentation de la Performance",
       description: "Publication de fichiers documentant le spectacle prototypé le 17 Mars.",
-      details: "Mise à disposition du public des documents de travail, notes de mise en scène et matériaux de préparation de la performance théâtrale.",
+      details: "Mise à disposition du public des documents de travail, des notes de mise en scène et des instructions liées à la représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
         text: "Consulter les outils utiles pour la réalisation du prototype",
@@ -172,9 +172,9 @@ export default function TimelinePage() {
     },
     {
       date: "25 Juin 2025 à Maintenant",
-      title: "Plate-forme Web du Spectacle",
+      title: "Plateforme Web du Spectacle",
       description: "Développement en collaboration avec Devin AI d'une interface web spéciale.",
-      details: "Construction d'une plate-forme numérique et open-source permettant la co-gestion des films tokenisés et le partage équitable des droits et revenus artistiques entre commédien.ne.s.",
+      details: "Construction d'une plateforme open-source au caractère informatif et qui facilitera la co-gestion des films tokenisés et le partage équitable des droits et revenus artistiques",
       link: {
         url: "/about",
         text: "Lire la philosophie du projet en long et en large"
@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution détaillée de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à sa réalisation théâtrale, en passant par la co-création de sa plate-forme numérique en ligne.
+            Voici l&apos;évolution chronologique de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à la co-création de sa plateforme en ligne, en passant par la réalisation du prototype de ce spectacle et autres faits majeurs.
           </p>
         </div>
 
