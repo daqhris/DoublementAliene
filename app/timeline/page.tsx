@@ -135,7 +135,7 @@ export default function TimelinePage() {
       date: "4 Avril 2025",
       title: "Dépôt de Code Source: Doublement Aliene",
       description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre dans un espace numérique public.",
-      details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme collaborative.",
+      details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme collaborative en ligne.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
         text: "Voir le code du dépôt open-source sur GitHub",
@@ -172,7 +172,7 @@ export default function TimelinePage() {
     },
     {
       date: "25 Juin 2025 à Maintenant",
-      title: "Plateforme Web du Spectacle",
+      title: "Interface Web du Spectacle",
       description: "Programmation en collaboration avec Devin AI d'une interface web spéciale.",
       details: "Construction d'une plateforme open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques",
       link: {
@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution chronologique de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à la co-création de sa plateforme en ligne, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
+            Voici l&apos;évolution chronologique de «Doublement Aliéné», depuis sa conception textuelle jusqu&apos;à la co-création de son interface web, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
           </p>
         </div>
 
