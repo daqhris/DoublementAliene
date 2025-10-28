@@ -57,7 +57,8 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Préfiguration de la mise en scène à travers des conversations ayant eu lieu via Duck.ai. Documents texte d'origine attachés. <br></br>
+            Préfiguration de la mise en scène en recueillant des réponses de systèmes d&apos;intelligence artificielle ayant eu lieu sur la plateforme en ligne Duck.ai. 
+            Documents originaux des réponses attachés. <br></br>
             La 1re question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
             La 2e question a été posée à 5 génies numériques sans corps physiques. Le script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
             Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
