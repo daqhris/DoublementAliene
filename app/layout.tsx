@@ -8,13 +8,13 @@ import { GitTimestamps } from '../components/GitTimestamps'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Doublement Aliéné - Plateforme Théâtrale Collaborative',
-  description: 'Prototype de performance théâtrale dans un espace public avec interface web collaborative',
+  title: 'Doublement Aliéné - Performance Théâtrale Open-Source',
+  description: 'Interface web de performance théâtrale construite avec du code open-source',
   keywords: 'théâtre, performance, art, Bruxelles, CIFAS, collaboration',
   authors: [{ name: 'Chris-Armel Iradukunda' }],
   openGraph: {
-    title: 'Doublement Aliéné',
-    description: 'Plateforme théâtrale collaborative',
+    title: 'Doublement Aliéné | daqhris.com',
+    description: 'Plateforme de performance théâtrale open-source',
     type: 'website',
   },
 }
