@@ -213,7 +213,7 @@ In summary, a story titled "twofold alienated" about a sentient AI would likely 
             <h4 className="theater-nav-title mb-4" id={`responses-${question.id}`}>AI Response</h4>
             <div className="space-y-4" role="region" aria-labelledby={`responses-${question.id}`}>
               {question.responses.map((response: AIResponse, index: number) => (
-                <details key={index} className="theater-card-modern" open={index === 0}>
+                <details key={index} className="theater-card-modern">
                   <summary className="theater-nav-title mb-3 cursor-pointer transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-theater-text focus:ring-offset-2 focus:ring-offset-theater-background theater-model-marker" tabIndex={0}>
                     {response.model}
                     <span className="float-right text-sm" aria-hidden="true">
