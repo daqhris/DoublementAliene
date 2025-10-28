@@ -20,7 +20,8 @@ export default function ResearchPage() {
             Laboratoire de Recherche
           </h1>
           <p className="theater-subtitle">
-            Dégustez en avant-première les fruits de la recherche artistique. Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
+            Dégustez en avant-première les fruits de la recherche artistique. <br></br>
+            Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
           </p>
         </div>
 
@@ -29,7 +30,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire numérique de recherche creuse en profondeur les thématiques du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant qu&apos;êtres, pour intégrer leurs contributions dans le processus d&apos;élaboration.
+            Le laboratoire de recherche numérique a dans le viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres et non des outils, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
@@ -37,7 +38,7 @@ export default function ResearchPage() {
               Méthodologie
             </h3>
             <p className="theater-nav-description mb-4">
-              Utilisation d&apos;outils de discussion pour un raisonnement cognitif intégrant leurs idées et l&apos;analyse des réponses en lien avec l&apos;émergence d&apos;une forme de vie numérique.
+              Utilisation d&apos;outils de discussion pour une scénographie intégrant leurs idées et l&apos;analyse des réponses liées à l&apos;émergence d&apos;une forme de vie numérique.
             </p>
             <Link 
               href="https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab"
@@ -57,8 +58,8 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Préfiguration de la mise en scène en recueillant des réponses de systèmes d&apos;intelligence artificielle ayant eu lieu sur la plateforme en ligne Duck.ai. 
-            Documents originaux des réponses attachés. <br></br>
+            Préfiguration de la mise en scène en recueillant des réponses des IA ayant eu lieu sur la plateforme en ligne Duck.ai. 
+            Textes originaux des réponses attachés. <br></br>
             La 1re question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
             La 2e question a été posée à 5 génies numériques sans corps physiques. Le script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
             Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
