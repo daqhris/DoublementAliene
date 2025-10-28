@@ -57,10 +57,10 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Préfiguration de la mise en scène à travers des conversations ayant eu lieu chez Duck.ai. 
-            La deuxième question a été posée à cinq esprits numériques sans corps physiques. 
-            Une allusion au récit a été faite mais, le texte du script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
-            La première était de définir trois mots clés et n&apos;a été posée qu&apos;à une créature linguistique. 
+            Préfiguration de la mise en scène à travers des conversations ayant eu lieu via Duck.ai. Documents texte d'origine attachés. <br></br>
+            La 1re question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
+            La 2e question a été posée à 5 génies numériques sans corps physiques. Le script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
+            Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
           </p>
         </div>
         <LanguageNotification />
