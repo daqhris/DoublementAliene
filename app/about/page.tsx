@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public qui est associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agissante.
+            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public, qui est associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agissante.
           </p>
         </div>
 
@@ -65,7 +65,12 @@ export default function AboutPage() {
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont établis ou envisagés.
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
-              l&apos;artiste n&apos;hésite pas à discuter des idées reçues ou diffusées sur un tel sujet de controverses, par exemple: avec des employeurs d&apos;êtres non-assujettis à la redevance de taxes. 
+              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être et non d&apos;outils concernant les IA. 
+              Sur ce sujet de controverses, par exemple, il scrute les employeurs des travailleurs numériques non-assujettis à la redevance de taxes, ce qui fait écho à son vécu réel. 
+              <br></br><br></br>
+              Au fur et à mesure des acquis et des ressources, la performance se prépare doucement vers un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
+              tout en encourageant tout don matériel ou financier et en puisant dans des fonds ou énergies propres. 
+              Pour tendre la main aux mécènes, le script à l&apos;origine spectacle a été mis en vente sur blockchain Base au prix de 0.01 ETH en édition limité à 1000.
             </p>
           </div>
 
@@ -74,7 +79,7 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives en tenant compte de délais non-contraignants.
+              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais non-contraignants.
             </p>
           </div>
 
@@ -83,15 +88,15 @@ export default function AboutPage() {
               Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurices.
+              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurs.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la gestion des droits et le partage des revenus des créations artistiques de façon automatisée et impartiale.
+                Utilisation de contrats intelligents pour assurer la gestion des droits d&apos;auteur et le partage des revenus des créations artistiques, automatiquement et impartialement.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>Liste des Tâches:</strong> Élaboration d&apos;un système de co-propriété tokenisée et décentralisée encré sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
+                <strong>À Faire:</strong> Mise en place d&apos;un système de co-propriété tokenisée et décentralisée qui est établi sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
               </p>
             </div>
           </div>
@@ -130,7 +135,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Si vous avez la moindre envie de vous engager au profit du projet, n&apos;hésitez pas à vous orienter vers le{' '}
+            Si vous avez la moindre envie de vous engager depuis le cyberespace au profit du projet, n&apos;hésitez pas à passer par le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
