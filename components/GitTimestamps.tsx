@@ -114,7 +114,7 @@ export const GitTimestamps: React.FC = () => {
             rel="noopener noreferrer"
             className="text-theater-text hover:underline"
           >
-            daqhris
+            Chris-Armel Iradukunda (daqhris)
           </a>
           {' '}& {' '}
           <a 
@@ -123,7 +123,7 @@ export const GitTimestamps: React.FC = () => {
             rel="noopener noreferrer"
             className="text-theater-text hover:underline"
           >
-            devin
+            Devin AI (of Cognition Labs)
           </a>
         </span>
       </div>
