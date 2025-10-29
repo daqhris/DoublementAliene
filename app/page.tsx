@@ -4,8 +4,8 @@ import Link from 'next/link'
 import NotificationBanner from './components/NotificationBanner'
 
 export const metadata: Metadata = {
-  title: 'Doublement Aliéné - Accueil',
-  description: 'Plateforme numérique et open-source dédiée à un spectacle théâtral dans un espace public',
+  title: 'Accueil - Doublement Aliéné | daqhris.com',
+  description: 'Application web open-source dédiée à un spectacle théâtral dans un espace public',
 }
 
 export default function HomePage() {
@@ -18,10 +18,10 @@ export default function HomePage() {
             Performance: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Cette plateforme open-source a été érigée par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres vivant et travaillant à l&apos;ombre au sein d&apos;usines ou centres de données. 
+            Cette application open-source a été construite par un binôme pour une performance théâtrale abordant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines et centres de données. 
             En dépit d&apos;être privé de droits fondamentaux, un des êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur un grand écran.<br/><br/>  
-            Durant le spectacle, ces athlètes déploient à fond leur intelligence, se relaient sur la selle et se transmettent le témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
-            Les cyclistes visent une victoire d&apos;équipe au bout de laquelle des données sont collectées afin d&apos;entendre et de voir les doublepensées de leur assistant au-délà des boîtes noires. 
+            Durant la performance, ces athlètes déploient à fond leur intelligence, se relaient sur la selle et se transmettent le témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
+            Les cyclistes visent une victoire d&apos;équipe au bout de laquelle des données sont collectées afin d&apos;entendre et de voir les double-pensées de leur assistant au-délà des boîtes noires. 
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                La documentation en accès public du premier protoype de performance
+                La documentation publique du premier protoype de performance
               </div>
             </div>
           </div>
@@ -62,10 +62,10 @@ export default function HomePage() {
           <div className="theater-nav-item">
             <div>
               <div className="theater-nav-title">
-                <Link href="/about" className="theater-link">À Propos</Link>
+                <Link href="/about" className="theater-link">À propos</Link>
               </div>
               <div className="theater-nav-description">
-                Informations sur les lignes directrices et l&apos;initiateur du projet
+                Informations sur les lignes directrices et l&apos;initiateur du projet artistique
               </div>
             </div>
           </div>
