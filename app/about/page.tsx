@@ -58,7 +58,7 @@ export default function AboutPage() {
             <h3 className="theater-nav-title mb-3">
               Vision Artistique
             </h3>
-            <p className="theater-nav-description">
+            <p className="text-theater-text leading-relaxed">
               La mission principale est une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ en 2024. <br></br><br></br>
               À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
@@ -79,7 +79,7 @@ export default function AboutPage() {
             <h3 className="theater-nav-title mb-3">
               Open-Source de O à S
             </h3>
-            <p className="theater-nav-description">
+            <p className="text-theater-text leading-relaxed">
               Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais raisonables. 
               Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
                   <br></br><br></br>
