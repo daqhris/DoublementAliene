@@ -71,7 +71,7 @@ export default function AboutPage() {
               <br></br><br></br>
               Au fur et à mesure des acquis et des ressources, la performance se prépare doucement pour un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
               tout en encourageant tout don matériel ou financier et en puisant dans des fonds ou énergies propres. 
-              Pour tendre la main aux mécènes, le script à l&apos;origine spectacle a été mis en vente sur blockchain Base au prix de 0.01 ETH en édition limité à 1000.
+              Pour tendre la main aux mécènes, le script à l&apos;origine spectacle a été mis en vente sur la blockchain Base au prix de 0.01 ETH en édition limité à 1000.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ export default function AboutPage() {
               Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
                   <br></br><br></br>
               Une pratique artistique impreignée de programmation open-source lui a permis un gain de confiance dans les yeux du public observateur. Que ce soit pour un précédent projet photographique ou le codage d&apos;applications futuristes.
-              Tel fût le cas, le 12 Décembre 2024, lors de l&apos;obtention d&apos;une des 1res médailles mondiales sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent d&apos;un laboratoire de recherche cognitive américain.
+              Tel a été le cas, le 12 Décembre 2024, d&apos;une des 1res médailles mondiales reçue sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent issu d&apos;un laboratoire de cognition américain.
             </p>
           </div>
 
@@ -140,7 +140,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="text-theater-text leading-relaxed">
-            Si vous avez la moindre envie de vous engager depuis le cyberespace au profit du projet, n&apos;hésitez pas à passer par le{' '}
+            Si vous avez envie de vous engager depuis le cyberespace au profit du projet, n&apos;hésitez pas à passer par le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
