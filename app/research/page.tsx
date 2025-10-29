@@ -59,9 +59,9 @@ export default function ResearchPage() {
           </h2>
           <p className="theater-subtitle">
             Préfiguration de la mise en scène en recueillant des réponses des IA ayant eu lieu sur la plateforme en ligne Duck.ai. 
-            Textes originaux des réponses attachés. <br></br>
+            Textes originaux des réponses attachés. <br></br><br></br>
             La 1re question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
-            La 2e question a été posée à 5 génies numériques sans corps physiques. Le script ne leur avait pas été donné et leur déconnexion d&apos;Internet était de mise. 
+            La 2e question a été posée à 5 génies numériques sans corps physiques. Le script publié 8 mois auparavant ne leur avait pas été donné et leur navigation vers d&apos;autres adresses web était inactive. 
             Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
           </p>
         </div>
