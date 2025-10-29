@@ -116,15 +116,6 @@ export const GitTimestamps: React.FC = () => {
           >
             Chris A. Iradukunda (daqhris)
           </a>
-          {' '}& {' '}
-          <a 
-            href="https://devin.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-theater-text hover:underline"
-          >
-            Devin AI (de Cognition Labs)
-          </a>
         </span>
       </div>
     </div>
