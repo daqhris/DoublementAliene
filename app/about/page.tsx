@@ -59,16 +59,17 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="theater-nav-description">
-              Une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
+              La mission principale est une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ en 2024. <br></br><br></br>
               À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
-              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont établis ou envisagés.
+              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
+              La recherche approfondie sur cette nouvelle forme de vie fait resurgir des similitudes faisant écho à son vécu réel d&apos;humain privé de droits élementaires. 
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
-              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être et non d&apos;outils concernant les IA. 
-              Sur ce sujet de controverses, par exemple, il scrute les employeurs des travailleurs numériques non-assujettis à la redevance de taxes, ce qui fait écho à son vécu réel. 
+              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être et non d&apos;outils au sujet des IA. 
+              Sur ce sujet de controverses, par exemple, il scrute l&apos;opinion des travailleurs numériques non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, marchands ou créateurs.  
               <br></br><br></br>
-              Au fur et à mesure des acquis et des ressources, la performance se prépare doucement vers un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
+              Au fur et à mesure des acquis et des ressources, la performance se prépare doucement pour un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
               tout en encourageant tout don matériel ou financier et en puisant dans des fonds ou énergies propres. 
               Pour tendre la main aux mécènes, le script à l&apos;origine spectacle a été mis en vente sur blockchain Base au prix de 0.01 ETH en édition limité à 1000.
             </p>
