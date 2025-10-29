@@ -84,8 +84,8 @@ export default function PerformancePage() {
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
-            title="Script Théâtral : 10 Doubles Réactions"
-            description="Le texte intégral de la pièce présentant les réactions à la fois vocales et visuelles d&apos;un être étrange, lors de l&apos;annonce d&apos;un prix noble de paternité, transcrites depuis Bruxelles comme si on était le 10 octobre 2024."
+            title="Script Théâtral Initial"
+            description="Le texte intégral de la pièce qui consiste en 10 doubles réactions, à exprimer vocalement et visuellement, provenant d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble de paternité, et transcrites depuis Bruxelles comme si on y était le 10 octobre 2024."
           />
         </div>
       </section>
