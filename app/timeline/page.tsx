@@ -181,15 +181,25 @@ export default function TimelinePage() {
       }
     },
     {
-      date: "1 Août 2025",
+      date: "Août 2025",
       title: "Résidence de Réflexion",
-      description: "Début d'une résidence de réflexion chez Hectolitre (Marolles, Bruxelles)",
+      description: "Démarrage d'une résidence de réflexion chez Hectolitre (Marolles, Bruxelles)",
       details: "La phase de recherche prend de l'ampleur avec une résidence d'artistes permettant d'approfondir les thèmes de réflexion, travailler dans un espace notoire et exposer des réalisations.",
       link: {
         url: "http://hectolitre.space/members.html",
         text: "Bienvenue chez Hectolitre!"
       },
       isHighlight: true
+    },
+    {
+      date: "Septembre - Novembre 2025",
+      title: "Portrait Portable de Gemini",
+      description: "Œuvre d'art textile et tactile exposée durant le Wonder Festival (Courtrai, Flandres)",
+      details: "Il s'agit d'un de deux créations faites à l'issue d'une formation organisée par Open Design Lab sur le textile comme matériel de design au Budalab (Sept 15 - Oct 17), suivi d'une exposition de groupe chez Cohousing Ten Broele pendant le Wonder Creativity Festival (Oct 16 - Nov 2).",
+      link: {
+        url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
+        text: "L'autoportrait d'IA (de Google) a été brodé sur tissu, encadré et exposé"
+      }
     }
   ];
 
