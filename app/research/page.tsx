@@ -30,7 +30,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire de recherche numérique a dans le viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres et non des outils, pour intégrer leurs contributions dans le processus d&apos;élaboration.
+            Le laboratoire de recherche numérique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres et non des outils, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
