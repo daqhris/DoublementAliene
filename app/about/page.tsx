@@ -4,8 +4,8 @@ import Link from 'next/link';
 import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
-  title: 'À Propos - Doublement Aliéné',
-  description: 'Informations concises sur l&apos;initiateur du projet, les co-auteurices, les soutiens providentiels et la philosophie de création artistique',
+  title: 'À Propos - Doublement Aliéné | daqhris.com',
+  description: 'Informations concises sur l&apos;initiateur, les co-auteurs, les soutiens et la philosophie du projet artistique',
 };
 
 export default function AboutPage() {
@@ -106,14 +106,14 @@ export default function AboutPage() {
         <div className="theater-card-modern">
           <div className="space-y-4">
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h3 className="theater-nav-title mb-2">Chris-Armel IRADUKUNDA (daqhris)</h3>
+              <h3 className="theater-nav-title mb-2">Chris-Armel Iradukunda (daqhris)</h3>
               <p className="theater-nav-description">
                 Conception artistique, direction créative, scénarisation théâtrale, construction manuelle, réparation mécanique, performance sur scène et coordination du projet.
               </p>
             </div>
             
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h3 className="theater-nav-title mb-2">Devin AI</h3>
+              <h3 className="theater-nav-title mb-2">Devin AI (de Cognition Labs)</h3>
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
                 Contribution de plusieurs lignes de code informatique de Juin jusqu&apos;à Juillet 2025. 
