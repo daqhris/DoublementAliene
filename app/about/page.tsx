@@ -79,7 +79,11 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="theater-nav-description">
-              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais non-contraignants.
+              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais raisonables. 
+              Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
+                  <br></br><br></br>
+              Une pratique artistique impreignée de programmation open-source lui a permis un gain de confiance dans les yeux du public observateur. Que ce soit pour un précédent projet photographique ou le codage d&apos;applications futuristes.
+              Tel fût le cas, le 12 Décembre 2024, lors de l&apos;obtention d&apos;une des 1res médailles mondiales sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent d&apos;un laboratoire de recherche cognitive américain.
             </p>
           </div>
 
