@@ -85,7 +85,8 @@ export default function TimelinePage() {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit fictionnel et satirique en Anglais",
         external: true
-      }
+      },
+      isHighlight: true
     },
     {
       date: "25 Novembre 2024",
@@ -115,8 +116,9 @@ export default function TimelinePage() {
       description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle",
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies artistiques contemporaines.",
       link: {
-        url: "/about",
-        text: "En savoir plus sur ce programme du CIFAS"
+        url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
+        text: "En savoir plus sur ce programme du CIFAS", 
+        external: true
       },
       isHighlight: true
     },
@@ -129,8 +131,6 @@ export default function TimelinePage() {
         url: "/performance",
         text: "Accéder aux photos des prototypes filmés et réalisés en privé"
       },
-      isHighlight: true
-    },
     {
       date: "4 Avril 2025",
       title: "Dépôt de Code: Doublement Aliene",
@@ -177,8 +177,9 @@ export default function TimelinePage() {
       details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques.",
       link: {
         url: "/about",
-        text: "Lire la philosophie du projet en long et en large"
-      }
+        text: "À propos de la philosophie du projet en long et en large"
+        },
+      isHighlight: true
     },
     {
       date: "Août 2025",
@@ -187,7 +188,8 @@ export default function TimelinePage() {
       details: "La phase de recherche prend de l'ampleur avec une résidence d'artistes permettant d'approfondir les thèmes de réflexion, travailler dans un espace notoire et exposer des réalisations.",
       link: {
         url: "http://hectolitre.space/members.html",
-        text: "Bienvenue chez Hectolitre!"
+        text: "Bienvenue chez Hectolitre!", 
+        external: true
       },
       isHighlight: true
     },
@@ -198,7 +200,8 @@ export default function TimelinePage() {
       details: "Il s'agit d'une œuvre inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile, encadrée à l'image d'une tablette Google et faite à l'aide de machines. Sa création s'est déroulée durant une formation centrée sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 17), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
-        text: "Exposition d'une tablette encadrant l'auto-portrait de Gemini"
+        text: "Exposition d'une tablette encadrant l'auto-portrait de Gemini", 
+        external: true
       }
     }
   ];
