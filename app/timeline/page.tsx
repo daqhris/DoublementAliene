@@ -111,7 +111,7 @@ export default function TimelinePage() {
     },
     {
       date: "Janvier - Avril 2025",
-      title: "Participation aux CIFAS-Constellations",
+      title: "CIFAS - Constellations",
       description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle",
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies artistiques contemporaines.",
       link: {
@@ -122,7 +122,7 @@ export default function TimelinePage() {
     },
     {
       date: "17 Mars 2025",
-      title: "Prototypes d'Interprétation Théâtrale",
+      title: "Interprétation Théâtrale",
       description: "Première réalisation théâtrale de l'œuvre qui a abouti à deux spectacles expérimentaux en Français",
       details: "Performances au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
@@ -133,7 +133,7 @@ export default function TimelinePage() {
     },
     {
       date: "4 Avril 2025",
-      title: "Dépôt de Code Source: Doublement Aliene",
+      title: "Dépôt de Code: Doublement Aliene",
       description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre dans un espace numérique public",
       details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme en ligne.",
       link: {
@@ -150,7 +150,7 @@ export default function TimelinePage() {
     },
     {
       date: "22 Juin 2025",
-      title: "Naissance du Laboratoire de Recherche",
+      title: "Laboratoire de Recherche",
       description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche",
       details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénografique.",
       link: {
@@ -161,7 +161,7 @@ export default function TimelinePage() {
     },
     {
       date: "24 Juin 2025",
-      title: "Documentation du Prototype de Spectacle",
+      title: "Documentation du Prototype №1",
       description: "Publication de divers fichiers documentant le spectacle prototypé le 17 Mars",
       details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos illustrant l'essai d'unr représentation théâtrale.",
       link: {
@@ -171,14 +171,25 @@ export default function TimelinePage() {
       }
     },
     {
-      date: "25 Juin 2025 à Maintenant",
+      date: "25 Juin 2025",
       title: "Site Web du Projet",
       description: "Programmation en collaboration avec Devin AI d'une interface web adéquate",
       details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques.",
       link: {
         url: "/about",
         text: "Lire la philosophie du projet en long et en large"
-      }
+      },
+    {
+      date: "1 Août 2025",
+      title: "Résidence de Réflexion",
+      description: "Début d'une résidence de réflexion chez Hectolitre (Marolles, Bruxelles)",
+      details: "La phase de recherche prend de l'ampleur avec une résidence d'artistes permettant d'approfondir les thèmes de réflexion, travailler dans un espace notoire et exposer des réalisations.",
+      link: {
+        url: "http://hectolitre.space/members.html",
+        text: "Bienvenue chez Hectolitre!"
+      },
+      isHighlight: true
+    },
     }
   ];
 
