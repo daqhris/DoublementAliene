@@ -56,11 +56,11 @@ export default function PerformancePage() {
               <span className="theater-card-type-badge theater-badge-restricted">Accès Restreint</span>
               <h4 className="theater-nav-title mb-3">Enregistrements Audiovisuels</h4>
               <p className="theater-nav-description mb-4">
-                <strong>Accès limité:</strong> Les films de la performance prototypée 
+                <strong>Accès restreint:</strong> Les films de la performance prototypée 
                 ne sont disponibles que pour les co-auteur.ice.s du projet.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Contact:</strong> Demande d&apos;accès ou collaboration par courrier électronique ou sur GitHub
+                <strong>Fichiers:</strong> 2 court films, de ±20 minutes chacun, enregistrés en direct sur place
               </div>
             </div>
           </div>
