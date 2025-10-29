@@ -130,6 +130,7 @@ export default function TimelinePage() {
       link: {
         url: "/performance",
         text: "Accéder aux photos des prototypes filmés et réalisés en privé"
+        }
       },
     {
       date: "4 Avril 2025",
