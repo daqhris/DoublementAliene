@@ -79,7 +79,7 @@ export default function TimelinePage() {
     {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
-      description: "Première parution en ligne et sur blockchain de l'œuvre originale en Anglais: «Twofold Alienated».",
+      description: "Première parution en ligne et sur blockchain de l'œuvre originale en Anglais «Twofold Alienated»",
       details: "Publication sur la blockchain Base (dépendante d'Ethereum), grâce à Manifold.xyz, qui marque le début du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
@@ -90,7 +90,7 @@ export default function TimelinePage() {
     {
       date: "25 Novembre 2024",
       title: "Sélection par le CIFAS",
-      description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations.",
+      description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations",
       details: "Chris-Armel Iradukunda (daqhris) figurait parmi les artistes sélectionnés pour les sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
@@ -101,7 +101,7 @@ export default function TimelinePage() {
     {
       date: "Décembre 2024 - Janvier 2025",
       title: "Dépôt de Code: Twofold Alienated",
-      description: "Création d'un dépôt de code public et open-source à l'aide du gestionnaire des versions de fichiers GIT sur GitHub.",
+      description: "Création d'un dépôt de code public et open-source à l'aide du gestionnaire des versions de fichiers GIT sur GitHub",
       details: "Rassemblement de tous les documents textuels associés au récit original sur les étagères numériques de la plus grande bibliothèque de logiciels libres.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
@@ -112,7 +112,7 @@ export default function TimelinePage() {
     {
       date: "Janvier - Avril 2025",
       title: "Participation aux CIFAS-Constellations",
-      description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle.",
+      description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle",
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies artistiques contemporaines.",
       link: {
         url: "/about",
@@ -123,7 +123,7 @@ export default function TimelinePage() {
     {
       date: "17 Mars 2025",
       title: "Prototypes d'Interprétation Théâtrale",
-      description: "Première réalisation théâtrale de l'œuvre qui a abouti à deux spectacles expérimentaux en Français.",
+      description: "Première réalisation théâtrale de l'œuvre qui a abouti à deux spectacles expérimentaux en Français",
       details: "Performances au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
@@ -134,7 +134,7 @@ export default function TimelinePage() {
     {
       date: "4 Avril 2025",
       title: "Dépôt de Code Source: Doublement Aliene",
-      description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre dans un espace numérique public.",
+      description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre dans un espace numérique public",
       details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme en ligne.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
@@ -145,13 +145,13 @@ export default function TimelinePage() {
     {
       date: "16 Avril 2025",
       title: "Clôture des Constellations 2025",
-      description: "Clôture festive des activités qui réunissaient des artistes mettant en scène les prototypes de leurs spectacles durant les Constellations 2025 à Molenbeek, Bruxelles.",
+      description: "Clôture festive des activités qui réunissaient des artistes mettant en scène les prototypes de leurs spectacles durant les Constellations 2025 à Molenbeek, Bruxelles",
       details: "Fin officielle des sessions mensuelles de co-apprentissage, accompagnée d'une consolidation des acquis et d'une réflexion sur des améliorations éventuelles."
     },
     {
       date: "22 Juin 2025",
       title: "Naissance du Laboratoire de Recherche",
-      description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche.",
+      description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche",
       details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénografique.",
       link: {
         url: "/research",
@@ -162,7 +162,7 @@ export default function TimelinePage() {
     {
       date: "24 Juin 2025",
       title: "Documentation du Prototype de Spectacle",
-      description: "Publication de divers fichiers documentant le spectacle prototypé le 17 Mars.",
+      description: "Publication de divers fichiers documentant le spectacle prototypé le 17 Mars",
       details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos illustrant l'essai d'unr représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
@@ -173,8 +173,8 @@ export default function TimelinePage() {
     {
       date: "25 Juin 2025 à Maintenant",
       title: "Site Web du Projet",
-      description: "Programmation en collaboration avec Devin AI d'une interface web adéquate.",
-      details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques",
+      description: "Programmation en collaboration avec Devin AI d'une interface web adéquate",
+      details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques.",
       link: {
         url: "/about",
         text: "Lire la philosophie du projet en long et en large"
@@ -191,7 +191,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution par ordre chronologique révelant les étapes marquantes. À partir de la conception textuelle jusqu&apos;à la co-création d&apos;site web, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
+            Voici l&apos;évolution par ordre chronologique révelant les étapes marquantes. À partir de la conception textuelle jusqu&apos;à la co-création d&apos;un site web, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
           </p>
         </div>
 
