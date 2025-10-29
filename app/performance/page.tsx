@@ -21,7 +21,7 @@ export default function PerformancePage() {
           </h1>
           <p className="theater-subtitle">
             Accédez ici à la documentation des essais pour la réalisation du spectacle «Doublement Aliéné»: 
-            guide de mise en scène, script théâtral, photos et films.
+            mise en scène, script théâtral, photos et films.
           </p>
         </div>
 
@@ -44,11 +44,11 @@ export default function PerformancePage() {
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
-                L&apos;ensemble des archives visuelles rangées par ordre chronologique : 
+                Les archives visuelles rangées par ordre chronologique: 
                 construction manuelle, lieu de scène, sessions de feedback, et dessins numérisées.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Catégories:</strong> Menuiserie (9-16 Mars) • Scène &amp; Performance (17 Mars) • Feedback - Concept Réflexion • Dessins
+                <strong>Catégories:</strong> Menuiserie (9-16 Mars) • Scène&amp;Performance (17 Mars) • Feedback: Concept-Réflexion • Dessins Numérisés
               </div>
             </div>
 
