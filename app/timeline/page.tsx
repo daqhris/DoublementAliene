@@ -198,7 +198,7 @@ export default function TimelinePage() {
       details: "Il s'agit d'une œuvre d'art inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile, encadrée à l'image d'une tablette Google et faite à l'aide de machines. Sa création s'est déroulée durant une formation centrée sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 17), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
-        text: "Exposition de l'auto-portrait d'IA né chez Google Deepmind"
+        text: "Exposition d'une tablette encadrant l'auto-portrait d'IA"
       }
     }
   ];
