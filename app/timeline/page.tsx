@@ -178,7 +178,8 @@ export default function TimelinePage() {
       link: {
         url: "/about",
         text: "Lire la philosophie du projet en long et en large"
-      },
+      }
+    },
     {
       date: "1 Août 2025",
       title: "Résidence de Réflexion",
@@ -189,7 +190,6 @@ export default function TimelinePage() {
         text: "Bienvenue chez Hectolitre!"
       },
       isHighlight: true
-    },
     }
   ];
 
