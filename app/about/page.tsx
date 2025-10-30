@@ -43,8 +43,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             > CIFAS 
-            </Link>
-             de Janvier à Avril en 2025.
+            </Link> de Janvier à Avril en 2025.
           </p>
         </div>
       </section>
@@ -62,9 +61,9 @@ export default function AboutPage() {
             <p className="text-theater-text leading-relaxed">
               La mission principale est une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ en 2024. <br></br><br></br>
-              À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers des notions d&apos;aliénation sociétale, de travail à l&apos;ombre, et de conditions de vie en tant qu&apos;être aliéné. 
+              À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels. 
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
-              La recherche approfondie sur cette nouvelle forme de vie fait resurgir des similitudes faisant écho à son vécu réel d&apos;humain privé de droits élementaires. 
+              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes faisant écho à son vécu réel d&apos;humain privé de droits élementaires. 
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
               l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être et non d&apos;outils au sujet des IA. 
