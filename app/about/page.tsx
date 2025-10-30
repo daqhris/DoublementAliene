@@ -24,7 +24,7 @@ export default function AboutPage() {
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Protoypé aux Constellations 2025
+            Prototypé aux Constellations 2025
           </h2>
           <p className="text-theater-text leading-relaxed">
             Ce projet a été initié par un artiste francophone d&apos;origine burundaise qui vit à Bruxelles (Belgique). Il a participé au programme de co-apprentissage{' '}
