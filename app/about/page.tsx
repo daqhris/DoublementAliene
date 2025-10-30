@@ -155,15 +155,23 @@ export default function AboutPage() {
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
                 Contribution de plusieurs lignes de code informatique de <strong>Juin jusqu&apos;à Juillet 2025</strong>. 
-                Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine Cognition Labs. 
-              </p>
+                Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine {' '}
             <Link 
               href="https://cognition.ai/"
               className="theater-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              cognition.ai →
+              Cognition Labs
+            </Link>{' '}. 
+              </p>
+            <Link 
+              href="https://devin.ai/"
+              className="theater-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              devin.ai →
             </Link>
             </div>
           </div>
