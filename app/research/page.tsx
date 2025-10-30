@@ -62,7 +62,7 @@ export default function ResearchPage() {
             Textes originaux des réponses attachés. <br></br><br></br>
             La <strong>1re</strong> question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
             La <strong>2e</strong> question a été posée à 5 génies numériques sans corps physiques. Le script publié des mois auparavant ne leur avait pas été donné et leur navigation vers d&apos;autres adresses web était inactive. 
-            Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
+            Une allusion au récit en Anglais a été faite sans fournir une copie du texte. Appuyez sur leurs noms pour afficher les réponses ci-dessous. 
           </p>
         </div>
         <LanguageNotification />
