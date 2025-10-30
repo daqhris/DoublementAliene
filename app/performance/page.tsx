@@ -6,7 +6,7 @@ import PDFViewer from '../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Performance - Doublement Aliéné | daqhris.com',
-  description: 'Documentation complète des prototypes du spectacle «Doublement Aliéné» conçu par Chris-Armel Iradukunda (daqhris)',
+  description: 'Documentation exhaustive des prototypes du spectacle «Doublement Aliéné» conçu par Chris-Armel Iradukunda (daqhris)',
 };
 
 export default function PerformancePage() {
@@ -67,9 +67,9 @@ export default function PerformancePage() {
         </div>
       </section>
 
-      <section className="theater-section">
+      <section className="theater-card-modern">
         <div className="theater-section-header mb-8">
-          <h2 className="theater-heading-md">Documentation du Prototype</h2>
+          <h2 className="theater-heading-md">Documentation du Prototype №1</h2>
           <p className="text-theater-text leading-relaxed">
             Documents PDF utiles pour découvrir et dépeindre les résultats du 1er prototype de la performance.
           </p>
