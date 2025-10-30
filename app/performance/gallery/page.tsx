@@ -6,7 +6,7 @@ import PDFViewer from '../../components/PDFViewer';
 
 export const metadata: Metadata = {
   title: 'Galerie - Doublement Aliéné | daqhris.com',
-  description: 'Galerie des matériaux créatifs du prototype de spectacle «Doublement Aliéné»',
+  description: 'Galerie des matériaux créatifs du prototype n°1 du spectacle',
 };
 
 export default function GalleryPage() {
@@ -182,7 +182,7 @@ export default function GalleryPage() {
       <div className="theater-section-header mb-12">
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
-          Ici est raconté le processus d&apos;élaboration du prototype de spectacle n°1: 
+          Ici est raconté le processus d&apos;élaboration du prototype n°1 du spectacle: 
           en partant de la construction d&apos;un support-vélo en bois à l&apos;interprétation du premier prototype en privé, 
           en finissant par des réflexions conceptuelles et des dessins numérisés.
         </p>
