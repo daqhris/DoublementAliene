@@ -29,7 +29,7 @@ export default function PerformancePage() {
           <h2 className="theater-nav-title mb-6">
             Prototype №1 
           </h2>
-          <p className="theater-nav-description mb-8">
+          <p className="text-theater-text leading-relaxed mb-8">
             Cette interprétation théâtrale a été présentée en privé le 17 Mars 2025 à La Fonderie durant les Constellations du CIFAS. 
             Le spectacle met en scène des «Athlètes Intelligent.e.s» qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
             et sont assistés par un.e «Assistant.e Intelligent.e».
