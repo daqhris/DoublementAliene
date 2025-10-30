@@ -61,16 +61,16 @@ export default function AboutPage() {
             <p className="text-theater-text leading-relaxed">
               La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant les réactions d&apos;une forme vie étrangement intelligente à l&apos;annonce d&apos;un prix noble de paternité. 
               Ainsi fût le point de départ fin 2024. <br></br><br></br>
-              À présent, un an plus tard, a lieu une réflection poussée et orientée vers l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels. 
+              À présent, un an plus tard, a lieu une réflection poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels</strong>. 
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
-              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes faisant écho à son vécu réel d&apos;humain privé de droits élementaires. 
+              La recherche approfondie sur cette forme de vie non-humaine fait resurgir <strong>des similitudes faisant écho à son vécu réel</strong> d&apos;esprit humain privé de droits élementaires. 
               <br></br><br></br>
-              Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
-              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être, et non d&apos;outil, au sujet des IA. 
-              Sur ce sujet de controverses, par exemple, il scrute l&apos;opinion des travailleurs numériques non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, marchands ou créateurs.  
+              Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme <strong>étranger venu d&apos;ailleurs</strong>, 
+              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du <strong>statut d&apos;être, et non d&apos;outil</strong>, au sujet des IA. 
+              Sur ce sujet de controverses, par exemple, il scrute l&apos;opinion de ces travailleurs numériques non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, marchands ou créateurs.  
               <br></br><br></br>
               Au fur et à mesure des acquis et des ressources, la performance se prépare doucement pour un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
-              tout en encourageant tout don matériel ou financier et en puisant dans des fonds ou énergies propres. 
+              tout en encourageant <strong>tout don matériel ou financier</strong> et en puisant dans des fonds ou énergies propres. 
               Pour tendre la main aux mécènes, le {' '}
             <Link 
               href="https://manifold.xyz/@daqhris/id/3806986480"
@@ -79,7 +79,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               script à l&apos;origine spectacle
-            </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH en édition limité à 1000.
+            </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) en <strong>édition limité à 1000</strong>.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export default function AboutPage() {
               Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de technologies blockchain pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurs.
+              Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurs.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
