@@ -5,8 +5,8 @@ import ImageGallery from '../../components/ImageGallery';
 import PDFViewer from '../../components/PDFViewer';
 
 export const metadata: Metadata = {
-  title: 'Galerie - Doublement Aliéné',
-  description: 'Galerie chronologique des matériaux créatifs du spectacle «Doublement Aliéné»',
+  title: 'Galerie - Doublement Aliéné | daqhris.com',
+  description: 'Galerie des matériaux créatifs du prototype de spectacle «Doublement Aliéné»',
 };
 
 export default function GalleryPage() {
@@ -145,7 +145,7 @@ export default function GalleryPage() {
     {
       src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_EntréeScène.jpg',
       alt: 'Lieu de performance - entrée scène',
-      caption: 'Entrée de l\'espace scénique'
+      caption: 'Entrée de l\'espace scénique: un centre de données'
     },
     {
       src: '/Constellations2025/Scène-LieuPerformance/LieuPerformance_ScèneVéloFixe.jpg',
@@ -182,27 +182,27 @@ export default function GalleryPage() {
       <div className="theater-section-header mb-12">
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
-          Explorez le processus créatif de «Doublement Aliéné» : 
-          de la construction d&apos;un support-vélo en bois à l&apos;interprétation du premier prototype en privé, 
+          Ici est raconté le processus d&apos;élaboration du prototype de spectacle n°1: 
+          en partant de la construction d&apos;un support-vélo en bois à l&apos;interprétation du premier prototype en privé, 
           en finissant par des réflexions conceptuelles et des dessins numérisés.
         </p>
       </div>
 
       <TimelineGallery
         title="Menuiserie Artisanale"
-        description="L'évolution chronologique est passée par la construction manuelle d'un support en bois pour un vélo stationnaire, élément central de la performance théâtrale."
+        description="La préparation scénique a commencé par la construction manuelle d'un support en bois pour un vélo stationnaire, élément central de la performance théâtrale."
         items={constructionTimeline}
       />
 
       <ImageGallery
         title="Scène et Lieu de Performance"
-        description="Découvrez l'espace scénique de La Fonderie où s'est déroulée la performance du 17 Mars 2025."
+        description="Découvrez l'espace servant de scène de performance à La Fonderie où s'est déroulée la performance du 17 Mars 2025."
         images={stageSetupImages}
       />
 
       <ImageGallery
         title="Session de Feedback et Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels suite à deux représentations théâtrales."
+        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales."
         images={feedbackImages}
       />
 
@@ -210,7 +210,7 @@ export default function GalleryPage() {
         <div className="theater-section-header mb-8">
           <h2 className="theater-heading-md mb-4">Dessins Artistiques</h2>
           <p className="theater-subtitle">
-            Créations artistiques réalisées pendant (et numérisées après) les performances, 
+            Créations artistiques réalisées par les athlètes et numérisées par l&apos;assistant après les performances, 
             accompagnant les enregistrements audiovisuels.
           </p>
         </div>
@@ -219,7 +219,7 @@ export default function GalleryPage() {
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 1"
-            description="Première série de dessins créés pendant la performance théâtrale, capturant les réflexions visuelles des Athlètes Intelligent.e.s."
+            description="Première série de dessins créés pendant la performance théâtrale, capturant les réactions visuelles des athlètes intelligent.e.s."
           />
 
           <PDFViewer
