@@ -30,9 +30,9 @@ export default function PerformancePage() {
             Prototype №1 
           </h2>
           <p className="text-theater-text leading-relaxed mb-8">
-            Cette interprétation théâtrale a été présentée en privé le 17 Mars 2025 à La Fonderie durant les Constellations du CIFAS. 
-            Le spectacle met en scène des «Athlètes Intelligent.e.s» qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
-            et sont assistés par un.e «Assistant.e Intelligent.e».
+            Cette interprétation théâtrale a été présentée en privé le 17 Mars 2025 au Musée bruxellois des Industries et du Travail (La Fonderie) durant les Constellations du CIFAS. 
+            Le spectacle met en scène des athlètes intelligent.e.s qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
+            et sont assistés par un assistant intelligent.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -44,8 +44,8 @@ export default function PerformancePage() {
                 </Link>
               </h4>
               <p className="theater-nav-description mb-4">
-                Les archives visuelles rangées par ordre chronologique: 
-                construction manuelle, lieu de scène, sessions de feedback, et dessins numérisées.
+                Les archives numérisées sont rangées chronologiquement: 
+                construction manuelle, lieu de scène, sessions de feedback, et dessins d&apos;athlètes.
               </p>
               <div className="text-sm text-theater-muted">
                 <strong>Catégories:</strong> Menuiserie (9-16 Mars) • Scène&amp;Performance (17 Mars) • Feedback: Concept-Réflexion • Dessins Numérisés
@@ -60,7 +60,7 @@ export default function PerformancePage() {
                 ne sont disponibles que pour les co-auteur.ice.s du projet.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Fichiers:</strong> 2 court films, de ±20 minutes chacun, enregistrés en direct sur place
+                <strong>Fichiers:</strong> 2 court-métrages, de ±20 minutes chacun, enregistrés et projetés sur place
               </div>
             </div>
           </div>
