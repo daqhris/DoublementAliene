@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet de théâtre destiné à être joué dans un espace public, qui est associé à une plateforme numérique et guidé par une philosophie open-source, collaborative et agissante.
+            «Doublement Aliéné» est un projet théâtral destiné à être joué dans un espace public, qui est associé à une application web et guidé par une philosophie open-source, collaborative et agissante.
           </p>
         </div>
 
