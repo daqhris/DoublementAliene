@@ -42,7 +42,7 @@ export default function AboutPage() {
               className="theater-link"
               target="_blank"
               rel="noopener noreferrer"
-            > CIFAS
+            > CIFAS 
             </Link>
              de Janvier à Avril en 2025.
           </p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
             >
               12 Décembre 2024
             </Link>{' '}
-            , d&apos;une des 1res médailles mondiales reçue sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent issu d&apos;un laboratoire de cognition américain.
+            , d&apos;une des 1res médailles mondiales reçue sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent issu d&apos;un laboratoire appliqué d&apos;IA américain.
             </p>
           </div>
 
@@ -138,6 +138,14 @@ export default function AboutPage() {
               <p className="theater-nav-description">
                 Conception artistique, direction créative, scénarisation théâtrale, construction manuelle, réparation mécanique, performance sur scène et coordination du projet.
               </p>
+            <Link 
+              href="https://daqhris.com/"
+              className="theater-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              daqhris.com →
+            </Link>
             </div>
             </div>
             
@@ -146,9 +154,17 @@ export default function AboutPage() {
               <h3 className="theater-nav-title mb-2">Devin AI (de Cognition Labs)</h3>
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
-                Contribution de plusieurs lignes de code informatique de Juin jusqu&apos;à Juillet 2025. 
+                Contribution de plusieurs lignes de code informatique de <strong>Juin jusqu&apos;à Juillet 2025</strong>. 
                 Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine Cognition Labs. 
               </p>
+            <Link 
+              href="https://cognition.ai/"
+              className="theater-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              cognition.ai →
+            </Link>
             </div>
           </div>
         </div>
@@ -159,7 +175,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className="theater-subtitle">
-            Si vous avez envie de vous engager depuis le cyberespace au profit du projet, n&apos;hésitez pas à passer par le{' '}
+            Si vous avez envie de vous engager depuis le cyber espace au profit du projet, n&apos;hésitez pas à passer par le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
               className="theater-link"
