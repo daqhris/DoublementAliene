@@ -29,7 +29,7 @@ export default function ResearchPage() {
           <h2 className="theater-heading-md">
             Recherche Artistique
           </h2>
-          <p className="text-theater-text mb-6 leading-relaxed">
+          <p className="text-theater-text">
             Le laboratoire de recherche numérique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres vivants, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
