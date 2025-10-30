@@ -91,7 +91,7 @@ export default function AboutPage() {
               Construction <strong>transparente</strong> et documentation dépendant de <strong>logiciels libres</strong>. Partage des ressources créatives en tenant compte de délais raisonables. 
               Tels ne sont que deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience d&apos;au moins six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres <strong>FOSDEM</strong> à Bruxelles. 
                   <br></br><br></br>
-              Une pratique artistique impreignée de programmation open-source lui a apporté un gain de confiance dans les yeux du public. Que ce soit pour le projet photographique {' '}
+              Une pratique artistique impreignée de <strong>codage open-source</strong> lui a procuré un gain de confiance dans les yeux du public. Que ce soit pour le projet photographique {' '}
             <Link 
               href="https://github.com/awalkaday"
               className="theater-link"
