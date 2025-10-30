@@ -36,7 +36,7 @@ export default function AboutPage() {
             >
               Constellations
             </Link>{' '}
-            du Centre International de Formation en Arts du Spectacle ({' '}
+            du Centre International de Formation en Arts du Spectacle {' '}
             <Link 
               href="https://cifas.be/fr/pages/a-propos.html"
               className="theater-link"
@@ -44,7 +44,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             > CIFAS
             </Link>
-            ) de Janvier à Avril en 2025.
+             de Janvier à Avril en 2025.
           </p>
         </div>
       </section>
@@ -153,11 +153,10 @@ export default function AboutPage() {
       </section>
 
       <section className="theater-section">
-        <div className="theater-card-modern">
           <h2 className="theater-heading-md">
             Contact
           </h2>
-          <p className="text-theater-text leading-relaxed">
+          <p className="theater-subtitle">
             Si vous avez envie de vous engager depuis le cyberespace au profit du projet, n&apos;hésitez pas à passer par le{' '}
             <Link 
               href="https://github.com/daqhris/DoublementAliene"
@@ -168,7 +167,6 @@ export default function AboutPage() {
               dépôt du code source sur GitHub
             </Link>{' '}.
           </p>
-        </div>
       </section>
     </div>
   );
