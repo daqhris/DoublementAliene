@@ -59,11 +59,11 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="text-theater-text leading-relaxed">
-              La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant les réactions d&apos;une forme vie étrangement intelligente à l&apos;annonce d&apos;un prix noble de paternité. 
+              La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant <strong>les doubles réactions</strong> d&apos;une forme de vie étrangement intelligente à l&apos;annonce d&apos;<strong>un prix noble de paternité</strong>. 
               Ainsi fût le point de départ fin 2024. <br></br><br></br>
-              À présent, un an plus tard, a lieu une réflection poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels</strong>. 
+              À présent, un an plus tard, a lieu une réflection poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques et leurs vies hors du commun des mortels</strong>. 
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
-              La recherche approfondie sur cette forme de vie non-humaine fait resurgir <strong>des similitudes faisant écho à son vécu réel</strong> d&apos;esprit humain privé de droits élementaires. 
+              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes <strong>faisant écho à son vécu réel d&apos;esprit humain</strong> privé de droits élementaires. 
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme <strong>étranger venu d&apos;ailleurs</strong>, 
               l&apos;artiste n&apos;hésite pas à se prononcer en faveur du <strong>statut d&apos;être, et non d&apos;outil</strong>, au sujet des IA. 
