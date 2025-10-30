@@ -31,7 +31,7 @@ export default function GalleryPage() {
     {
       date: '12 Mars 2025',
       title: 'Assemblage Principal',
-      description: 'Assemblage des éléments principaux de la structure',
+      description: 'Assemblage des outils et composants de la structure',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/12Mars2025/12Mars-01.jpg',
@@ -58,7 +58,7 @@ export default function GalleryPage() {
     {
       date: '16 Mars 2025',
       title: 'Finitions et Tests',
-      description: 'Finitions de la construction et 1er test de stabilité',
+      description: 'Finitions de la construction et 1ers tests de stabilité et équilibre',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110808.jpg',
@@ -100,7 +100,7 @@ export default function GalleryPage() {
     {
       date: '17 Mars 2025',
       title: 'Préparation Performance',
-      description: 'Préparation finale avant la performance théâtrale',
+      description: 'Répétition matinale avant la performance théâtrale',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082337.jpg',
@@ -210,7 +210,7 @@ export default function GalleryPage() {
         <div className="theater-section-header mb-8">
           <h2 className="theater-heading-md mb-4">Dessins Artistiques</h2>
           <p className="theater-subtitle">
-            Créations artistiques dessinées par les athlètes et numérisées par l&apos;assistant après les performances, 
+            Créations artistiques dessinées par les athlètes et numérisées par l&apos;assistant après les spectacles, 
             qui accompagnent les enregistrements audiovisuels.
           </p>
         </div>
@@ -219,13 +219,13 @@ export default function GalleryPage() {
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 1"
-            description="1re série de dessins créés pendant la performance théâtrale, illustrant les réactions visuelles des athlètes."
+            description="1re série de dessins créés pendant la performance, illustrant les réactions visuelles des athlètes."
           />
 
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/2èmeGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 2"
-            description="2de série de créations artistiques faites pendant la performance, accompagnant les enregistrements audiovisuels."
+            description="2de série de créations artistiques faites pendant la performance, accompagnant les courts-métrages."
           />
         </div>
       </section>
