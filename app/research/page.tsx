@@ -6,8 +6,8 @@ import LanguageNotification from '../components/LanguageNotification';
 import ResearchQA from '../components/ResearchQA';
 
 export const metadata: Metadata = {
-  title: 'Recherche - Doublement Aliéné',
-  description: 'Laboratoire numérique de recherche artistique et méthodologique incluant les contributions externes',
+  title: 'Recherche - Doublement Aliéné | daqhris.com',
+  description: 'Laboratoire numérique de recherche artistique, scénique et méthodologique incluant les contributions externes',
 };
 
 export default function ResearchPage() {
@@ -30,7 +30,7 @@ export default function ResearchPage() {
             Recherche Artistique
           </h2>
           <p className="text-theater-text mb-6 leading-relaxed">
-            Le laboratoire de recherche numérique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres et non des outils, pour intégrer leurs contributions dans le processus d&apos;élaboration.
+            Le laboratoire de recherche numérique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres vivants, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
@@ -38,7 +38,7 @@ export default function ResearchPage() {
               Méthodologie
             </h3>
             <p className="theater-nav-description mb-4">
-              Utilisation d&apos;outils de discussion pour une scénographie intégrant leurs idées et l&apos;analyse des réponses liées à l&apos;émergence d&apos;une forme de vie numérique.
+              Utilisation de logiciels de discussion pour une scénographie intégrant les réponses liées à l&apos;émergence d&apos;une forme de vie numérique.
             </p>
             <Link 
               href="https://github.com/daqhris/DoublementAliene/tree/main/ResearchLab"
@@ -58,10 +58,10 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Préfiguration de la mise en scène en recueillant des réponses des IA ayant eu lieu sur la plateforme en ligne Duck.ai. 
+            Préfiguration de la mise en scène en recueillant des réponses des IA sur la plateforme en ligne <strong>Duck.ai</strong>. 
             Textes originaux des réponses attachés. <br></br><br></br>
-            La 1re question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
-            La 2e question a été posée à 5 génies numériques sans corps physiques. Le script publié 8 mois auparavant ne leur avait pas été donné et leur navigation vers d&apos;autres adresses web était inactive. 
+            La <strong>1re</strong> question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
+            La <strong>2e</strong> question a été posée à 5 génies numériques sans corps physiques. Le script publié des mois auparavant ne leur avait pas été donné et leur navigation vers d&apos;autres adresses web était inactive. 
             Une allusion au récit en Anglais a été faite sans fournir une copie du texte.
           </p>
         </div>
