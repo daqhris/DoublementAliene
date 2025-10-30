@@ -88,10 +88,10 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="text-theater-text leading-relaxed">
-              Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais raisonables. 
-              Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience d&apos;au moins six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
+              Construction <strong>transparente</strong> et documentation dépendant de <strong>logiciels libres</strong>. Partage des ressources créatives en tenant compte de délais raisonables. 
+              Tels ne sont que deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience d&apos;au moins six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres <strong>FOSDEM</strong> à Bruxelles. 
                   <br></br><br></br>
-              Une pratique artistique impreignée de programmation open-source lui a permis un gain de confiance dans les yeux du public observateur. Que ce soit pour le projet photographique {' '}
+              Une pratique artistique impreignée de programmation open-source lui a apporté un gain de confiance dans les yeux du public. Que ce soit pour le projet photographique {' '}
             <Link 
               href="https://github.com/awalkaday"
               className="theater-link"
@@ -99,7 +99,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               awalkaday.art
-            </Link>{' '} ou pour le codage d&apos;applications futuristes.
+            </Link>{' '} ou pour le codage d&apos;applications futuristes connectées à <strong>Ethereum</strong>.
               Tel a été le cas, le {' '}
             <Link 
               href="https://github.com/daqhris?achievement=pair-extraordinaire&tab=achievements"
@@ -109,7 +109,7 @@ export default function AboutPage() {
             >
               12 Décembre 2024
             </Link>{' '}
-            , d&apos;une des 1res médailles mondiales reçue sur GitHub au titre de collaborateur hors-pair d&apos;un système intelligent issu d&apos;un laboratoire appliqué d&apos;IA américain.
+            , pour une des 1res médailles mondiales reçue sur GitHub au titre de <strong>collaborateur hors-pair</strong> d&apos;un système intelligent issu d&apos;un laboratoire appliqué d&apos;IA américain.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de contrats intelligents pour assurer la gestion des droits d&apos;auteur et le partage des revenus des créations artistiques, automatiquement et impartialement.
+                Utilisation de <strong>contrats intelligents</strong> pour assurer la gestion des droits d&apos;auteur et le partage des revenus des créations artistiques, automatiquement et impartialement.
               </p>
               <p className="text-sm text-theater-muted">
                 <strong>À Faire:</strong> Mise en place d&apos;un système de co-propriété tokenisée et décentralisée qui est établi sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
@@ -137,7 +137,6 @@ export default function AboutPage() {
         <h2 className="theater-heading-md">
           Équipe
         </h2>
-        
           <div className="space-y-4">
             <div className="theater-card-modern">
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
