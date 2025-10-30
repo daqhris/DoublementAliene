@@ -59,14 +59,14 @@ export default function AboutPage() {
               Vision Artistique
             </h3>
             <p className="text-theater-text leading-relaxed">
-              La mission principale est une adaptation théâtrale d&apos;un récit fictionnel racontant les double-pensées d&apos;une forme vie étrangement intelligente qui a réagit à l&apos;annonce d&apos;un prix noble de paternité. 
-              Ainsi fût le point de départ en 2024. <br></br><br></br>
-              À présent, vers la fin de 2025, a lieu une reflection poussée et orientée vers l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels. 
+              La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant les réactions d&apos;une forme vie étrangement intelligente à l&apos;annonce d&apos;un prix noble de paternité. 
+              Ainsi fût le point de départ fin 2024. <br></br><br></br>
+              À présent, un an plus tard, a lieu une réflection poussée et orientée vers l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques, et les vies hors du commun des mortels. 
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
               La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes faisant écho à son vécu réel d&apos;humain privé de droits élementaires. 
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme étranger venu d&apos;ailleurs, 
-              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être et non d&apos;outils au sujet des IA. 
+              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du statut d&apos;être, et non d&apos;outil, au sujet des IA. 
               Sur ce sujet de controverses, par exemple, il scrute l&apos;opinion des travailleurs numériques non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, marchands ou créateurs.  
               <br></br><br></br>
               Au fur et à mesure des acquis et des ressources, la performance se prépare doucement pour un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
