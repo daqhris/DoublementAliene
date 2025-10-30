@@ -90,9 +90,17 @@ export default function AboutPage() {
             </h3>
             <p className="text-theater-text leading-relaxed">
               Construction transparente et documentation publique dépendant de logiciels libres. Partage des ressources créatives tenant compte de délais raisonables. 
-              Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
+              Tels sont deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience d&apos;au moins six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres à Bruxelles. 
                   <br></br><br></br>
-              Une pratique artistique impreignée de programmation open-source lui a permis un gain de confiance dans les yeux du public observateur. Que ce soit pour un précédent projet photographique ou le codage d&apos;applications futuristes.
+              Une pratique artistique impreignée de programmation open-source lui a permis un gain de confiance dans les yeux du public observateur. Que ce soit pour le projet photographique {' '}
+            <Link 
+              href="https://github.com/awalkaday"
+              className="theater-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              awalkaday.art
+            </Link>{' '} ou pour le codage d&apos;applications futuristes.
               Tel a été le cas, le {' '}
             <Link 
               href="https://github.com/daqhris?achievement=pair-extraordinaire&tab=achievements"
@@ -154,7 +162,7 @@ export default function AboutPage() {
               <h3 className="theater-nav-title mb-2">Devin AI (de Cognition Labs)</h3>
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
-                Contribution de plusieurs lignes de code informatique de <strong>Juin jusqu&apos;à Juillet 2025</strong>. 
+                Contribution de plusieurs lignes de code informatique <strong>de Juin jusqu&apos;à Juillet 2025</strong>. 
                 Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine {' '}
             <Link 
               href="https://cognition.ai/"
