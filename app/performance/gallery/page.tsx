@@ -14,7 +14,7 @@ export default function GalleryPage() {
     {
       date: '9 Mars 2025',
       title: 'Début de la Construction',
-      description: 'Premières étapes de construction du support en bois pour vélo fixe',
+      description: '1res étapes de construction du support en bois pour vélo fixe',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-01.jpg',
@@ -58,7 +58,7 @@ export default function GalleryPage() {
     {
       date: '16 Mars 2025',
       title: 'Finitions et Tests',
-      description: 'Finitions de la construction et premiers tests de stabilité',
+      description: 'Finitions de la construction et 1er test de stabilité',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110808.jpg',
@@ -183,7 +183,7 @@ export default function GalleryPage() {
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
           Ici est raconté le processus d&apos;élaboration du prototype n°1 du spectacle: 
-          en partant de la construction d&apos;un support-vélo en bois à l&apos;interprétation du premier prototype en privé, 
+          en partant de la construction d&apos;un support-vélo en bois à l&apos;interprétation du 1er prototype en privé, 
           en finissant par des réflexions conceptuelles et des dessins numérisés.
         </p>
       </div>
@@ -202,7 +202,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Session de Feedback et Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. Les réflexions écrites sur des post-its ont été partagées par les artistes constellés et organisatrices du CIFAS."
+        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. Les réflexions ont été écrites sur papier par les artistes constellés et organisatrices du CIFAS."
         images={feedbackImages}
       />
 
@@ -210,8 +210,8 @@ export default function GalleryPage() {
         <div className="theater-section-header mb-8">
           <h2 className="theater-heading-md mb-4">Dessins Artistiques</h2>
           <p className="theater-subtitle">
-            Créations artistiques réalisées par les athlètes et numérisées par l&apos;assistant après les performances, 
-            accompagnant les enregistrements audiovisuels.
+            Créations artistiques dessinées par les athlètes et numérisées par l&apos;assistant après les performances, 
+            qui accompagnent les enregistrements audiovisuels.
           </p>
         </div>
         
@@ -219,13 +219,13 @@ export default function GalleryPage() {
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 1"
-            description="Première série de dessins créés pendant la performance théâtrale, capturant les réactions visuelles des athlètes intelligent.e.s."
+            description="1re série de dessins créés pendant la performance théâtrale, illustrant les réactions visuelles des athlètes."
           />
 
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/2èmeGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 2"
-            description="Seconde série de créations artistiques réalisées pendant la performance, accompagnant les enregistrements audiovisuels."
+            description="2de série de créations artistiques faites pendant la performance, accompagnant les enregistrements audiovisuels."
           />
         </div>
       </section>
