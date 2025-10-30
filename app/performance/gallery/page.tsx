@@ -202,7 +202,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Session de Feedback et Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales."
+        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. Les réflexions écrites sur des post-its ont été partagées par les artistes constellés et organisatrices du CIFAS."
         images={feedbackImages}
       />
 
