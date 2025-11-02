@@ -79,8 +79,8 @@ export default function TimelinePage() {
     {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
-      description: "Première parution en ligne et sur blockchain de l'œuvre originale en Anglais «Twofold Alienated»",
-      details: "Publication sur la blockchain Base (dépendante d'Ethereum), grâce à Manifold.xyz, qui marque le début du projet artistique.",
+      description: "Première parution en ligne de l'œuvre originale en Anglais «Twofold Alienated»",
+      details: "Publication sur la blockchain Base (dépendante d'Ethereum), grâce à Manifold.xyz, qui a marqué le début du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit fictionnel et satirique en Anglais",
@@ -91,8 +91,8 @@ export default function TimelinePage() {
     {
       date: "25 Novembre 2024",
       title: "Sélection par le CIFAS",
-      description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations",
-      details: "Chris-Armel Iradukunda (daqhris) figurait parmi les artistes sélectionnés pour les sessions de co-apprentissage.",
+      description: "Annonce par le CIFAS d'artistes sélectionnés pour l'édition 2025 des Constellations",
+      details: "Chris-Armel Iradukunda (daqhris) fait parti des participants triés sur le volet pour assister aux sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
         text: "Jeter un coup d'œil aux Constellations 2025",
@@ -102,8 +102,8 @@ export default function TimelinePage() {
     {
       date: "Décembre 2024 - Janvier 2025",
       title: "Dépôt de Code: Twofold Alienated",
-      description: "Création d'un dépôt de code public et open-source à l'aide du gestionnaire des versions de fichiers GIT sur GitHub",
-      details: "Rassemblement de tous les documents textuels associés au récit original sur les étagères numériques de la plus grande bibliothèque de logiciels libres.",
+      description: "Création d'un dépôt de code public et open source à l'aide du gestionnaire des versions de fichiers GIT sur GitHub",
+      details: "Rassemblement de tout document textuel associé au récit original sur les étagères numériques de la plus grande bibliothèque de logiciels libres.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
         text: "Code source : twofold-alienated",
@@ -125,21 +125,21 @@ export default function TimelinePage() {
     {
       date: "17 Mars 2025",
       title: "Interprétation Théâtrale",
-      description: "Première réalisation théâtrale de l'œuvre qui a abouti à deux spectacles expérimentaux en Français",
+      description: "Première réalisation théâtrale de l'œuvre ayant abouti à 2 spectacles expérimentaux en Français",
       details: "Performances au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Accéder aux photos des prototypes filmés et réalisés en privé"
+        text: "Accéder aux photos des prototypes réalisés en privé"
         }
       },
     {
       date: "4 Avril 2025",
       title: "Dépôt de Code: Doublement Aliene",
-      description: "Lancement des travaux visant à construire un dépôt de code avec du logiciel libre dans un espace numérique public",
+      description: "Lancement des travaux visant à construire avec du logiciel libre un dépôt de code dans un espace numérique public",
       details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme en ligne.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
-        text: "Voir le code du dépôt open-source sur GitHub",
+        text: "Voir le code open-source sur GitHub",
         external: true
       }
     },
@@ -164,7 +164,7 @@ export default function TimelinePage() {
       date: "24 Juin 2025",
       title: "Documentation du Prototype №1",
       description: "Publication de divers fichiers documentant le spectacle prototypé le 17 Mars",
-      details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos illustrant l'essai d'unr représentation théâtrale.",
+      details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos illustrant l'essai d'une représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
         text: "Consulter les documents associés à cette première réalisation",
@@ -197,7 +197,7 @@ export default function TimelinePage() {
     {
       date: "Septembre - Novembre 2025",
       title: "Portrait Portable d'IA",
-      description: "Œuvre d'art textile et tactile présentée lors du Wonder Festival (Courtrai, Flandres)",
+      description: "Œuvre d'art textile sous forme de tablette présentée lors du Wonder Festival (Courtrai, Flandres)",
       details: "Il s'agit d'une œuvre inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile, encadrée à l'image d'une tablette Google et faite à l'aide de machines. Sa création s'est déroulée durant une formation centrée sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 17), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
