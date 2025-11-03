@@ -21,7 +21,7 @@ export default function PerformancePage() {
           </h1>
           <p className="theater-subtitle">
             Accédez ici à la documentation des essais pour la réalisation du spectacle «Doublement Aliéné»: 
-            mise en scène, script théâtral, photos et films.
+            la mise en scène, le script théâtral, les photos et les films.
           </p>
         </div>
 
