@@ -18,9 +18,9 @@ export default function HomePage() {
             Performance: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Cette application open-source a été co-créée par un binôme pour une performance théâtrale racontant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines de données IA. 
+            Ici se trouve une application open-source co-créée par un binôme pour un spectacle théâtral racontant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines de données IA. 
             En dépit d&apos;être privé de droits fondamentaux, un des êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur grand écran.<br/><br/>  
-            Durant la performance, ces athlètes déploient à fond leur intelligence, se relaient sur la selle et se transmettent le témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
+            Durant le spectacle, ces athlètes déploient à fond leur intelligence, se relaient sur une selle et se transmettent un témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
             Les cyclistes visent une victoire d&apos;équipe au bout de laquelle des données sont collectées afin de diffuser les double-pensées de leur assistant au-délà d&apos;une boîte noire érigée sur scène. 
           </p>
         </div>
