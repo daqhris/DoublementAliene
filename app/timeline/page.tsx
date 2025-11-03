@@ -5,7 +5,7 @@ import NotificationBanner from '../components/NotificationBanner';
 
 export const metadata: Metadata = {
   title: 'Chronologie - Doublement Aliéné | daqhris.com',
-  description: 'Résumé chronologique de l&apos;evolution du projet théâtral dès ses origines à maintenant',
+  description: 'Résumé de l&apos;evolution du projet théâtral dès ses origines à maintenant',
 };
 
 interface TimelineItemProps {
@@ -102,7 +102,7 @@ export default function TimelinePage() {
     {
       date: "Décembre 2024 - Janvier 2025",
       title: "Dépôt de Code: Twofold Alienated",
-      description: "Création d'un dépôt de code public et open source à l'aide du gestionnaire des versions de fichiers GIT sur GitHub",
+      description: "Création d'un dépôt de code open source à l'aide du gestionnaire de logiciels GIT sur GitHub",
       details: "Rassemblement de tout document textuel associé au récit original sur les étagères numériques de la plus grande bibliothèque de logiciels libres.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
@@ -114,7 +114,7 @@ export default function TimelinePage() {
       date: "Janvier - Avril 2025",
       title: "CIFAS - Constellations",
       description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle",
-      details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies artistiques contemporaines.",
+      details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies contemporaines.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
         text: "En savoir plus sur ce programme du CIFAS", 
@@ -136,7 +136,7 @@ export default function TimelinePage() {
       date: "4 Avril 2025",
       title: "Dépôt de Code: Doublement Aliene",
       description: "Lancement des travaux visant à construire avec du logiciel libre un dépôt de code dans un espace numérique public",
-      details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et sa plateforme en ligne.",
+      details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et son application en ligne.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
         text: "Voir le code open-source sur GitHub",
@@ -147,12 +147,12 @@ export default function TimelinePage() {
       date: "16 Avril 2025",
       title: "Clôture des Constellations 2025",
       description: "Clôture festive des activités qui réunissaient des artistes mettant en scène les prototypes de leurs spectacles durant les Constellations 2025 à Molenbeek, Bruxelles",
-      details: "Fin officielle des sessions mensuelles de co-apprentissage, accompagnée d'une consolidation des acquis et d'une réflexion sur des améliorations éventuelles."
+      details: "Fin des sessions mensuelles de co-apprentissage, accompagnée d'une consolidation des acquis et d'une réflexion sur des améliorations éventuelles."
     },
     {
       date: "22 Juin 2025",
       title: "Laboratoire de Recherche",
-      description: "Début du sous-projet ResearchLab qui regroupe des réponses variées des IA à des questions de recherche",
+      description: "Début du sous-projet qui regroupe des réponses des IA à des questions de recherche",
       details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénografique.",
       link: {
         url: "/research",
