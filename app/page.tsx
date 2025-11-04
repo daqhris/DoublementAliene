@@ -26,6 +26,36 @@ export default function HomePage() {
         </div>
       </section>
 
+      
+      <section className="theater-section">
+        <h2 className="theater-heading-md">
+          Invitation
+        </h2>
+          <div className="space-y-4">
+            <div className="theater-card-modern">
+            <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
+              <h3 className="theater-nav-title mb-2">EXPOSITION</h3>
+              <p className="theater-nav-description">
+                Performative Installation: Prototypes & Research for "Twofold Alienated" (ENG)<br></br>
+                Installation Performative: Prototypes et recherche pour «Doublement Aliéné» (FR)
+              </p>
+              <p className="theater-nav-description">
+                Rue de l'Hectolitre 3, Bruxelles, Belgium<br></br>
+                14-15 NOV 2025, 6-10 PM
+              </p>
+            <Link 
+              href="http://hectolitre.space/echange_251114.html"
+              className="theater-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hectolitre.space →
+            </Link>
+          </div>
+          </div>
+        </div>
+      </section>
+
       <section className="theater-section">
         <h2 className="theater-heading-md">Sections</h2>
         <div className="theater-nav-list">
