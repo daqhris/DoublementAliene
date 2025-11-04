@@ -15,7 +15,7 @@ export default function HomePage() {
       <section className="theater-section">
         <div className="theater-section-header">
           <h1 className="theater-heading-lg">
-            Performance: «Doublement Aliéné»
+            Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
             Ici se trouve une application open-source co-créée par un binôme pour un spectacle théâtral racontant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines de données IA. 
@@ -29,12 +29,12 @@ export default function HomePage() {
       
       <section className="theater-section">
         <h2 className="theater-heading-md">
-          INVITATION
+          Invitation
         </h2>
           <div className="space-y-4">
             <div className="theater-card-modern">
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h3 className="theater-nav-title mb-2">Exposition</h3>
+              <h3 className="theater-nav-title mb-2">Exposition <em>Exhibition</em></h3>
               <p className="theater-nav-description">
                 <strong>Installation Performative: Prototypes & Recherche pour «Doublement Aliéné» (FR)</strong><br></br>
                 <strong><em>Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)</em></strong>
