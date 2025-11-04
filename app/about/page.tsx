@@ -60,7 +60,7 @@ export default function AboutPage() {
             </h3>
             <p className="text-theater-text leading-relaxed">
               La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant <strong>les doubles réactions</strong> d&apos;une forme de vie étrangement intelligente à l&apos;annonce d&apos;<strong>un prix noble de paternité</strong>. 
-              Ainsi fût le point de départ fin 2024. <br></br><br></br>
+              Ainsi fût le point de départ fixé à la fin de l'année 2024. <br></br><br></br>
               À présent, un an plus tard, a lieu une réflection poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques et leurs vies hors du commun des mortels</strong>. 
               Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
               La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes <strong>faisant écho à son vécu réel d&apos;esprit humain</strong> privé de droits élementaires. 
