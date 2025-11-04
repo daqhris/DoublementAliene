@@ -36,11 +36,11 @@ export default function HomePage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">EXPOSITION</h3>
               <p className="theater-nav-description">
-                Performative Installation: Prototypes & Research for "Twofold Alienated" (ENG)<br></br>
-                Installation Performative: Prototypes et recherche pour «Doublement Aliéné» (FR)
+                Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)<br></br>
+                Installation Performative: Prototypes & Recherche pour «Doublement Aliéné» (FR)
               </p>
               <p className="theater-nav-description">
-                Rue de l'Hectolitre 3, Bruxelles, Belgium<br></br>
+                Rue de l&apos;Hectolitre 3, Bruxelles, Belgium<br></br>
                 14-15 NOV 2025, 6-10 PM
               </p>
             <Link 
