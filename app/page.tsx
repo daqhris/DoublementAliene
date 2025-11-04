@@ -36,15 +36,15 @@ export default function HomePage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Exposition</h3>
               <p className="theater-nav-description">
-                Installation Performative: Prototypes & Recherche pour «Doublement Aliéné» (FR)<br></br>
-                Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)
+                <strong>Installation Performative: Prototypes & Recherche pour «Doublement Aliéné» (FR)</strong><br></br>
+                <strong><em>Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)</em></strong>
               </p>
               <p className="theater-nav-description">
-                📅 Rue de l&apos;Hectolitre 3 <br></br>
-                🗺️ Bruxelles, Belgique 
+                📅<span>  </span>Rue de l&apos;Hectolitre 3 <br></br>
+                🗺️<span>  </span>Bruxelles, Belgique 
                 <br></br>
-                📍 14-15 NOV 2025 <br></br>  
-                ⏰ 18:00-22:00
+                📍<span>  </span>14-15 NOV 2025 <br></br>  
+                ⏰<span>  </span>18:00-22:00
               </p>
             <Link 
               href="http://hectolitre.space/echange_251114.html"
