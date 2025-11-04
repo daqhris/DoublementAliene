@@ -40,11 +40,11 @@ export default function HomePage() {
                 <strong><em>Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)</em></strong>
               </p>
               <p className="theater-nav-description">
-                📅<span>  </span>Rue de l&apos;Hectolitre 3 <br></br>
-                🗺️<span>  </span>Bruxelles, Belgique 
+                📍<span>&nbsp;&nbsp;</span>Rue de l&apos;Hectolitre 3<br></br>
+                🗺️<span>&nbsp;&nbsp;</span>Bruxelles, Belgique 
                 <br></br>
-                📍<span>  </span>14-15 NOV 2025 <br></br>  
-                ⏰<span>  </span>18:00-22:00
+                📅<span>&nbsp;&nbsp;</span>14-15 NOV 2025 <br></br>  
+                ⏰<span>&nbsp;&nbsp;</span>18:00-22:00
               </p>
             <Link 
               href="http://hectolitre.space/echange_251114.html"
