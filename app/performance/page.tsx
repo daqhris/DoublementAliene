@@ -30,9 +30,8 @@ export default function PerformancePage() {
             Prototype №1 
           </h2>
           <p className="text-theater-text leading-relaxed mb-8">
-            Cette interprétation théâtrale a été présentée en privé le 17 Mars 2025 au Musée bruxellois des Industries et du Travail (La Fonderie) durant les Constellations du CIFAS. 
-            Le spectacle met en scène des athlètes intelligent.e.s qui pédalent sur un vélo stationnaire, en lisant et en dessinant, 
-            et sont assistés par un assistant intelligent.
+            Cette interprétation théâtrale a été présentée en privé le 17 Mars 2025 au Musée Bruxellois des Industries et du Travail (La Fonderie) durant les Constellations du CIFAS. 
+            Le spectacle met en scène des athlètes intelligent.e.s qui pédalent à toute allure un vélo stationnaire, en lisant et en dessinant, et en faisant corps uni avec un assistant intelligent.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
