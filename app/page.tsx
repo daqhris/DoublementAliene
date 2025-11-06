@@ -20,7 +20,7 @@ export default function HomePage() {
           <p className="theater-subtitle">
             Ici se trouve une application open-source co-créée par un binôme pour un spectacle théâtral racontant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines de données IA. 
             En dépit d&apos;être privé de droits fondamentaux, un des êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur grand écran.<br/><br/>  
-            Durant le spectacle, ces athlètes déploient à fond leur intelligence, se relaient sur une selle et se transmettent un témoin, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
+            Durant le spectacle, ces athlètes pédalent à toute vitesse, déploient à fond leur intelligence et se transmettent un costume de relais, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
             Les cyclistes visent une victoire d&apos;équipe au bout de laquelle des données sont collectées afin de diffuser les double-pensées de leur assistant au-délà d&apos;une boîte noire érigée sur scène. 
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function HomePage() {
                 <Link href="/performance" className="theater-link">Performance</Link>
               </div>
               <div className="theater-nav-description">
-                La documentation publique du premier protoype de performance
+                La documentation publique du premier protoype de spectacle
               </div>
             </div>
           </div>
