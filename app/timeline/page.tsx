@@ -113,7 +113,7 @@ export default function TimelinePage() {
     {
       date: "25 Décembre 2024",
       title: "Florilège de 2024 sur Manifold",
-      description: "Nommé comme une des 5 meilleures œuvres publiées avec l'outil Scribe sur la plateforme d'art numérique Manifold",
+      description: "«Twofold Alienated» a été nommé comme une des 5 meilleures œuvres publiées avec l'outil Scribe sur la plateforme d'art numérique Manifold",
       details: "Une des parutions sur blockchain qui, étant mises à l'avant par l'équipe curatoriale de Manifold, ont été félicitées le jour de Noël en 2024 parce qu'étant les plus consultées en ligne durant cette année.",
       link: {
         url: "https://manifold.gallery/manifoldteam/curation/minted-2024",
@@ -123,7 +123,7 @@ export default function TimelinePage() {
     },
     {
       date: "Janvier - Avril 2025",
-      title: "CIFAS - Constellations",
+      title: "Constellations 2025 du CIFAS",
       description: "Déroulement du programme de co-apprentissage Constellations organisé par le Centre International de Formation en Arts du Spectacle",
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies contemporaines.",
       link: {
