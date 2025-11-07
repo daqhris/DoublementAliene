@@ -100,13 +100,24 @@ export default function TimelinePage() {
       }
     },
     {
-      date: "Décembre 2024 - Janvier 2025",
+      date: "15 Décembre 2024",
       title: "Dépôt de Code: Twofold Alienated",
       description: "Création d'un dépôt de code open source à l'aide du gestionnaire de logiciels GIT sur GitHub",
       details: "Rassemblement de tout document textuel associé au récit original sur les étagères numériques de la plus grande bibliothèque de logiciels libres.",
       link: {
         url: "https://github.com/daqhris/twofold-alienated",
         text: "Code source : twofold-alienated",
+        external: true
+      }
+    },
+    {
+      date: "25 Décembre 2024",
+      title: "Florilège de 2024 sur Manifold",
+      description: "Annoncé comme une des 5 œuvres les plus populaires et publiées avec l'outil Scribe sur la plateforme d'art numérique Manifold",
+      details: "Sélection parmi les parutions sur blockchain qui, étant mises à l'avant par l'équipe curatoriale affiliée à Manifold, ont été les plus consultées en ligne durant cette année et félicitées le jour de Noël en 2024.",
+      link: {
+        url: "https://manifold.gallery/manifoldteam/curation/minted-2024",
+        text: "Les meilleures œuvres de 2024 nommées par la maison de publication sur blockchain",
         external: true
       }
     },
