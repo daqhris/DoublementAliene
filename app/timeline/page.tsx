@@ -215,7 +215,19 @@ export default function TimelinePage() {
         text: "Exposition du groupe Open Design Lab Textile lors du Wonder Festival", 
         external: true
       }
-    }
+    },
+        {
+      date: "14 - 15 Novembre 2025",
+      title: "Installation Performative",
+      description: "Présentation artistique sur l'état d'avancement de la recherche et du prototypage à Bruxelles",
+      details: "Pendant deux jours successifs, Hectolitre est l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
+      link: {
+        url: "http://hectolitre.space/echange_251114.html",
+        text: "La fête «101 Liters Alchemy» chez Hectolitre", 
+        external: true
+      },
+      isHighlight: true
+    },
   ];
 
   return (
