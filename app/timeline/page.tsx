@@ -90,8 +90,8 @@ export default function TimelinePage() {
     },
     {
       date: "25 Novembre 2024",
-      title: "Sélection par le CIFAS",
-      description: "Annonce par le CIFAS d'artistes sélectionnés pour l'édition 2025 des Constellations",
+      title: "Artiste sélectionné par le CIFAS",
+      description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations",
       details: "Chris-Armel Iradukunda (daqhris) fait parti des participants triés sur le volet pour assister aux sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
