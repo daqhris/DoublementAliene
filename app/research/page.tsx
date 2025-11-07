@@ -58,8 +58,7 @@ export default function ResearchPage() {
             Entretiens Q&amp;A 
           </h2>
           <p className="theater-subtitle">
-            Préfiguration de la mise en scène en recueillant des réponses des IA sur la plateforme en ligne 
-            <Link 
+            Préfiguration de la mise en scène en recueillant des réponses des IA sur la plateforme en ligne <Link 
               href="https://duck.ai"
               className="theater-link"
               target="_blank"
