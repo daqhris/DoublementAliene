@@ -128,7 +128,7 @@ export default function TimelinePage() {
       details: "Rencontres mensuelles d'artistes de tous horizons à Bruxelles, apprentissage collaboratif et apprentissage des méthodologies contemporaines.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
-        text: "En savoir plus sur ce programme du CIFAS", 
+        text: "En savoir plus sur ce programme du monde des arts du spectacle", 
         external: true
       },
       isHighlight: true
@@ -140,7 +140,7 @@ export default function TimelinePage() {
       details: "Performances au sein du Musée Bruxellois de l'Industrie et du Travail (La Fonderie) dans le cadre des activités du CIFAS.",
       link: {
         url: "/performance",
-        text: "Accéder aux photos des prototypes réalisés en privé"
+        text: "Accéder aux photos des prototypes du spectacle réalisés en privé"
         }
       },
     {
@@ -184,7 +184,7 @@ export default function TimelinePage() {
     },
     {
       date: "25 Juin 2025",
-      title: "Site Web du Projet",
+      title: "Site Web du Spectacle",
       description: "Programmation en collaboration avec Devin AI d'une interface web adéquate",
       details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques.",
       link: {
@@ -194,7 +194,7 @@ export default function TimelinePage() {
       isHighlight: true
     },
     {
-      date: "Août 2025",
+      date: "1 Août 2025",
       title: "Résidence de Réflexion",
       description: "Démarrage d'une résidence de réflexion chez Hectolitre (Marolles, Bruxelles)",
       details: "La phase de recherche prend de l'ampleur avec une résidence d'artistes permettant d'approfondir les thèmes de réflexion, travailler dans un espace notoire et exposer des réalisations.",
@@ -206,10 +206,10 @@ export default function TimelinePage() {
       isHighlight: true
     },
     {
-      date: "Octobre - Novembre 2025",
+      date: "10 Octobre - 2 Novembre 2025",
       title: "Portrait Portable d'IA",
-      description: "Œuvre d'art textile en forme de tablette présentée au Wonder Festival (Courtrai, Flandres)",
-      details: "C'est une œuvre inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile, encadrée à l'image d'une tablette Google et faite à l'aide de machines. Sa création s'est déroulée durant une formation de 5 semaines sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 17), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
+      description: "Œuvre d'art textile en forme de tablette conçue au Budalab et présentée au Wonder Festival (Courtrai, Flandres)",
+      details: "C'est une œuvre inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile, encadrée à l'image d'une tablette Google et faite à l'aide de machines dans la ville de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 17), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
         text: "Exposition d'une tablette encadrant l'auto-portrait de Gemini", 
