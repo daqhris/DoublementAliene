@@ -70,7 +70,7 @@ export default function PerformancePage() {
         <div className="theater-section-header mb-8">
           <h2 className="theater-heading-md">Documentation du Prototype №1</h2>
           <p className="text-theater-text leading-relaxed">
-            Documents PDF utiles pour découvrir et dépeindre les résultats du 1er prototype de la performance.
+            Documents PDF utiles pour découvrir et dépeindre les résultats du premier prototype du spectacle.
           </p>
         </div>
 
