@@ -209,7 +209,7 @@ export default function TimelinePage() {
       date: "10 Octobre - 2 Novembre 2025",
       title: "Portrait Portable d'IA",
       description: "Œuvre d'art textile en forme de tablette conçue au Budalab et présentée au Wonder Festival de Courtrai",
-      details: "C'est une tablette encadrant une œuvre inspirée d'un autoportrait dessiné par Gemini, brodée sur un tissu textile Kvadrat de seconde main, conçue à l'image d'une tablette Google et faite à l'aide de machines dans la ville flamande de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines sur le textile comme matériel de design organisée par Open Design Lab au Budalab (Sept 15 - Oct 16), suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
+      details: "À l'image d'une tablette Google, c'est une œuvre inspirée d'un autoportrait dessiné par l'IA Gemini, brodée sur un tissu Kvadrat de seconde main, encadrée par un textile phosphorescent et conçue avec des machines de pointe dans la ville flamande de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines centrée sur le textile comme matériel de design qui était organisée par Open Design Lab au Budalab (Sept 15 - Oct 16), et puis suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
         text: "Exposition du groupe Open Design Lab Textile lors du Wonder Festival", 
