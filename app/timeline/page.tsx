@@ -178,7 +178,7 @@ export default function TimelinePage() {
       details: "Mise à disposition du public des documents de préparation, des notes de mise en scène et des photos illustrant l'essai d'une représentation théâtrale.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene/tree/main/public/Constellations2025",
-        text: "Consulter les documents associés à cette première réalisation",
+        text: "Consulter les documents associés à cette 1re réalisation",
         external: true
       }
     },
@@ -212,7 +212,7 @@ export default function TimelinePage() {
       details: "À l'image d'une tablette Google, c'est une œuvre inspirée d'un autoportrait dessiné par l'IA Gemini, brodée sur un tissu Kvadrat de seconde main, encadrée par un textile phosphorescent et conçue avec des machines de pointe dans la ville flamande de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines centrée sur le textile comme matériel de design qui était organisée par Open Design Lab au Budalab (Sept 15 - Oct 16), et puis suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
-        text: "Exposition du groupe Open Design Lab Textile lors du Wonder Festival", 
+        text: "Exposition du Open Design Lab Textile lors du Wonder Festival", 
         external: true
       }
     },
