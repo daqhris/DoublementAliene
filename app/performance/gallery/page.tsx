@@ -120,7 +120,7 @@ export default function GalleryPage() {
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
           alt: 'Préparation performance - vue 4',
-          caption: 'Assemblage des pièces au complet'
+          caption: 'Assemblage des pièces essentielles au complet'
         },
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082452.jpg',
@@ -196,7 +196,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Scène et Lieu de Performance"
-        description="Découvrez l'espace servant de scène de performance à La Fonderie où s'est déroulée la performance du 17 Mars 2025."
+        description="Découvrez l'espace servant de scène de performance au 1er étage de La Fonderie où s'est déroulée la performance du 17 Mars 2025."
         images={stageSetupImages}
       />
 
