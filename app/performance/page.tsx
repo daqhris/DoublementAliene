@@ -78,13 +78,13 @@ export default function PerformancePage() {
           <PDFViewer
             src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
-            description="Un mode d&apos;emploi détaillé incluant la répartition des rôles d&apos;athlètes intelligent.e.s et assistant.e intelligent.e. Le dispositif technique (vélo stationnaire, micro, crayons), et les instructions servant de guide performance y sont inclus."
+            description="Un mode d&apos;emploi détaillé incluant la répartition des rôles d&apos;athlètes intelligent.e.s et assistant.e intelligent.e. Le dispositif technique (vélo stationnaire, micro, crayons) et les instructions servant de guide pour le spectacle y figurent."
           />
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral Initial"
-            description="Le texte intégral de la pièce qui consiste en 10 doubles réactions, à exprimer vocalement et visuellement, provenant d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble de paternité, et transcrites depuis Bruxelles comme si on y était le 10 octobre 2024."
+            description="Le texte intégral de la pièce consiste en 10 doubles réactions, à exprimer à tour de rôle vocalement et visuellement, qui proviennent d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble. Ces double pensées sont exprimées depuis Bruxelles comme si on était le 10 octobre 2024."
           />
         </div>
       </section>
