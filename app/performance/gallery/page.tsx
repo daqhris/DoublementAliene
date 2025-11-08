@@ -24,13 +24,13 @@ export default function GalleryPage() {
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/9Mars2025/9Mars-02.jpg',
           alt: 'Construction du support-trépied en bois - étape 2',
-          caption: 'Assemblage des premières pièces en bois'
+          caption: 'Rassemblement des pièces, découpe et prise de mesure'
         }
       ]
     },
     {
       date: '12 Mars 2025',
-      title: 'Bricolage: Découpe de bois et Assemblage avec vélo',
+      title: 'Bricolage: Fixation du bois et Assemblage avec vélo',
       description: 'Assemblage des outils et composants de la structure vélo-trépied',
       images: [
         {
