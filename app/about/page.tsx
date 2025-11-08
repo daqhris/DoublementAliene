@@ -78,7 +78,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              script à l&apos;origine spectacle
+              script à l&apos;origine du spectacle
             </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) en <strong>édition limité à 1000</strong>.
             </p>
           </div>
