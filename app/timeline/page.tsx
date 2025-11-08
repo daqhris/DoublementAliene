@@ -219,8 +219,8 @@ export default function TimelinePage() {
         {
       date: "14 - 15 Novembre 2025",
       title: "Installation Performative",
-      description: "Présentation artistique sur l'état d'avancement de la recherche et du prototypage à Bruxelles",
-      details: "Pendant deux jours successifs, Hectolitre est l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
+      description: "Présentation sur l'état d'avancement de la recherche et du prototypage à Bruxelles",
+      details: "Pendant 2 jours successifs, Hectolitre est l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
       link: {
         url: "http://hectolitre.space/echange_251114.html",
         text: "La fête «101 Liters Alchemy» dans le Réacteur chez Hectolitre", 
