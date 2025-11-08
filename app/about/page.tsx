@@ -118,9 +118,9 @@ export default function AboutPage() {
               Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la co-propriété de bien immatériel, en particulier les enregistrements audiovisuels, et puis le partage équitable des revenus entre co-auteurs.
+              Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la co-propriété de bien immatériel, en particulier les films et dessins, et le partage des revenus. La co-propriété financière est à accorder à toute partie investie dans l&apos;interprétation sur scène et la réalisation en direct. 
               <br></br><br></br>
-              Cette co-propriété financière est à accorder à toute partie investie dans l&apos;interprétation sur scène et la réalisation en direct. L&apos;idée a été imaginée sur base d&apos;une expérience cinématographique d&apos;acteur dans 3 films d&apos;action chinois et de co-réalisation d&apos;un documentaire d&apos;une artiste néerlandaise.
+              Ce modèle de gestion de biens numériques est imaginé sur base des idées nées d&apos;une expérience dans le monde cinématographique: acteur dans 3 films d&apos;action chinois (2015-2016) et co-réalisateur d&apos;un documentaire d&apos;une artiste néerlandaise (2024-2025). Son fonctionnement dépendrait des logiciels libres externes et des cryptomonnaies.
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
