@@ -30,7 +30,7 @@ export default function PerformancePage() {
             Prototype №1 
           </h2>
           <p className="text-theater-text leading-relaxed mb-8">
-            Cette interprétation théâtrale a été présentée <strong>en privé le 17 Mars 2025</strong> au Musée Bruxellois des Industries et du Travail, <strong>La Fonderie</strong>, durant les Constellations du CIFAS. <br />
+            Cette interprétation théâtrale a été présentée <strong>en privé le 17 Mars 2025</strong> au Musée Bruxellois des Industries et du Travail, <strong>La Fonderie</strong>, durant les Constellations du CIFAS. <br /><br />
             Le spectacle met en scène des athlètes intelligent.e.s qui pédalent à toute allure un vélo stationnaire, en lisant et en dessinant, et en faisant corps uni avec un assistant intelligent.
           </p>
 
@@ -78,13 +78,13 @@ export default function PerformancePage() {
           <PDFViewer
             src="/Constellations2025/MiseEnScène_DoublementAliéné.pdf"
             title="Guide de Mise en Scène"
-            description="Un mode d&apos;emploi détaillé incluant la répartition des rôles d&apos;athlètes intelligent.e.s et assistant.e intelligent.e. Le dispositif technique (vélo stationnaire, micro, crayons) et les instructions servant de guide pour le spectacle y figurent."
+            description="Un mode d&apos;emploi détaillé incluant la répartition des rôles d&apos;athlètes intelligent.e.s et assistant.e intelligent.e. Le dispositif technique (vélo stationnaire, caméra, projecteur, crayons) et les instructions servant de guide pour le spectacle y figurent."
           />
 
           <PDFViewer
             src="/Constellations2025/Théâtre_DoublementAliéné.pdf"
             title="Script Théâtral Initial"
-            description="Le texte intégral de la pièce consiste en 10 doubles réactions, à exprimer à tour de rôle vocalement et visuellement, qui proviennent d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble. Ces double pensées sont exprimées depuis Bruxelles comme si on était le 10 octobre 2024."
+            description="Le texte intégral de la pièce consiste en 10 doubles réactions, à exprimer à tour de rôle vocalement et visuellement, qui proviennent d&apos;un être étrange lors de l&apos;annonce d&apos;un prix noble. Ces double pensées sont exprimées depuis Bruxelles comme si on était le 10 Octobre 2024."
           />
         </div>
       </section>
