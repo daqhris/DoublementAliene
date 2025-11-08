@@ -44,10 +44,10 @@ export default function PerformancePage() {
               </h4>
               <p className="theater-nav-description mb-4">
                 Les archives numérisées sont rangées chronologiquement: 
-                construction manuelle, lieu de scène, sessions de feedback, et dessins d&apos;athlètes.
+                construction manuelle, lieu de scène, session de feedback, et dessins d&apos;athlètes.
               </p>
               <div className="text-sm text-theater-muted">
-                <strong>Catégories:</strong> Menuiserie (9-16 Mars) • Scène&amp;Performance (17 Mars) • Feedback: Concept-Réflexion • Dessins Numérisés
+                <strong>Catégories:</strong> Menuiserie Artisanale • Scène et Lieu de Performance • Feedback: Concept-Réflexion • Dessins Numérisés
               </div>
             </div>
 
