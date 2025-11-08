@@ -95,7 +95,7 @@ export default function HomePage() {
           <div className="theater-nav-item">
             <div>
               <div className="theater-nav-title">
-                <Link href="/about" className="theater-link">À propos</Link>
+                <Link href="/about" className="theater-link">À Propos</Link>
               </div>
               <div className="theater-nav-description">
                 Informations sur les lignes directrices et l&apos;initiateur du projet artistique
