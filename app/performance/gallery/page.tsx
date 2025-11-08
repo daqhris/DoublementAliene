@@ -78,12 +78,12 @@ export default function GalleryPage() {
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110853.jpg',
           alt: 'Tests de stabilité - vue 4',
-          caption: 'Contrôle de l\'alignement du trépied et du guidon'
+          caption: 'Contrôle de l\'alignement du trépied à l\'avant, vue du guidon'
         },
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110905.jpg',
           alt: 'Tests de stabilité - vue 5',
-          caption: 'Validation semi-finale, vue à ras du sol'
+          caption: 'Validation semi-finale, alignement des roues, vue à ras du sol'
         },
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/16Mars2025/IMG_20250316_110916.jpg',
