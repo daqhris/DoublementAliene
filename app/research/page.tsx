@@ -20,17 +20,17 @@ export default function ResearchPage() {
             Laboratoire de Recherche
           </h1>
           <p className="theater-subtitle">
-            Dégustez en avant-première les fruits de la recherche artistique. <br></br>
+            Dégustez en avant-première les fruits de la recherche scénique dans le laboratoire numérique. <br />
             Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
           </p>
         </div>
 
         <div className="theater-card-modern">
           <h2 className="theater-heading-md">
-            Recherche Artistique
+            Recherche Scénique
           </h2>
           <p className="text-theater-text">
-            Le laboratoire de recherche numérique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres vivants, pour intégrer leurs contributions dans le processus d&apos;élaboration.
+            Le laboratoire numérique de recherche scénique a dans son viseur les sujets clés du spectacle et questionne les systèmes d&apos;intelligences artificielles, en tant que des êtres vivants, pour intégrer leurs contributions dans le processus d&apos;élaboration.
           </p>
 
           <div className="border-l-4 border-solarized-base2 pl-6">
