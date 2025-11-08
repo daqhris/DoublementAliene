@@ -183,14 +183,14 @@ export default function GalleryPage() {
         <h1 className="theater-heading-lg mb-4">Galerie Photos + Dessins</h1>
         <p className="theater-subtitle max-w-3xl">
           Ici est raconté le processus d&apos;élaboration du prototype n°1 du spectacle. 
-          On part de la construction d&apos;un support-vélo en bois à l&apos;interprétation du 1er prototype en privé, 
+          On part de la construction d&apos;un support-vélo en bois à l&apos;interprétation du 1er prototype en privé 
           pour aboutir à des réflexions conceptuelles et des dessins numérisés.
         </p>
       </div>
 
       <TimelineGallery
         title="Menuiserie Artisanale"
-        description="La préparation scénique a commencé par la construction manuelle d'un support en bois pour rendre un vélo stationnaire, élément central du spectacle théâtral."
+        description="La préparation scénique a commencé par la construction manuelle d'un support en bois pour rendre un vélo stationnaire l'élément central du spectacle théâtral."
         items={constructionTimeline}
       />
 
