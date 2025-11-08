@@ -223,7 +223,7 @@ export default function TimelinePage() {
       details: "Pendant deux jours successifs, Hectolitre est l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
       link: {
         url: "http://hectolitre.space/echange_251114.html",
-        text: "La fête «101 Liters Alchemy» chez Hectolitre", 
+        text: "La fête «101 Liters Alchemy» dans le Réacteur chez Hectolitre", 
         external: true
       },
       isHighlight: true
