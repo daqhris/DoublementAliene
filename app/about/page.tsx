@@ -157,7 +157,7 @@ export default function AboutPage() {
             
             <div className="theater-card-modern">
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
-              <h3 className="theater-nav-title mb-2">Devin AI (de Cognition Labs)</h3>
+              <h3 className="theater-nav-title mb-2">Devin AI</h3>
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
                 Contribution de plusieurs lignes de code informatique <strong>de Juin jusqu&apos;à Juillet 2025</strong>. 
@@ -199,6 +199,12 @@ export default function AboutPage() {
               dépôt du code source sur GitHub
             </Link>{' '}.
           </p>
+        <h3 className="theater-heading-md">
+          Remerciements
+        </h3>
+        <p className="theater-subtitle">
+          Manifold.xyz, CIFAS, Artistes Constellés en 2025, Cognition Labs, Vercel, GitHub, Anna Rispoli, Christophe Meierhans, Amir Borenstein, Britt Hatzius, Open Design Lab, Martin DeVido, Hectolitre
+        </p>
       </section>
     </div>
   );
