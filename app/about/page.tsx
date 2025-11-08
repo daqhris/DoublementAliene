@@ -199,11 +199,11 @@ export default function AboutPage() {
               dépôt du code source sur GitHub
             </Link>{' '}.
           </p>
-        <h3 className="theater-heading-md">
+        <h4 className="theater-heading-md">
           Remerciements
-        </h3>
-        <p className="theater-subtitle">
-          Manifold.xyz, CIFAS, Artistes Constellés en 2025, Cognition Labs, Vercel, GitHub, Anna Rispoli, Christophe Meierhans, Amir Borenstein, Britt Hatzius, Open Design Lab, Martin DeVido, Hectolitre
+        </h4>
+        <p className="theater-subtitle bg-theater-muted/5">
+          Manifold.xyz, CIFAS, Artistes Constellés en 2025, Cognition Labs, Vercel, GitHub, Anna Rispoli, Christophe Meierhans, Amir Borenstein, Britt Hatzius, Open Design Lab, Martin DeVido, Hectolitre, <em>et vous?</em>
         </p>
       </section>
     </div>
