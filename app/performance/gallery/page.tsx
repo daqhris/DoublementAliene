@@ -100,7 +100,7 @@ export default function GalleryPage() {
     {
       date: '17 Mars 2025',
       title: 'Préparation du Spectacle',
-      description: 'Répétition matinale dans l\'atelier de bricolage avant la représentation théâtral',
+      description: 'Répétition matinale dans l\'atelier de bricolage le jour de la représentation théâtrale',
       images: [
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082337.jpg',
@@ -190,7 +190,7 @@ export default function GalleryPage() {
 
       <TimelineGallery
         title="Menuiserie Artisanale"
-        description="La préparation scénique a commencé par la construction manuelle d'un support en bois pour rendre un vélo stationnaire, élément central de la performance théâtrale."
+        description="La préparation scénique a commencé par la construction manuelle d'un support en bois pour rendre un vélo stationnaire, élément central du spectacle théâtral."
         items={constructionTimeline}
       />
 
