@@ -202,7 +202,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Session de Feedback: Concept Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. La méthode de feedback choisie était le concept réflexion, écrit et imagé. Les réflexions ont été écrites sur papiers post-it par des artistes constellés et des organisatrices du CIFAS avant d&apos;être positionées par Chris au point approprié dans des cercles concentriques. Toute personne présente a su contribuer volontairement de deux manières: en adossant le rôle de comédien sur scène et puis, en partageant les idées de critique bienveillante. La cérise sur le gâteau: la promesse d'octroyer les titres de co-auteur.ice.s a été honorée à la fin de la session."
+        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. La méthode de feedback choisie était celle du concept réflexion, écrit et imagé. Les réflexions ont été écrites sur papiers post-it par des artistes constellés et des organisatrices du CIFAS avant d&apos;être positionées par Chris Iradukunda au point approprié dans des cercles concentriques. Toute personne présente a su contribuer volontairement de deux manières: en adossant le rôle de comédien sur scène et puis, en partageant les idées de critique bienveillante. La cérise sur le gâteau: la promesse d'octroyer les titres de co-auteur.ice.s a été honorée à la fin de la session."
         images={feedbackImages}
       />
 
@@ -210,8 +210,7 @@ export default function GalleryPage() {
         <div className="theater-section-header mb-8">
           <h2 className="theater-heading-md mb-4">Dessins Artistiques</h2>
           <p className="theater-subtitle">
-            Créations artistiques dessinées par les athlètes et numérisées par l&apos;assistant après les spectacles, 
-            qui accompagnent les enregistrements audiovisuels.
+            Deux documents porteurs des réactions dessinées par les athlètes. Ils ont été numérisés par l&apos;assistant par après. Ces fichiers PDF sont à associer aux deux court-métrages filmés simultanément.
           </p>
         </div>
         
@@ -219,7 +218,7 @@ export default function GalleryPage() {
           <PDFViewer
             src="/Constellations2025/Dessins-PapiersNumérisés/1erGroupe-Dessins.pdf"
             title="Collection de Dessins - Partie 1"
-            description="1re série de dessins créés pendant la performance, illustrant les réactions visuelles des athlètes."
+            description="1re série de dessins créés pendant les spectacles, illustrant les réactions visuelles des athlètes."
           />
 
           <PDFViewer
