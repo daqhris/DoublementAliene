@@ -163,11 +163,11 @@ export default function TimelinePage() {
     {
       date: "22 Juin 2025",
       title: "Laboratoire de Recherche",
-      description: "Début du sous-projet qui regroupe des réponses des IA à des questions de recherche",
+      description: "Début du sous-projet numérique qui regroupe des réponses des IA à des questions de recherche scénique",
       details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénografique.",
       link: {
         url: "/research",
-        text: "Visiter le laboratoire numérique de recherche artistique"
+        text: "Visiter le laboratoire numérique de recherche scénique"
       },
       isHighlight: true
     },
