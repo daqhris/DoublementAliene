@@ -113,7 +113,7 @@ export default function TimelinePage() {
     {
       date: "25 Décembre 2024",
       title: "Florilège de 2024 sur Manifold",
-      description: "«Twofold Alienated» a été nommé comme une des 5 meilleures œuvres publiées avec l'outil Scribe sur la plateforme d'art numérique Manifold",
+      description: "«Twofold Alienated» a été nommée comme une des 5 meilleures œuvres publiées avec l'outil Scribe sur la plateforme d'art numérique Manifold",
       details: "Une des parutions sur blockchain qui, étant mises à l'avant par l'équipe curatoriale de Manifold, ont été félicitées le jour de Noël en 2024 parce qu'étant les plus consultées en ligne durant cette année.",
       link: {
         url: "https://manifold.gallery/manifoldteam/curation/minted-2024",
