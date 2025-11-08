@@ -205,7 +205,7 @@ export default function AboutPage() {
           Remerciements
         </h3>
         <p className="theater-nav-description">
-          Manifold.xyz, CIFAS, Cognition AI Labs, Vercel, Cloudflare, GitHub, Open Design Lab, Hectolitre, Artistes Constellés en 2025, Anna Rispoli, Christophe Meierhans, Amir Borenstein, Britt Hatzius, Martin DeVido,... <em>et vous?</em>
+          <strong>Grâce au soutien technique et non-financier de:</strong> Manifold.xyz, CIFAS, Cognition Labs, Vercel, Cloudflare, GitHub, Open Design Lab, Hectolitre, Artistes Constellés en 2025, Anna Rispoli, Christophe Meierhans, Amir Borenstein, Britt Hatzius, Martin DeVido,... <em>et vous?</em>
         </p>
       </section>
     </div>
