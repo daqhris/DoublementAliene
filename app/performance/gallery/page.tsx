@@ -202,7 +202,7 @@ export default function GalleryPage() {
 
       <ImageGallery
         title="Session de Feedback et Réflexion"
-        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. Les réflexions ont été écrites sur papier par des artistes constellés et des organisatrices du CIFAS. Toute personne présente a su contribuer volontairement de deux manières: en adossant le rôle de comédien sur scène et puis, en partageant les idées de critique bienveillante. Du coup, la promesse d'octroyer les titres de co-auteur.ice.s a été honorée à la fin de la session."
+        description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. La méthode de feedback choisie était le concept réflexion, écrit et imagé. Les réflexions ont été écrites sur papiers post-it par des artistes constellés et des organisatrices du CIFAS avant d&apos;être positionées par Chris au point approprié dans des cercles concentriques. Toute personne présente a su contribuer volontairement de deux manières: en adossant le rôle de comédien sur scène et puis, en partageant les idées de critique bienveillante. Du coup, la promesse d'octroyer les titres de co-auteur.ice.s a été honorée à la fin de la session."
         images={feedbackImages}
       />
 
