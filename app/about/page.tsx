@@ -120,15 +120,15 @@ export default function AboutPage() {
             <p className="text-theater-text mb-4 leading-relaxed">
               Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la co-propriété de bien immatériel, en particulier les films et dessins, et le partage des revenus. La co-propriété financière est à accorder à toute partie investie dans l&apos;interprétation sur scène et la réalisation en direct. 
               <br></br><br></br>
-              Ce modèle de gestion de biens numériques est imaginé sur base des idées nées d&apos;une expérience dans le monde cinématographique: acteur dans 3 films d&apos;action chinois (2015-2016) et co-réalisateur d&apos;un documentaire d&apos;une artiste néerlandaise (2024-2025). Son fonctionnement dépendrait des logiciels libres externes et des cryptomonnaies.
+              Ce modèle de <strong>gestion de biens numériques</strong> est imaginé sur base des idées nées d&apos;une expérience dans le monde cinématographique: <strong>acteur dans 3 films</strong> d&apos;action chinois (2015-2016) et <strong>co-réalisateur d&apos;un documentaire</strong> d&apos;une artiste néerlandaise (2024-2025).
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
               <p className="theater-nav-description mb-2">
-                Utilisation de <strong>contrats intelligents</strong> pour assurer la gestion des droits d&apos;auteur et le partage des revenus des créations artistiques, automatiquement et impartialement.
+                Utilisation de <strong>contrats intelligents</strong> pour assurer la gestion des droits d&apos;auteur et le partage équitable des revenus des créations artistiques, automatiquement et impartialement.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>À Faire:</strong> Mise en place d&apos;un système de co-propriété tokenisée et décentralisée qui est établi sur l&apos;infrastructure financière de la blockchain Ethereum et son réseau élargi.
+                <strong>À Faire:</strong> Mis en place d&apos;un système de <strong>co-propriété tokenisée et décentralisée</strong> qui est fonctionne avec l&apos;infrastructure financière de la blockchain <strong>Ethereum et son réseau élargi</strong>.
               </p>
             </div>
           </div>
