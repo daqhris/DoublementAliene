@@ -228,6 +228,17 @@ export default function TimelinePage() {
       },
       isHighlight: true
     },
+    {
+      date: "11 Décembre 2025",
+      title: "DeepWiki: daqhris/DoublementAliene",
+      description: "Un rapport de Devin AI qui fournit une vue d'ensemble technique de la plateforme numérique et qui explique les lignes de code construites sur base de Next.js.",
+      details: "Il couvre l'architecture de l'application, le modèle de double licence, la pile technologique et la stratégie d'organisation du contenu. Cette documentation a été redigée automatiquement pour rendre lisible le code source de la plateforme.",
+      link: {
+        url: "https://deepwiki.com/daqhris/DoublementAliene",
+        text: "Explication en Anglais du code source par Devin AI", 
+        external: true
+      }
+    },
   ];
 
   return (
