@@ -145,12 +145,12 @@ export default function TimelinePage() {
       },
     {
       date: "4 Avril 2025",
-      title: "Dépôt de Code: Doublement Aliene",
+      title: "Dépôt de Code Source",
       description: "Lancement des travaux visant à construire avec du logiciel libre un dépôt de code dans un espace numérique public",
       details: "Création de l'infrastructure technique structurant les fondations de l'interface web du projet et son application en ligne.",
       link: {
         url: "https://github.com/daqhris/DoublementAliene",
-        text: "Voir le code open-source sur GitHub",
+        text: "Voir le code open-source sur GitHub (daqhris/DoublementAliene)",
         external: true
       }
     },
@@ -217,22 +217,22 @@ export default function TimelinePage() {
       }
     },
         {
-      date: "14 - 15 Novembre 2025",
+      date: "14/15 Novembre 2025",
       title: "Installation Performative",
       description: "Présentation sur l'état d'avancement de la recherche et du prototypage à Bruxelles",
-      details: "Pendant 2 jours successifs, Hectolitre est l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
+      details: "Pendant 2 jours successifs, le 2ème étage de l'espace Réacteur dans Hectolitre a été l'hôte d'une installation bilingue qui décrit les faits accomplis, raconte les prototypes construits et illumine la recherche effectuée au bout d'une année de travail sur le spectacle théâtral «Doublement Aliéné».",
       link: {
         url: "http://hectolitre.space/echange_251114.html",
-        text: "La fête «101 Liters Alchemy» dans le Réacteur chez Hectolitre", 
+        text: "La fête «101 Liters Alchemy» chez Hectolitre", 
         external: true
       },
       isHighlight: true
     },
     {
       date: "11 Décembre 2025",
-      title: "DeepWiki: daqhris/DoublementAliene",
-      description: "Un rapport de Devin AI qui fournit une vue d'ensemble technique de la plateforme numérique et qui explique les lignes de code construites sur base de Next.js.",
-      details: "Il couvre l'architecture de l'application, le modèle de double licence, la pile technologique et la stratégie d'organisation du contenu. Cette documentation a été redigée automatiquement pour rendre lisible le code source de la plateforme.",
+      title: "DeepWiki",
+      description: "Un rapport de Devin AI qui fournit une vue d'ensemble technique de cette interface numérique et qui explique les lignes de code construites sur base de Next.js 15.",
+      details: "Il couvre l'architecture de l'application, le modèle de licence, la pile technologique et la stratégie d'organisation du contenu. Il a été redigé par une entitée apparentée à Devin pour rendre lisible le code écrit en TypeScript, JavaScript et CSS.",
       link: {
         url: "https://deepwiki.com/daqhris/DoublementAliene",
         text: "Explication en Anglais du code source par Devin AI", 
