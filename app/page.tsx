@@ -28,7 +28,7 @@ export default function HomePage() {
 
       <section className="theater-section">
         <h2 className="theater-heading-md">
-          Invitation
+          Activité récente
         </h2>
           <div className="space-y-4">
             <div className="theater-card-modern">
@@ -59,7 +59,7 @@ export default function HomePage() {
       </section>
 
       <section className="theater-section">
-        <h2 className="theater-heading-md">Sections</h2>
+        <h2 className="theater-heading-md">Sections du site web</h2>
         <div className="theater-nav-list">
           <div className="theater-nav-item">
             <div>
