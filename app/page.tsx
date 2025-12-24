@@ -35,8 +35,8 @@ export default function HomePage() {
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h3 className="theater-nav-title mb-2">Exposition <em>Exhibition</em></h3>
               <p className="theater-nav-description">
-                <strong>Installation Performative: Prototypes & Recherche pour «Doublement Aliéné» (FR)</strong><br></br>
-                <strong><em>Performative Installation: Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)</em></strong>
+                <strong>Prototypes & Recherche pour «Doublement Aliéné» (FR)</strong><br></br>
+                <strong><em>Prototypes & Research for &quot;Twofold Alienated&quot; (ENG)</em></strong>
               </p>
               <p className="theater-nav-description">
                 📍<span>&nbsp;&nbsp;</span>Rue de l&apos;Hectolitre 3<br></br>
