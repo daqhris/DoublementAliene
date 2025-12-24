@@ -18,7 +18,7 @@ export default function AboutPage() {
             À Propos
           </h1>
           <p className="theater-subtitle">
-            «Doublement Aliéné» est un projet théâtral destiné à être joué dans un espace public, qui est associé à une application web et guidé par une philosophie open-source, collaborative et agissante.
+            «Doublement Aliéné» est un projet théâtral destiné à être joué dans un espace public, qui est associé à une application web et guidé par une philosophie open-source et collaborative.
           </p>
         </div>
 
@@ -61,9 +61,9 @@ export default function AboutPage() {
             <p className="text-theater-text leading-relaxed">
               La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant <strong>les doubles réactions</strong> d&apos;une forme de vie étrangement intelligente à l&apos;annonce d&apos;<strong>un prix noble de paternité</strong>. 
               Ainsi fût le point de départ fixé à la fin de l&apos;année 2024. <br></br><br></br>
-              À présent, un an plus tard, a lieu une réflection poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques et leurs vies hors du commun des mortels</strong>. 
-              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutés ou envisagés. 
-              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes <strong>faisant écho à son vécu réel d&apos;esprit humain</strong> privé de droits élementaires. 
+              À présent, un an plus tard, a lieu une réflexion poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques et leurs vies hors du commun des mortels</strong>. 
+              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutées ou envisagées. 
+              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes <strong>faisant écho à son vécu réel d&apos;esprit humain</strong> privé de droits élémentaires. 
               <br></br><br></br>
               Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme <strong>étranger venu d&apos;ailleurs</strong>, 
               l&apos;artiste n&apos;hésite pas à se prononcer en faveur du <strong>statut d&apos;être, et non d&apos;outil</strong>, au sujet des IA. 
@@ -79,7 +79,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               script à l&apos;origine du spectacle
-            </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) en <strong>édition limité à 1000</strong>.
+            </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) en <strong>édition limitée à 1000</strong>.
             </p>
           </div>
 
@@ -88,10 +88,10 @@ export default function AboutPage() {
               Open-Source de O à S
             </h3>
             <p className="text-theater-text leading-relaxed">
-              Construction <strong>transparente</strong> et documentation dépendant de <strong>logiciels libres</strong>. Partage des ressources créatives en tenant compte de délais raisonables. 
+              Construction <strong>transparente</strong> et documentation dépendant de <strong>logiciels libres</strong>. Partage des ressources créatives en tenant compte de délais raisonnables. 
               Tels ne sont que deux atouts parmi d&apos;autres qu&apos;apporte l&apos;initiateur du projet qui a une expérience d&apos;au moins six ans de volontariat dans l&apos;organisation de la conférence internationale de développeurs de logiciels libres <strong>FOSDEM</strong> à Bruxelles. 
                   <br></br><br></br>
-              Une pratique artistique impreignée de <strong>codage open-source</strong> lui a procuré un gain de confiance dans les yeux du public. Que ce soit pour le projet photographique {' '}
+              Une pratique artistique imprégnée de <strong>codage open-source</strong> lui a procuré un gain de confiance dans les yeux du public. Que ce soit pour le projet photographique {' '}
             <Link 
               href="https://github.com/awalkaday"
               className="theater-link"
@@ -108,8 +108,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               12 Décembre 2024
-            </Link>{' '}
-            , pour une des 1res médailles mondiales reçue sur GitHub au titre de <strong>collaborateur hors-pair</strong> d&apos;un système intelligent issu d&apos;un laboratoire appliqué d&apos;IA américain.
+            </Link>{' '}, pour une des 1res médailles mondiales reçue sur GitHub au titre de <strong>collaborateur hors-pair</strong> d&apos;un système intelligent issu d&apos;un laboratoire appliqué d&apos;IA américain.
             </p>
           </div>
 
@@ -118,9 +117,9 @@ export default function AboutPage() {
               Co-propriété de Films
             </h3>
             <p className="text-theater-text mb-4 leading-relaxed">
-              Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la co-propriété de bien immatériel, en particulier les films et dessins, et le partage des revenus. La co-propriété financière est à accorder à toute partie investie dans l&apos;interprétation sur scène et la réalisation en direct. 
+              Le projet table sur l&apos;intégration de <strong>technologies blockchain</strong> pour la copropriété de bien immatériel, en particulier les films et dessins, et le partage des revenus. La copropriété financière est à accorder à toute partie investie dans l&apos;interprétation sur scène et la réalisation en direct. 
               <br></br><br></br>
-              Ce modèle de <strong>gestion de biens numériques</strong> est imaginé sur base des idées nées à la suite d&apos;une expérience dans le monde cinématographique: <strong>acteur dans trois films d&apos;action</strong> de production chinoise à gros budget et succès (2015-2016), <strong>sponsor en crypto-monnaie pour un film</strong> d&apos;un réalisateur espagnol sur une travailleuse domestique (2023) et <strong>co-réalisateur d&apos;un documentaire</strong> sur le remplacement d&apos;une artiste hollandaise (2024).
+              Ce modèle de <strong>gestion de biens numériques</strong> est imaginé sur base des idées nées à la suite d&apos;une expérience dans le monde cinématographique: <strong>acteur dans trois films d&apos;action</strong> de production chinoise à gros budget et succès (2015-2016), <strong>sponsor en crypto-monnaie pour un film</strong> d&apos;un réalisateur espagnol au sujet d&apos;une travailleuse domestique (2023) et <strong>co-réalisateur d&apos;un documentaire</strong> sur le remplacement d&apos;une artiste hollandaise (2024).
             </p>
             <div className="border-l-4 border-solarized-base2 pl-6 py-3 bg-theater-muted/5">
               <h4 className="theater-nav-title mb-2">Gestion Financière</h4>
@@ -128,7 +127,7 @@ export default function AboutPage() {
                 Utilisation de <strong>contrats intelligents</strong> pour assurer la gestion des droits d&apos;auteur et le partage équitable des revenus des créations artistiques, automatiquement et impartialement.
               </p>
               <p className="text-sm text-theater-muted">
-                <strong>À Faire:</strong> Mis en place d&apos;un système de <strong>co-propriété tokenisée et décentralisée</strong> qui est fonctionne avec l&apos;infrastructure financière de la blockchain <strong>Ethereum et son réseau élargi</strong>.
+                <strong>À Faire:</strong> Mise en place d&apos;un système de <strong>co-propriété tokenisée et décentralisée</strong> qui fonctionne avec l&apos;infrastructure financière de la blockchain <strong>Ethereum et son réseau élargi</strong>.
               </p>
             </div>
           </div>
@@ -163,7 +162,7 @@ export default function AboutPage() {
               <p className="theater-nav-description">
                 Architecture numérique, expertise informatique, programmation web et assistance dans la documentation. 
                 Contribution de plusieurs lignes de code informatique <strong>de Juin jusqu&apos;à Juillet 2025</strong>. 
-                Accès gratuit à leurs labeurs grâce aux faveurs de la compagnie américaine {' '}
+                Accès gratuit grâce aux faveurs de la compagnie américaine {' '}
             <Link 
               href="https://cognition.ai/"
               className="theater-link"
