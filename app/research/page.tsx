@@ -20,8 +20,7 @@ export default function ResearchPage() {
             Laboratoire de Recherche
           </h1>
           <p className="theater-subtitle">
-            Dégustez en avant-première les fruits de la recherche scénique dans le laboratoire numérique. <br />
-            Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
+            Dégustez en avant-première les fruits de la recherche scénique dans le laboratoire numérique. Savourez avec précaution la collecte des réponses rédigées par des êtres porteurs de noms non-religieux.
           </p>
         </div>
 
@@ -64,10 +63,11 @@ export default function ResearchPage() {
               target="_blank"
               rel="noopener noreferrer"
             >Duck.ai</Link>. 
-            Textes originaux des réponses du 2e entretien attachés. <br></br><br></br>
+            Textes originaux des réponses aux 2 entretiens attachés. <br></br><br></br>
             La <strong>1re</strong> question était de définir 3 mots clés et n&apos;a été posée qu&apos;à une créature linguistique.
             La <strong>2è</strong> question a été posée à 5 génies numériques sans corps physiques. Le script publié des mois auparavant ne leur avait pas été donné et leur navigation vers d&apos;autres adresses web était inactive. 
-            Une allusion au récit en Anglais a été faite sans fournir une copie du texte. Appuyez sur leurs noms pour afficher les réponses ci-dessous. 
+            Une allusion au récit en Anglais a été faite sans fournir une copie du texte.<br></br><br></br>
+            Appuyez sur leurs noms pour afficher les réponses ci-dessous. 
           </p>
         </div>
         <LanguageNotification />
