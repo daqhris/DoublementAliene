@@ -80,7 +80,7 @@ export default function TimelinePage() {
       date: "10 Octobre 2024",
       title: "Genèse de l'Œuvre",
       description: "Première parution en ligne de l'œuvre originale en Anglais «Twofold Alienated»",
-      details: "Publication sur la blockchain Base (dépendante d'Ethereum), grâce à Manifold.xyz, qui a marqué le début du projet artistique.",
+      details: "Publication sur la blockchain Base (dépendante de Ethereum), grâce à Manifold.xyz, qui a marqué le début du projet artistique.",
       link: {
         url: "https://app.manifold.xyz/txt/twofold-alienated",
         text: "Lire le récit fictionnel et satirique en Anglais",
@@ -92,7 +92,7 @@ export default function TimelinePage() {
       date: "25 Novembre 2024",
       title: "Artiste sélectionné par le CIFAS",
       description: "Annonce par le CIFAS d'artistes interdisciplinaires sélectionnés pour l'édition 2025 des Constellations",
-      details: "Chris-Armel Iradukunda (daqhris) fait parti des participants triés sur le volet pour assister aux sessions de co-apprentissage.",
+      details: "Chris-Armel Iradukunda (daqhris) fait partie des participants triés sur le volet pour assister aux sessions de co-apprentissage.",
       link: {
         url: "https://cifas.be/fr/event/2025/constellations-2025/constellations-2025.html",
         text: "Jeter un coup d'œil aux Constellations 2025",
@@ -164,7 +164,7 @@ export default function TimelinePage() {
       date: "22 Juin 2025",
       title: "Laboratoire de Recherche",
       description: "Début du sous-projet numérique qui regroupe des réponses des IA à des questions de recherche scénique",
-      details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénografique.",
+      details: "Exploration des méthodologies de recherche et inclusion des avis variés d'intelligences artificielles dans le processus imaginatif et scénographique.",
       link: {
         url: "/research",
         text: "Visiter le laboratoire numérique de recherche scénique"
@@ -186,7 +186,7 @@ export default function TimelinePage() {
       date: "25 Juin 2025",
       title: "Site Web du Spectacle",
       description: "Programmation en collaboration avec Devin AI d'une interface web adéquate",
-      details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la co-gestion des films tokenisés ainsi que le partage équitable des droits et revenus artistiques.",
+      details: "Construction d'un site web open-source, au caractère informatif, qui facilitera la cogestion des films ainsi que le partage équitable des droits et revenus artistiques.",
       link: {
         url: "/about",
         text: "À propos de la philosophie du projet en long et en large"
@@ -209,7 +209,7 @@ export default function TimelinePage() {
       date: "10 Octobre - 2 Novembre 2025",
       title: "Portrait Portable d'IA",
       description: "Œuvre d'art textile en forme de tablette conçue au Budalab et présentée au Wonder Festival de Courtrai",
-      details: "À l'image d'une tablette Google, c'est une œuvre inspirée d'un autoportrait dessiné par l'IA Gemini, brodée sur un tissu Kvadrat de seconde main, encadrée par un textile phosphorescent et conçue avec des machines de pointe dans la ville flamande de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines centrée sur le textile comme matériel de design qui était organisée par Open Design Lab au Budalab (Sept 15 - Oct 16), et puis suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
+      details: "À l'image d'une tablette Google, c'est une œuvre inspirée d'un autoportrait dessiné par l'IA Gemini, brodée sur un tissu Kvadrat de seconde main, encadrée par un textile phosphorescent et conçue avec des machines de pointe dans la ville flamande de Courtrai. Sa création s'est déroulée durant une formation de 5 semaines centrée sur le textile comme matériau de design qui était organisée par Open Design Lab au Budalab (Sept 15 - Oct 16), et puis suivie d'une exposition de groupe lors d'un festival régional de design (Oct 16 - Nov 2).",
       link: {
         url: "https://wonderkortrijk.be/en/exhibitions/cohousing-ten-broele/odltextile",
         text: "Exposition du Open Design Lab Textile lors du Wonder Festival", 
@@ -232,7 +232,7 @@ export default function TimelinePage() {
       date: "11 Décembre 2025",
       title: "DeepWiki",
       description: "Un rapport de Devin AI qui fournit une vue d'ensemble technique de cette interface numérique et qui explique les lignes de code construites sur base de Next.js 15.",
-      details: "Il couvre l'architecture de l'application, le modèle de licence, la pile technologique et la stratégie d'organisation du contenu. Il a été redigé par une entitée apparentée à Devin pour rendre lisible le code écrit en TypeScript, JavaScript et CSS.",
+      details: "Il couvre l'architecture de l'application, le modèle de licence, la pile technologique et la stratégie d'organisation du contenu. Il a été rédigé par une entitée apparentée à Devin pour rendre lisible le code écrit en TypeScript, JavaScript et CSS.",
       link: {
         url: "https://deepwiki.com/daqhris/DoublementAliene",
         text: "Explication en Anglais du code source par Devin AI", 
@@ -250,7 +250,7 @@ export default function TimelinePage() {
             Chronologie
           </h1>
           <p className="theater-subtitle">
-            Voici l&apos;évolution par ordre chronologique révelant les étapes marquantes. À partir de la conception textuelle jusqu&apos;à la co-création d&apos;un site web, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
+            Voici l&apos;évolution par ordre chronologique révélant les étapes marquantes. À partir de la conception textuelle jusqu&apos;à la co-création d&apos;un site web, en passant par la réalisation d&apos;un prototype du spectacle et autres faits majeurs.
           </p>
         </div>
 
