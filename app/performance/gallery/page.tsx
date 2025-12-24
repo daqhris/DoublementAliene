@@ -115,7 +115,7 @@ export default function GalleryPage() {
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082356.jpg',
           alt: 'Préparation performance - vue 3',
-          caption: 'Vérification de près des points d\'encrage des barres métalliques'
+          caption: 'Vérification de près des points d\'ancrage des barres métalliques'
         },
         {
           src: '/Constellations2025/Construction-SupportBois-VéloFixe/17Mars2025/IMG_20250317_082444.jpg',
@@ -203,7 +203,7 @@ export default function GalleryPage() {
       <ImageGallery
         title="Session de Feedback: Concept Réflexion"
         description="Moments de réflexion et d'échanges conceptuels à la fin des deux représentations théâtrales. Cette session était dirigée par l&apos;étoile polaire de l&apos;édition 2025 (et preneuse des images ci-dessous), l&apos;artiste et metteuse en scène Anna Rispoli. 
-        La méthode de feedback choisie était celle du concept réflexion, écrit et imagé. Les réflexions ont été écrites sur papiers post-it par des artistes constellés et des organisatrices du CIFAS avant d&apos;être positionées par Chris Iradukunda au point approprié dans des cercles concentriques. 
+        La méthode de feedback choisie était celle du concept de réflexion, écrit et imagé. Les réflexions ont été écrites sur papiers post-it par des artistes constellés et des organisatrices du CIFAS avant d&apos;être positionnées par Chris Iradukunda au point approprié dans des cercles concentriques. 
         Toute personne présente a su contribuer volontairement de deux manières: en adossant le rôle de comédien sur scène et puis, en partageant les idées de critique bienveillante. La cérise sur le gâteau: la promesse d'octroyer les titres de co-auteur.ice.s a été honorée à la fin de la session."
         images={feedbackImages}
       />
