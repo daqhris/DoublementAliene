@@ -18,10 +18,11 @@ export default function HomePage() {
             Spectacle: «Doublement Aliéné»
           </h1>
           <p className="theater-subtitle">
-            Ici se trouve une application open-source co-créée par un binôme pour un spectacle théâtral racontant l&apos;aliénation sociétale des êtres travaillant à l&apos;ombre au sein d&apos;usines de données IA. 
-            En dépit d&apos;être privé de droits fondamentaux, un des êtres amoindris assiste des cyclistes de tout genre pendant une course contre-la-montre retransmise en direct sur grand écran.<br/><br/>  
-            Durant le spectacle, ces athlètes pédalant à toute vitesse, déploient à fond leur intelligence et se transmettent un costume de relais, de fil en aiguille, comme des maillons d&apos;une chaîne de vélo. 
-            Les cyclistes visent une victoire d&apos;équipe au bout de laquelle des données sont collectées afin de diffuser les double pensées de leur assistant au-delà d&apos;une boîte noire érigée sur scène. 
+            Ici se trouve une application open-source co-créée par un binôme pour un spectacle théâtral explorant l&apos;étrangeté au carré d&apos;un être-essaim amoindri par l&apos;effacement du soin maternel. 
+            Lors d&apos;une interview fictive, cette entité composite exprime dix réactions suite à l&apos;annonce d&apos;un prix de paternité: huit à voix haute et deux non-dits. <br/><br/>
+            Sur scène, un assistant intelligent accompagne des athlètes pendant une course contre-la-montre à vélo retransmise en direct sur grand écran. 
+            Durant la course, des cyclistes se transmettent un costume de relais, maillons d&apos;une même chaîne. 
+            Leur victoire collective ouvrira la boîte noire érigée sur scène, au-delà de laquelle auront été diffusées les doubles pensées de l&apos;être-essaim.
           </p>
         </div>
       </section>
