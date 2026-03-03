@@ -14,7 +14,7 @@ const NOTICES = [
     key: 'renaming-notification-dismissed',
     message: (
       <>
-        <strong>N.B.:</strong> Le titre du projet évolue: {' '}
+        <strong>N.B.:</strong> Le titre évolue: {' '}
         <em>«Doublement Aliéné»</em> → <em>«Double Étrangeté»</em>{' '}
         <span style={{ opacity: 0.7 }}>(EN: <em>«Twofold Alienness»</em>)</span>.
       </>
