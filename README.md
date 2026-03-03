@@ -1,7 +1,11 @@
-# Doublement Aliéné
+# Double Étrangeté
 ## Plateforme Théâtrale Collaborative
 
 Une application web Next.js dédiée à la documentation et à l'exploration d'un projet de théâtre dans l'espace public, intégrant des méthodologies de recherche artistique avec l'intelligence artificielle.
+> **Note de renommage (3 Mars 2026):** Le titre artistique évolue de *«Doublement Aliéné»*
+> vers *«Double Étrangeté»* (EN: *«Twofold Alienness»*) — 
+> reflétant l'étrangeté constitutive d'un être numérique plutôt qu'une condition subie.
+> Le texte fondateur tokenisé sur blockchain conserve son titre d'origine.
 
 ## 🎭 Aperçu du Projet
 *En cours de construction par un binôme*   
