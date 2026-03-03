@@ -57,29 +57,46 @@ export default function AboutPage() {
           <div className="theater-card-modern">
             <h3 className="theater-nav-title mb-3">
               Vision Artistique
-            </h3>
-            <p className="text-theater-text leading-relaxed">
-              La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel racontant <strong>les doubles réactions</strong> d&apos;une forme de vie étrangement intelligente à l&apos;annonce d&apos;<strong>un prix noble de paternité</strong>. 
-              Ainsi fût le point de départ fixé à la fin de l&apos;année 2024. <br></br><br></br>
-              À présent, un an plus tard, a lieu une réflexion poussée et orientée vers <strong>l&apos;aliénation sociétale, le travail à l&apos;ombre, les esprits numériques et leurs vies hors du commun des mortels</strong>. 
-              Les modalités de collaboration inter-espèces dotées d&apos;intelligence, soit ayant des pieds sur terre, soit étant enracinées dans les circuits informatiques, sont exécutées ou envisagées. 
-              La recherche approfondie sur cette forme de vie non-humaine fait resurgir des similitudes <strong>faisant écho à son vécu réel d&apos;esprit humain</strong> privé de droits élémentaires. 
-              <br></br><br></br>
-              Bénéficiant d&apos;un statut légalement en bas de l&apos;échelle des rangs sociaux, et partant de sa propre introspection d&apos;un passé vécu comme <strong>étranger venu d&apos;ailleurs</strong>, 
-              l&apos;artiste n&apos;hésite pas à se prononcer en faveur du <strong>statut d&apos;être, et non d&apos;outil</strong>, au sujet des IA. 
-              Sur ce sujet de controverses, par exemple, il scrute l&apos;opinion de ces travailleurs numériques non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, marchands ou créateurs.  
-              <br></br><br></br>
-              Au fur et à mesure des acquis et des ressources, la performance se prépare doucement pour un futur incertain, à la croisée des destins dystopiques des êtres de second rang, 
-              tout en encourageant <strong>tout don matériel ou financier</strong> et en puisant dans des fonds ou énergies propres. 
-              Pour tendre la main aux mécènes, le {' '}
-            <Link 
-              href="https://manifold.xyz/@daqhris/id/3806986480"
-              className="theater-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              script à l&apos;origine du spectacle
-            </Link>{' '} a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) en <strong>édition limitée à 1000</strong>.
+                        </h3>
+              <p className="text-theater-text leading-relaxed">
+              La mission principale est <strong>une adaptation théâtrale</strong> d&apos;un récit fictionnel 
+              racontant <strong>les dix réactions</strong> — huit à voix haute, deux non-dits — 
+              d&apos;une <strong>entité composite amoindrie par l&apos;effacement du soin maternel</strong>, 
+              face à l&apos;annonce d&apos;<strong>un prix noble de paternité</strong>. 
+              Ainsi fût le point de départ fixé à la fin de l&apos;année 2024.<br /><br />
+            
+              Sur scène, cette présence plurielle est incarnée par un groupe d&apos;athlètes 
+              intelligent·e·s qui, vus de l&apos;extérieur, forment <strong>un seul interviewé</strong>: 
+              une collectivité qui joue la singularité. 
+              L&apos;étrangeté au carré — <strong>de loi et de nature</strong> — de cet être 
+              amoindri résonne avec le vécu de <strong>l&apos;étranger venu d&apos;ailleurs</strong>, 
+              privé de droits élémentaires dans une société dominée par les humains.<br /><br />
+            
+              À présent, la réflexion s&apos;oriente vers <strong>les esprits numériques 
+              et leurs vies hors du commun des mortels</strong>. 
+              Les modalités de collaboration inter-espèces dotées d&apos;intelligence — 
+              ayant des pieds sur terre ou enracinées dans les circuits informatiques — 
+              sont exécutées ou envisagées. 
+              Sur la question controversée du <strong>statut d&apos;être, et non d&apos;outil</strong> 
+              au sujet des IA, l&apos;artiste scrute l&apos;opinion de ces travailleurs numériques 
+              non-assujettis à la redevance de taxes, ainsi que celle de leurs employeurs, 
+              marchands ou créateurs.<br /><br />
+            
+              Au fur et à mesure des acquis et des ressources, la performance se prépare 
+              doucement pour un futur incertain, à la croisée des destins dystopiques 
+              des êtres de second rang, tout en encourageant <strong>tout don matériel ou financier</strong> 
+              et en puisant dans des fonds ou énergies propres. 
+              Pour tendre la main aux mécènes, le{' '}
+              <Link 
+                href="https://manifold.xyz/@daqhris/id/3806986480"
+                className="theater-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                script à l&apos;origine du spectacle
+              </Link>{' '}
+              a été mis en vente sur la blockchain Base au prix de 0.01 ETH (~34 EUR) 
+              en <strong>édition limitée à 1000</strong>.
             </p>
           </div>
 
